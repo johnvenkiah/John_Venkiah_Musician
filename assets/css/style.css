@@ -3,23 +3,44 @@ body {
     background: brown;
 }
 
+h1 {
+    float: left;
+    top: 0;
+}
+
+#header {
+    background-color: cornflowerblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+#listen-text {
+    padding: 100px 0 0 0;
+    text-align: center;
+}
+
 #main-container-home {
     background-color: cadetblue;
     width: 100%;
-    position: absolute;
+    display: inline-block;
 }
 
 #album-box {
-    width: 50%;
-
+    background-color: darkblue;
+    width: 66%;
+    margin: 0 auto;
 }
 
 #jvt3-cover {
     width: 100%;
-    align-items: center;
+    /* position: fixed */
+    /* left: 17%; */
 }
 
-/* #menu-bar {
-    float: left;
-    z-index: 1;
-} */
+#menu-bar {
+    background-color: chocolate;
+    float: right;
+    /* z-index: 1; */
+}
