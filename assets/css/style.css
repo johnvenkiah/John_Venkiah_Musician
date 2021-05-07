@@ -1,3 +1,25 @@
 body {
-    background-color: brown;
+    width: 100%;
+    background: brown;
 }
+
+#main-container-home {
+    background-color: cadetblue;
+    width: 100%;
+    position: absolute;
+}
+
+#album-box {
+    width: 50%;
+
+}
+
+#jvt3-cover {
+    width: 100%;
+    align-items: center;
+}
+
+/* #menu-bar {
+    float: left;
+    z-index: 1;
+} */
