@@ -16,6 +16,13 @@ h1 {
     
 }
 
+#menu-bar li {
+    background-color: chocolate;
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
 #listen-text {
     padding: 100px 0 0 0;
     text-align: center;
@@ -29,18 +36,38 @@ h1 {
 
 #album-box {
     background-color: darkblue;
-    width: 66%;
+    width: 75%;
+    max-width: 700px;
     margin: 0 auto;
 }
 
 #jvt3-cover {
     width: 100%;
-    /* position: fixed */
-    /* left: 17%; */
+
+    animation-name: fade-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
-#menu-bar {
-    background-color: chocolate;
-    float: right;
-    /* z-index: 1; */
+/* Animation */
+
+@keyframes fade-zoom {
+    
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+#footer {
+    background-color: darkgreen;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: grid;
+    text-align: center;
 }
