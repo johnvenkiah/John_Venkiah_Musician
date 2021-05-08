@@ -1,15 +1,26 @@
+@font-face {
+    font-family: "cocogoose";
+    src: url('../fonts/Cocogoose-Compressed-Light-trial.ttf') format("ttf");
+    font-family: "source-sans";
+    src: url('../fonts/SourceSansPro-Light.ttf') format("ttf");
+  }
+
 body {
     width: 100%;
-    background: brown;
+    background: black;
+    font-family: Helvetica, sans-serif;
+    color: white;
 }
 
 h1 {
     float: left;
     top: 0;
+    text-transform: uppercase;
 }
 
 #header {
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
+    color: white;
     position: fixed;
     top: 0;
     width: 100%;
@@ -17,7 +28,7 @@ h1 {
 }
 
 #menu-bar li {
-    background-color: chocolate;
+    /* background-color: chocolate; */
     float: right;
     list-style-type: none;
     margin-right: 30px;
@@ -29,13 +40,13 @@ h1 {
 }
 
 #main-container-home {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     width: 100%;
     display: inline-block;
 }
 
 #album-box {
-    background-color: darkblue;
+    /* background-color: darkblue; */
     width: 75%;
     max-width: 700px;
     margin: 0 auto;
@@ -64,7 +75,8 @@ h1 {
 }
 
 #footer {
-    background-color: darkgreen;
+    background-color: black;
+    color: white;
     position: fixed;
     width: 100%;
     bottom: 0;
