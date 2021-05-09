@@ -1,11 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     width: 100%;
     margin: 0;
     padding: 0;
     background:
         #2a2a2a
-        url(../images/hands_close.jpg)
-        top center /1600px 1000px
+        url(../images/hands-closeup.png)
+        top left /912px 800px
         no-repeat
         fixed;
     font-family: 'Open Sans', sans-serif;
@@ -13,6 +19,8 @@ body {
     letter-spacing: 0.1rem;
     color: white;
 }
+
+
 
 #main-logo {
     float: left;
@@ -50,11 +58,6 @@ a, a:visited {
     border-right: 1px solid white;
 }
 
-#listen-text {
-    padding: 0;
-    text-align: center;
-}
-
 #fade-bar {
     width: 100%;
     height: 250px;
@@ -63,9 +66,23 @@ a, a:visited {
     background: linear-gradient(black, transparent);
 }
 
+#right-half {
+    width: 50%;
+    height: 900px;
+    position: fixed;
+    right: 0;
+    background:
+        #2a2a2a
+        url(../images/solo_profile.jpg)
+        center right / 1440px 900px
+        no-repeat
+        fixed;
+
+}
+
 #footer-container {
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 #bottom-fade-bar {
@@ -73,8 +90,8 @@ a, a:visited {
     height: 250px;
     bottom: 70px;
     position: fixed;
-    display: block;
-    background: blue;
+    display: inline-block;
+    /* background: blue; */
     background: linear-gradient(transparent, black);
 }
 #footer {
@@ -91,8 +108,8 @@ a, a:visited {
 #footer-text {
     font-size: 0.7em;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 2px;
+    right: 2px;
 }
 
 #contact {
@@ -100,14 +117,17 @@ a, a:visited {
     text-transform: uppercase;
     font-size: 1.1em;
     font-weight: bold;
+    position: fixed;
+    bottom: 2px;
+    left: 2px;
 }
 
 #main-container-home {
     background: transparent;
     width: 100%;
     display: inline-block;
+    top: 70px;
     position: relative;
-    z-index: 1;
 }
 
 #album-box {
@@ -115,17 +135,29 @@ a, a:visited {
     width: 75%;
     max-width: 600px;
     margin: 100px auto 0 auto;
-    position: relative;
+    position: absolute;
+    right: 20%;
+    z-index: 2;
 }
 
 #jvt3-cover {
     width: 100%;
 
-    box-shadow: 10px 10px 50px black;
-    box-shadow: -10px -10px 50px black;
+    box-shadow: 10px 10px 30px black;
     animation-name: fade-zoom;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
+}
+
+#listen-text {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+    position: fixed;
+    left: 6%;
+    bottom: 12%;
+    z-index: 2;
 }
 
 /* Animation */
