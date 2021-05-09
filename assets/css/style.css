@@ -146,7 +146,7 @@ a, a:visited {
     box-shadow: 10px 10px 30px black;
     animation-name: fade-zoom;
     animation-duration: 1s;
-    /* animation-fill-mode: forwards; */
+    animation-fill-mode: forwards;
 }
 
 /* Animation */
@@ -154,12 +154,10 @@ a, a:visited {
 @keyframes fade-zoom {
     
     from {
-        transform: scale(0.95);
-        opacity: 0;
+        transform: scale(1.01);
     }
     to {
         transform: scale(1);
-        opacity: 1;
     }
 }
 
@@ -175,12 +173,10 @@ a, a:visited {
 }
 
 #jvt3-cover:hover {
-    width: 101%;
-    right: 19%;
+    /* right: 19%; */
 
     animation-name: hover-zoom;
     animation-duration: 0.5s;
-    animation-fill-mode: forwards;
 }
 
 @keyframes hover-zoom {
