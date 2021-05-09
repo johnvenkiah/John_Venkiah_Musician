@@ -8,19 +8,12 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background:
-        #2a2a2a
-        url(../images/hands-closeup.png)
-        top left /912px 800px
-        no-repeat
-        fixed;
+    background:#2a2a2a;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     letter-spacing: 0.1rem;
     color: white;
 }
-
-
 
 #main-logo {
     float: left;
@@ -66,15 +59,29 @@ a, a:visited {
     background: linear-gradient(black, transparent);
 }
 
+#left-half {
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background:
+        #2a2a2a
+        url(../images/hands-closeup.png)
+        center left / 100% 100%
+        no-repeat
+        fixed;
+
+}
+
 #right-half {
     width: 50%;
-    height: 900px;
+    height: 100%;
     position: fixed;
     right: 0;
     background:
         #2a2a2a
         url(../images/solo_profile.jpg)
-        center right / 1440px 900px
+        center right / 100% 100%
         no-repeat
         fixed;
 
@@ -115,7 +122,7 @@ a, a:visited {
 #contact {
     font-family: 'Barlow Condensed';
     text-transform: uppercase;
-    font-size: 1.1em;
+    font-size: 1.5em;
     font-weight: bold;
     position: fixed;
     bottom: 2px;
@@ -134,7 +141,7 @@ a, a:visited {
     /* background-color: darkblue; */
     width: 75%;
     max-width: 600px;
-    margin: 100px auto 0 auto;
+    margin: 5% auto 0 auto;
     position: absolute;
     right: 20%;
     z-index: 2;
@@ -172,11 +179,41 @@ a, a:visited {
     z-index: 2;
 }
 
-#jvt3-cover:hover {
-    /* right: 19%; */
+#sm-links {
+    list-style-type: none;
+    right: 0;
+    top: 16%;
+    position: fixed;
+    font-size: 2rem;
+    width: 15%;
+    height: 60%;
+    text-align: center;
+    z-index: 2;
+}
 
+.sm-icons {
+    padding: 50px;
+}
+
+#main-logo:hover {
+    color: #aa5f22;
+}
+
+#menu-bar a:hover {
+    color: #aa5f22;
+}
+
+i:hover {
+    color: #aa5f22;
+}
+
+#jvt3-cover:hover {
     animation-name: hover-zoom;
     animation-duration: 0.5s;
+}
+
+#contact:hover {
+    color: #aa5f22;
 }
 
 @keyframes hover-zoom {
