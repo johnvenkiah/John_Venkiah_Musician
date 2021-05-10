@@ -236,16 +236,32 @@ a, a:visited {
 
 #bio-text-box {
     position: fixed;
-    width: 60%;
+    width: 25%;
     margin: 0 auto;
     padding: 15px;
-    left: 19%;
-    top: 45%;
-    border-radius: 8px;
+    left: 60%;
+    top: 15%;
+    border-radius: 5px;
     letter-spacing: 0.01rem;
     text-align: justify;
     z-index: 2;
-    background-color: rgba(42, 42, 42, .6);
-    box-shadow: 5px 10px 5px rgba(42, 42, 42 .6);
-    text-shadow: -3px -5px 5px rgba(42, 42, 42 .6);
+    color: white;
+    background-color: rgba(0, 0, 0, .4);
+    text-shadow: 2px 2px 5px black;
+}
+
+#bio-text-box-2 {
+    position: fixed;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    left: 5%;
+    top: 55%;
+    border-radius: 5px;
+    letter-spacing: 0.01rem;
+    text-align: justify;
+    z-index: 2;
+    color: white;
+    background-color: rgba(0, 0, 0, .4);
+    text-shadow: 2px 2px 5px black;
 }
