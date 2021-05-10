@@ -67,7 +67,7 @@ a, a:visited {
     background:
         #2a2a2a
         url(../images/hands-closeup.png)
-        center left / 79% 100%
+        center left / 69% 100%
         no-repeat
         fixed;
 
@@ -239,7 +239,6 @@ a .link_active:hover {
         center right / 100% 100%
         no-repeat
         fixed;
-
 }
 
 #bio-text-box {
@@ -272,4 +271,46 @@ a .link_active:hover {
     color: white;
     background-color: rgba(0, 0, 0, .4);
     /* text-shadow: 2px 2px 5px black; */
+}
+
+/* listen.html */
+
+#profile-background-listen {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background:
+        #2a2a2a
+        url(../images/solo_rear.jpg)
+        center right / 100% 100%
+        no-repeat
+        fixed;
+}
+
+/* videos.html */
+
+#profile-background-videos {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background:
+        #2a2a2a
+        url(../images/playing_rear_shirt.jpg)
+        center right / 100% 100%
+        no-repeat
+        fixed;
+}
+
+/* contact.html */
+
+#profile-background-contact {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background:
+        #2a2a2a
+        url(../images/hands-closeup.png)
+        center right / 69% 100%
+        no-repeat
+        fixed;
 }
