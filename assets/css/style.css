@@ -200,7 +200,15 @@ a, a:visited {
     padding: 50px;
 }
 
-#main-logo:hover, #menu-bar a:hover, i:hover, #contact:hover, a.link_active {
+#main-logo:hover, #menu-bar a:hover, i:hover, #contact:hover {
+    color: #aa5f22;
+}
+
+a.link_active {
+    color: #ff9239;
+}
+
+a .link_active:hover {
     color: #aa5f22;
 }
 
@@ -247,7 +255,7 @@ a, a:visited {
     z-index: 2;
     color: white;
     background-color: rgba(0, 0, 0, .4);
-    text-shadow: 2px 2px 5px black;
+    /* text-shadow: 2px 2px 5px black; */
 }
 
 #bio-text-box-2 {
@@ -263,5 +271,5 @@ a, a:visited {
     z-index: 2;
     color: white;
     background-color: rgba(0, 0, 0, .4);
-    text-shadow: 2px 2px 5px black;
+    /* text-shadow: 2px 2px 5px black; */
 }
