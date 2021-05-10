@@ -200,7 +200,7 @@ a, a:visited {
     padding: 50px;
 }
 
-#main-logo:hover, #menu-bar a:hover, i:hover, #contact:hover {
+#main-logo:hover, #menu-bar a:hover, i:hover, #contact:hover, a.link_active {
     color: #aa5f22;
 }
 
