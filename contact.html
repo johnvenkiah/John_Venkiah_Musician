@@ -42,7 +42,23 @@
         </header>
         <div id="profile-background-contact"></div>
         <div id="main-container-home">
-            <div>
+            <div id="form">
+                <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                    <h2>Get in Touch</h2>
+                    <label for="name">First Name</label>
+                    <input id="name" class="text-input" name="name_" type="text" required>
+                    
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="text-input" name="email_address" required>
+
+                    <label for="textarea">Let me know what's on your mind"</label>
+                    <input type="textarea" id="textarea" class="text-input" name="message">
+                    
+                    <input type="checkbox" id="newsletter" name="wants_news" value="yes">
+                    <label for="newsletter">check box to receive John's newsletter</label>
+                    
+                    <input class="send-button" type="submit" value="Send">
+                </form>
             </div>
             <div>
                 <ul id="sm-links">
