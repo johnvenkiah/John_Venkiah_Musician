@@ -326,3 +326,26 @@ a .link_active:hover {
     border-radius: 5px;
     z-index: 2;
 }
+
+.input {
+    width: 100%;
+    margin: 7px 0 18px 0;
+    height: 25px;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 2px;
+    padding: 0 5px;
+    color: white;
+}
+
+input[type="textarea"] {
+    height: 400px;
+}
+
+input[type="submit"] {
+    width: 80px;
+    height: 40px;
+    background: inherit;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: inherit;
+}
