@@ -314,6 +314,7 @@ a .link_active:hover {
 .buy-box {
     list-style-type: none;
     float: right;
+    display: inline;
 }
 
 /* videos.html */
