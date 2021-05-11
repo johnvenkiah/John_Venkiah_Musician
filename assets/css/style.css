@@ -311,6 +311,11 @@ a .link_active:hover {
     border-radius: 5px;
 }
 
+.buy-box {
+    list-style-type: none;
+    float: right;
+}
+
 /* videos.html */
 
 #profile-background-videos {
