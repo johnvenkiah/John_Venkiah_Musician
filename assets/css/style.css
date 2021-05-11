@@ -10,7 +10,6 @@ body {
     padding: 0;
     background:#2a2a2a;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
     letter-spacing: 0.1rem;
     color: white;
 }
@@ -33,17 +32,14 @@ a, a:visited {
     color: white;
     position: fixed;
     top: 0;
-    /* padding: 10px 15px 0 15px; */
     width: 100%;
     height: 70px;
     z-index: 1;
 }
 
 #menu-bar li {
-    /* background-color: chocolate; */
     float: right;
     list-style-type: none;
-    display:block;
     padding: 15px;
 }
 
@@ -88,8 +84,6 @@ a, a:visited {
 }
 
 #footer-container {
-    position: relative;
-    /* z-index: 1; */
 }
 
 #bottom-fade-bar {
@@ -98,7 +92,6 @@ a, a:visited {
     bottom: 70px;
     position: fixed;
     display: inline-block;
-    /* background: blue; */
     background: linear-gradient(transparent, black);
 }
 #footer {
@@ -108,8 +101,6 @@ a, a:visited {
     bottom: 0;
     width: 100%;
     height: 70px;
-    margin: 0;
-    text-align: center;
 }
 
 #footer-text {
@@ -134,15 +125,13 @@ a, a:visited {
     width: 100%;
     position: relative;
     display: inline-block;
-    align-items: center;
     top: 70px;
 }
 
 #album-box {
     /* background-color: darkblue; */
     width: 75%;
-    max-width: 600px;
-    /* margin: 5% auto 0 auto; */
+    max-width: 500px;
     position: fixed;
     margin: auto;
     left: 38%;
@@ -179,7 +168,7 @@ a, a:visited {
     text-shadow: 3px 3px 5px black;
     position: fixed;
     display: flex;
-    left: 40%;
+    left: 38%;
     bottom: 18%;
     z-index: 2;
 }
@@ -315,13 +304,22 @@ a .link_active:hover {
         fixed;
 }
 
-#form {
+#main-container-contact {
+    background: transparent;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 70px;
+}
+
+#form-div {
     background-color: rgba(0, 0, 0, .3);
     width: 50%;
-    height: 70vh;
-    position: fixed;
-    left: 25%;
-    bottom: 10%;
+    height: 400px;
+    position: absolute;
+    display: inline-block;
+    left: 22%;
+    top: 20%;
     padding: 15px;
     border-radius: 5px;
     z-index: 2;
@@ -331,21 +329,47 @@ a .link_active:hover {
     width: 100%;
     margin: 7px 0 18px 0;
     height: 25px;
-    background: rgba(255, 255, 255, .2);
+    background: rgba(255, 255, 255, .1);
     border-radius: 2px;
-    padding: 0 5px;
+    /* padding: 0 auto; */
     color: white;
+    /* vertical-align: baseline; */
+    font-family: inherit;
 }
 
-input[type="textarea"] {
-    height: 400px;
+#textarea {
+    height: 100px;
+    color: white;
+    font-family: inherit;
+
+}
+
+::placeholder {
+    color: #ddd;
 }
 
 input[type="submit"] {
     width: 80px;
-    height: 40px;
+    height: 35px;
     background: inherit;
     border: 1px solid white;
+    /* position: fixed; */
+    display: block;
+    margin: 25px auto;
+    /* margin-right: auto; */
     border-radius: 4px;
     color: inherit;
 }
+
+#newsletter {
+    float: right;
+    margin-top: 5px;
+    position: relative;
+    
+}
+
+/* .send-button {
+    /* float: right; */
+    /* position: relative;
+    margin: 10px;
+} */ */
