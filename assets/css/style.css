@@ -1,3 +1,5 @@
+/* comment */
+
 * {
     margin: 0;
     padding: 0;
@@ -301,6 +303,8 @@ a .link_active:hover {
     top: 50px;
     z-index: 4;
 }
+
+
 
 .s-box {
     width: 100%;
