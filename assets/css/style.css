@@ -52,7 +52,7 @@ a, a:visited {
 #fade-bar {
     width: 100%;
     height: 250px;
-    margin: 0;
+    margin: 0 auto;
     display: inline-block;
     background: linear-gradient(black, transparent);
 }
