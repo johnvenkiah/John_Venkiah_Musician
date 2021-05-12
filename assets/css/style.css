@@ -313,8 +313,13 @@ a .link_active:hover {
 
 .buy-box {
     list-style-type: none;
-    float: right;
+    display: flex;
+    flex-direction: row;
 }
+
+.buy-box li {
+    padding: 5px 10px 30px 10px;
+} 
 
 /* videos.html */
 
