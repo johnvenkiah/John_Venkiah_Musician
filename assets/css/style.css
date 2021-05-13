@@ -305,12 +305,38 @@ a.link_active:hover {
     z-index: 2;
 }
 
-#album-grid {
-    /* margin-top: 100vh; */
-    z-index: 4;
+#album-container {
+    background-color: rgba(0, 0, 0, .3);
+    float: right;
+    width: 60%;
+    height: 100%;
+    position: relative;
+    display: flexbox;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+    margin: 100vh 10px 10px 0;
+    padding: 15px;
+    border-radius: 3px;
+    z-index: 2;
 }
 
+.album {
+    background-color: bisque;
+    width: 30%;
+    height: 13%;
+    position: relative;
+    /* display: flexbox; */
+    margin: 10px;
+}
 
+/* .album {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: block;
+    margin: 10px;
+} */
 
 .s-box {
     width: 100%;
