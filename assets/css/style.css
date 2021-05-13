@@ -283,7 +283,7 @@ a.link_active:hover {
         url(../images/solo_rear.jpg)
         center right / cover
         no-repeat
-        fixed;
+        /* fixed; */
 }
 
 #main-container-listen {
@@ -298,19 +298,17 @@ a.link_active:hover {
 #listen-div {
     background-color: rgba(0, 0, 0, .3);
     /* background-color: red; */
-    width: 50%;
-    height: auto;
-    display: block;
+    width: 30%;
+    position: absolute;
     margin: 0 auto;
-    top: 300px;
+    top: 100%;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 3px;
     z-index: 2;
 }
 
 #album-grid {
-    position: relative;
-    display: inline-block;
+    /* position: absolute; */
     top: 50px;
     z-index: 4;
 }
@@ -320,10 +318,10 @@ a.link_active:hover {
 .s-box {
     width: 100%;
     /* float: left; */
-    margin: 5px auto;
+    margin: 0 auto;
     /* display: inline-block; */
     height: 200px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .buy-box {
