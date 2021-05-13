@@ -1,8 +1,10 @@
-https://johnvenkiah.github.io/CI_MS1_John_Venkiah/
+John Venkiah | Musician
 
 Project Goals
 
-The main goal of this project is to give my own artist website, http://johnvenkiah.com, a completely new design, both for the purpose of gaining a new website that is beautiful, responsive and updated, but also as means of projecting what I have learnt so far concerning HTML and CSS. In this website, users can listen to or buy my music, watch videos, learn more about me, sign up for a newsletter or contact me.
+The main goal of this project is to give my own artist website, a completely new design, both for the purpose of gaining a new website that is beautiful, responsive and updated, but also as means of projecting what I have learnt so far concerning HTML and CSS. In this website, users can listen to or buy my music, watch videos, learn more about me, sign up for a newsletter or contact me.
+
+Here is the link to the deployed website: https://johnvenkiah.github.io/CI_MS1_John_Venkiah/
 
 User Goals
 
@@ -85,3 +87,23 @@ Listen - Here, the main content is a scrollable element containing embedded web-
 Videos - Several embedded videos from YouTube fill out the main content of this page, with live concerts and music videos that I have been a part of.
 
 Get in touch - This is a web form in which users can enter their name, email, a message and subscribe to a newsletter.
+
+Wireframes
+
+Technologies used
+
+Features
+
+Validation
+
+Testing of User Stories
+    * Feature
+    * Action
+    * Expected result
+    * Actual Result
+
+Bugs
+
+Deployment
+
+Acnowledgements
