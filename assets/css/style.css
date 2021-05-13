@@ -194,7 +194,7 @@ a, a:visited {
     padding: 50px;
 }
 
-#main-logo:hover, #menu-bar a:hover, i:hover, #contact:hover {
+#main-logo:hover, #menu-bar a:hover, .sm-icons a:hover, #contact:hover, #to_top_videos:hover {
     color: #aa5f22;
 }
 
@@ -202,7 +202,7 @@ a.link_active {
     color: #ff9239;
 }
 
-a .link_active:hover {
+a.link_active:hover {
     color: #aa5f22;
 }
 
