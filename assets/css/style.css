@@ -100,7 +100,8 @@ a, a:visited {
 #sm-links {
     list-style-type: none;
     right: 0;
-    top: 16%;
+    top: 15%;
+    bottom: 15%;
     position: fixed;
     font-size: 2rem;
     width: 15%;
@@ -110,7 +111,7 @@ a, a:visited {
 }
 
 .sm-icons {
-    padding: 50px;
+    padding: 15%;
 }
 
 #bottom-fade-bar {
@@ -146,7 +147,7 @@ a, a:visited {
     left: 4px;
 }
 
-#main-logo:hover, #menu-bar a:hover, .sm-icons a:hover, #contact:hover, #to_top_videos:hover {
+#main-logo:hover, #menu-bar a:hover, .sm-icons a:hover, #contact-link_bottom:hover, #to_top_videos:hover {
     color: #aa5f22;
 }
 
@@ -169,13 +170,12 @@ a.link_active:hover {
 }
 
 #album-box {
-    width: 75%;
-    max-width: 500px;
+    width: 50%;
     position: fixed;
-    margin: auto;
-    left: 38%;
-    bottom: 22%;
-    z-index: 2;
+    left: 50%;
+    margin-left: -25%;
+    bottom: 50%;
+    margin-bottom: -25%;
 }
 
 #jvt3-cover {
@@ -200,14 +200,14 @@ a.link_active:hover {
 
 #listen-text {
     /* background-color: #aa5f22; */
-    width: 75%;
+    width: 50%;
     padding: 0;
     text-align: center;
     text-shadow: 3px 3px 5px black;
     position: fixed;
-    display: flex;
-    left: 38%;
-    bottom: 18%;
+    left: 50%;
+    margin-left: -25%;
+    bottom: 10%;
     z-index: 2;
 }
 
