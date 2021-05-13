@@ -24,6 +24,11 @@ body {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+h2 {
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
 a, a:visited {
     text-decoration: none;
     color: white;
@@ -93,6 +98,7 @@ a, a:visited {
     display: inline-block;
     background: linear-gradient(transparent, black);
 }
+
 #footer {
     background-color: black;
     color: white;
@@ -337,6 +343,40 @@ a .link_active:hover {
         center right / cover
         no-repeat
         fixed;
+}
+
+#main-container-videos {
+    background: transparent;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.bottom-logo_videos {
+    /* background-color: #aa5f22; */
+    position: fixed;
+    font-size: 50px;
+    display: inline-block;
+    margin: 85vh auto 0 auto;
+    text-align: center;
+    right: 46%;
+    z-index: 3;
+}
+
+#videos_firstvideo {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    text-align: center;
+    margin: 115vh auto 20px auto;
+    z-index: 3;
+}
+
+iframe {
+    width: 100vw;
+    height: 100%;
 }
 
 /* contact.html */
