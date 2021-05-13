@@ -21,6 +21,7 @@ body {
     font-size: 3.5rem;
     text-transform: uppercase;
     font-family: 'Barlow Condensed', sans-serif;
+    text-shadow: 2px 2px 5px black;
     position: fixed;
 }
 
@@ -96,12 +97,28 @@ a, a:visited {
 
 }
 
+#sm-links {
+    list-style-type: none;
+    right: 0;
+    top: 16%;
+    position: fixed;
+    font-size: 2rem;
+    width: 15%;
+    height: 60%;
+    text-align: center;
+    z-index: 1;
+}
+
+.sm-icons {
+    padding: 50px;
+}
+
 #bottom-fade-bar {
     width: 100%;
     height: 200px;
     bottom: 0;
     position: absolute;
-    background: linear-gradient(transparent, black);
+    /* background: linear-gradient(transparent, black); */
 }
 
 #footer {
@@ -129,6 +146,20 @@ a, a:visited {
     left: 4px;
 }
 
+#main-logo:hover, #menu-bar a:hover, .sm-icons a:hover, #contact:hover, #to_top_videos:hover {
+    color: #aa5f22;
+}
+
+a.link_active {
+    color: #ff9239;
+}
+
+a.link_active:hover {
+    color: #aa5f22;
+}
+
+/* home.html */
+
 #main-container-home {
     background: transparent;
     width: 100%;
@@ -138,7 +169,6 @@ a, a:visited {
 }
 
 #album-box {
-    /* background-color: darkblue; */
     width: 75%;
     max-width: 500px;
     position: fixed;
@@ -150,7 +180,6 @@ a, a:visited {
 
 #jvt3-cover {
     width: 100%;
-
     box-shadow: 10px 10px 30px black;
     animation-name: fade-zoom;
     animation-duration: 1s;
@@ -180,34 +209,6 @@ a, a:visited {
     left: 38%;
     bottom: 18%;
     z-index: 2;
-}
-
-#sm-links {
-    list-style-type: none;
-    right: 0;
-    top: 16%;
-    position: fixed;
-    font-size: 2rem;
-    width: 15%;
-    height: 60%;
-    text-align: center;
-    z-index: 2;
-}
-
-.sm-icons {
-    padding: 50px;
-}
-
-#main-logo:hover, #menu-bar a:hover, .sm-icons a:hover, #contact:hover, #to_top_videos:hover {
-    color: #aa5f22;
-}
-
-a.link_active {
-    color: #ff9239;
-}
-
-a.link_active:hover {
-    color: #aa5f22;
 }
 
 #jvt3-cover:hover {
@@ -360,11 +361,13 @@ a.link_active:hover {
 .scroll-logo_videos {
     /* background-color: #aa5f22; */
     position: fixed;
+    transform: translate(-50%, 0);
     font-size: 50px;
-    margin: 85vh auto 0 auto;
+    /* margin: 85vh auto 0 auto; */
     text-align: center;
-    right: 47%;
-    z-index: 3;
+    top: 80vh;
+    left: 50%;
+    z-index: 1;
 }
 
 #videos_firstvideo {
@@ -373,7 +376,7 @@ a.link_active:hover {
     position: relative;
     text-align: center;
     margin: 100vh auto 0 auto;
-    z-index: 3;
+    z-index: 2;
 }
 
 iframe {
@@ -414,6 +417,7 @@ iframe {
     width: 100%;
     height: 50px;
     background-color: black;
+    z-index: 3;
 }
 
 /* contact.html */
