@@ -164,9 +164,8 @@ a.link_active:hover {
     max-width: 500px;
     position: fixed;
     left: 50%;
-    margin-left: -25%;
-    bottom: 40%;
-    margin-bottom: -20%;
+    margin-left: -250px;
+    bottom: 18%;
 }
 
 #jvt3-cover {
@@ -559,7 +558,7 @@ iframe {
     }
 
     #menu-bar li {
-        border: none;
+        /* border: none; */
         width: 20%;
         /* margin: 0 auto  auto; */
         right: 0;
@@ -595,7 +594,7 @@ iframe {
         font-size: 0.4em;
     }
 
-    /* media queries screen widths less than 450px home.html */
+    /* media queries screen widths less than 760px home.html */
 
     #home-background {
         width: 100%;
@@ -610,10 +609,13 @@ iframe {
     }
 
     #jvt3-container {
-        width: 80%;
-        /* position: fixed;
-        margin-left: 0%;
-        top: 30%; */
+        width: 75%;
+    max-width: 500px;
+    position: fixed;
+    left: 50%;
+    margin-left: -37.5%;
+    bottom: 40%;
+    margin-bottom: -20%;
     }
 
     #listen-text {
@@ -657,7 +659,7 @@ iframe {
     }
 
     #menu-bar li {
-        border: none;
+        /* border: none; */
         width: 20%;
         /* margin: 0 auto  auto; */
         right: 0;
@@ -732,5 +734,9 @@ iframe {
         font-size: 3em;
         text-align: center;
         margin: 10px auto;
+    }
+
+    #menu-bar li {
+    font-size: 0.7em;
     }
 }
