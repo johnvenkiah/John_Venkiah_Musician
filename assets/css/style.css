@@ -529,11 +529,103 @@ iframe {
 
 /* media queries */
 
-/* screen widths 500px and lower */
 
-/* for all pages */
+/* screen widths 760px and lower, whole site */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 760px) {
+    /* #main-logo {
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+    } */
+
+    #header {
+        width: 100vw;
+        height: 120px;
+        right: 0;
+        top: 0;
+        margin: 0;
+        position: fixed;
+        text-align: center;
+    }
+
+    #menu-bar {
+        top: 90px;
+        right: 5px;
+        width: 100%;
+        height: 50px;
+        font-size: 0.8em;
+        text-transform: uppercase;
+    }
+
+    #menu-bar li {
+        border: none;
+        width: 20%;
+        /* margin: 0 auto  auto; */
+        right: 0;
+        bottom: 0;
+        box-sizing: border-box;
+    }
+
+    #sm-links {
+        /* background-color: #aa5f22; */
+        list-style-type: none;
+        /* position: absolute; */
+        /* display: block; */
+        top: 88vh;
+        width: 100%;
+        /* margin: 0 auto; */
+        height: 50px;
+        /* box-sizing: border-box; */
+        /* z-index: 1; */
+    }
+    
+    .sm-icons {
+        padding: 8%;
+        display: inline;
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    #footer-text {
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        font-size: 0.4em;
+    }
+
+    /* media queries screen widths less than 450px home.html */
+
+    #home-background {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background:
+            #2a2a2a
+            url(../images/mopa_singing.jpeg)
+            center center / cover
+            no-repeat
+            fixed;
+    }
+
+    #jvt3-container {
+        width: 80%;
+        /* position: fixed;
+        margin-left: 0%;
+        top: 30%; */
+    }
+
+    #listen-text {
+        font-size: 0.5em;
+        bottom: 30%;
+        margin-bottom: -15%;
+    }
+}
+
+/* screen widths 450px and lower, whole site */
+
+@media screen and (max-width: 450px) {
     #main-logo {
         width: 100%;
         text-align: center;
@@ -601,7 +693,19 @@ iframe {
         font-size: 0.3em;
     }
 
-    /* media queries screen widths less than 500px home.html */
+    /* media queries screen widths less than 450px home.html */
+
+    #home-background {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background:
+            #2a2a2a
+            url(../images/mopa_singing.jpeg)
+            center right / cover
+            no-repeat
+            fixed;
+    }
 
     #jvt3-container {
         width: 75%;
@@ -617,5 +721,16 @@ iframe {
         font-size: 0.5em;
         bottom: 30%;
         margin-bottom: -15%;
+    }
+}
+
+/* for screen widths of under 300px, all pages */
+
+@media screen and (max-width: 300px) {
+    #main-logo {
+        width: 100%;
+        font-size: 3em;
+        text-align: center;
+        margin: 10px auto;
     }
 }
