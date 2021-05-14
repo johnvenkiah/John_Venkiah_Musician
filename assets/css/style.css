@@ -302,10 +302,10 @@ a.link_active:hover {
     width: 59%;
     height: 85vh;
     position: relative;
-    display: block;
-    text-align: center;
-   /* grid-template-columns: 3;
-    grid-template-rows: 3; */
+    display: flex;
+    /* text-align: center; */
+   grid-template-columns: 3;
+    grid-template-rows: 3;
     /* margin: 100vh 10px 10px 10px; */
     margin-top: 100vh;
     margin-right: 15px;
@@ -317,9 +317,10 @@ a.link_active:hover {
 
 .album {
     background-color: bisque;
-    width: 29%;
-    height: 29%;
-    /* position: relative; */
+    background-size: 300px 300px;
+    height: 300px;
+    width: 300px;
+    /* position: absolute; */
     display: inline-block;
     margin: 7px;
 }
