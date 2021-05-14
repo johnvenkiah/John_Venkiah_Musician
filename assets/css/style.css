@@ -167,7 +167,7 @@ a.link_active:hover {
 
 /* media queries for all pages */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
     #main-logo {
         width: 100%;
         text-align: center;
@@ -189,22 +189,21 @@ a.link_active:hover {
     #menu-bar {
         /* background-color: green; */
         top: 90px;
-        position: fixed;
-        left: 0;
+        /* position: absolute; */
+        right: 5px;
         width: 100%;
-        margin: 0 auto;
+        /* margin: 0 auto 3px auto; */
         height: 50px;
-        /* font-size: 0.9em; */
+        font-size: 0.6em;
         text-transform: uppercase;
     }
 
     #menu-bar li {
         border: none;
         width: 20%;
-        margin: 0 auto;
-        left: 0;
+        /* margin: 0 auto  auto; */
+        right: 0;
         bottom: 0;
-        /* background-color: blue; */
         box-sizing: border-box;
     }
 
@@ -213,7 +212,7 @@ a.link_active:hover {
         list-style-type: none;
         /* position: absolute; */
         /* display: block; */
-        top: 90vh;
+        top: 88vh;
         width: 100%;
         /* margin: 0 auto; */
         height: 50px;
@@ -222,12 +221,19 @@ a.link_active:hover {
     }
     
     .sm-icons {
-        padding: 8%;
+        padding: 6%;
         display: inline;
         text-align: center;
-        font-size: 1.3em;
+        font-size: 0.8em;
     }
 
+    #footer-text {
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        font-size: 0.3em;
+    }
 }
 
 /* home.html */
