@@ -38,7 +38,7 @@ a, a:visited {
 #header {
     background-color: transparent;
     color: white;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
     height: 70px;
@@ -174,19 +174,38 @@ a.link_active:hover {
         margin: 10px auto;
     }
 
+    #header {
+        /* position: relative; */
+        width: 100vw;
+        height: 120px;
+        right: 0;
+        top: 0;
+        margin: 0;
+        position: fixed;
+        background-color: red;
+        text-align: center;
+    }
+
     #menu-bar {
+        background-color: green;
         top: 80px;
-        height: 80px;
+        position: fixed;
+        left: 0;
         width: 100%;
         margin: 0 auto;
-        position: fixed;
-        font-size: 0.6em;
+        height: 50px;
+        font-size: 0.9em;
         text-transform: uppercase;
     }
 
     #menu-bar li {
         border: none;
-        text-align: center;
+        width: 20%;
+        margin: 0 auto;
+        left: 0;
+        bottom: 0;
+        background-color: blue;
+        box-sizing: border-box;
     }
 
 }
