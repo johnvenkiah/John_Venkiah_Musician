@@ -165,6 +165,32 @@ a.link_active:hover {
     /* z-index: 1; */
 }
 
+/* media queries for all pages */
+
+@media screen and (max-width: 900px) {
+    #main-logo {
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    #menu-bar {
+        top: 80px;
+        height: 80px;
+        width: 100%;
+        margin: 0 auto;
+        position: fixed;
+        font-size: 0.6em;
+        text-transform: uppercase;
+    }
+
+    #menu-bar li {
+        border: none;
+        text-align: center;
+    }
+
+}
+
 /* home.html */
 
 #main-container-home {
