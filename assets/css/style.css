@@ -69,32 +69,16 @@ a, a:visited {
     background: linear-gradient(black, transparent);
 }
 
-#left-half {
-    width: 50%;
+#home-background {
+    width: 100%;
     height: 100%;
     position: fixed;
-    left: 0;
     background:
         #2a2a2a
-        url(../images/hands-closeup.png)
+        url(../images/mopa_singing.jpeg)
         center left / cover
         no-repeat
         fixed;
-
-}
-
-#right-half {
-    width: 50%;
-    height: 100%;
-    position: fixed;
-    right: 0;
-    background:
-        #2a2a2a
-        url(../images/solo_profile.jpg)
-        center right / cover
-        no-repeat
-        fixed;
-
 }
 
 #sm-links {
@@ -165,77 +149,6 @@ a.link_active:hover {
     /* z-index: 1; */
 }
 
-/* media queries for all pages */
-
-@media screen and (max-width: 500px) {
-    #main-logo {
-        width: 100%;
-        text-align: center;
-        margin: 10px auto;
-    }
-
-    #header {
-        /* position: relative; */
-        width: 100vw;
-        height: 120px;
-        right: 0;
-        top: 0;
-        margin: 0;
-        position: fixed;
-        /* background-color: red; */
-        text-align: center;
-    }
-
-    #menu-bar {
-        /* background-color: green; */
-        top: 90px;
-        /* position: absolute; */
-        right: 5px;
-        width: 100%;
-        /* margin: 0 auto 3px auto; */
-        height: 50px;
-        font-size: 0.6em;
-        text-transform: uppercase;
-    }
-
-    #menu-bar li {
-        border: none;
-        width: 20%;
-        /* margin: 0 auto  auto; */
-        right: 0;
-        bottom: 0;
-        box-sizing: border-box;
-    }
-
-    #sm-links {
-        /* background-color: #aa5f22; */
-        list-style-type: none;
-        /* position: absolute; */
-        /* display: block; */
-        top: 88vh;
-        width: 100%;
-        /* margin: 0 auto; */
-        height: 50px;
-        /* box-sizing: border-box; */
-        /* z-index: 1; */
-    }
-    
-    .sm-icons {
-        padding: 6%;
-        display: inline;
-        text-align: center;
-        font-size: 0.8em;
-    }
-
-    #footer-text {
-        width: 100%;
-        left: 0;
-        bottom: 0;
-        text-align: center;
-        font-size: 0.3em;
-    }
-}
-
 /* home.html */
 
 #main-container-home {
@@ -246,13 +159,14 @@ a.link_active:hover {
     top: 70px;
 }
 
-#album-box {
+#jvt3-container {
     width: 50%;
+    max-width: 500px;
     position: fixed;
     left: 50%;
     margin-left: -25%;
-    bottom: 50%;
-    margin-bottom: -25%;
+    bottom: 40%;
+    margin-bottom: -20%;
 }
 
 #jvt3-cover {
@@ -303,9 +217,9 @@ a.link_active:hover {
     }
 }
 
-/* bio.html */
+/* about.html */
 
-#profile-background {
+#about-background {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -611,4 +525,97 @@ iframe {
     margin-top: 5px;
     position: relative;
     
+}
+
+/* media queries */
+
+/* screen widths 500px and lower */
+
+/* for all pages */
+
+@media screen and (max-width: 500px) {
+    #main-logo {
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    #header {
+        /* position: relative; */
+        width: 100vw;
+        height: 120px;
+        right: 0;
+        top: 0;
+        margin: 0;
+        position: fixed;
+        /* background-color: red; */
+        text-align: center;
+    }
+
+    #menu-bar {
+        /* background-color: green; */
+        top: 90px;
+        /* position: absolute; */
+        right: 5px;
+        width: 100%;
+        /* margin: 0 auto 3px auto; */
+        height: 50px;
+        font-size: 0.6em;
+        text-transform: uppercase;
+    }
+
+    #menu-bar li {
+        border: none;
+        width: 20%;
+        /* margin: 0 auto  auto; */
+        right: 0;
+        bottom: 0;
+        box-sizing: border-box;
+    }
+
+    #sm-links {
+        /* background-color: #aa5f22; */
+        list-style-type: none;
+        /* position: absolute; */
+        /* display: block; */
+        top: 88vh;
+        width: 100%;
+        /* margin: 0 auto; */
+        height: 50px;
+        /* box-sizing: border-box; */
+        /* z-index: 1; */
+    }
+    
+    .sm-icons {
+        padding: 6%;
+        display: inline;
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    #footer-text {
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        font-size: 0.3em;
+    }
+
+    /* media queries screen widths less than 500px home.html */
+
+    #jvt3-container {
+        width: 75%;
+    max-width: 500px;
+    position: fixed;
+    left: 50%;
+    margin-left: -37.5%;
+    bottom: 40%;
+    margin-bottom: -20%;
+    }
+
+    #listen-text {
+        font-size: 0.5em;
+        bottom: 30%;
+        margin-bottom: -15%;
+    }
 }
