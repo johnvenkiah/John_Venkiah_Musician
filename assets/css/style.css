@@ -160,11 +160,9 @@ a.link_active:hover {
 }
 
 #jvt3-container {
-    width: 50%;
-    max-width: 500px;
+    width: 40%;
     position: fixed;
-    left: 50%;
-    margin-left: -250px;
+    left: 30%;
     bottom: 18%;
 }
 
@@ -527,7 +525,6 @@ iframe {
 }
 
 /* media queries */
-
 
 /* screen widths 760px and lower, whole site */
 
