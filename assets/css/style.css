@@ -114,14 +114,6 @@ a, a:visited {
     padding: 15%;
 }
 
-#bottom-fade-bar {
-    width: 100%;
-    height: 200px;
-    bottom: 0;
-    position: absolute;
-    /* background: linear-gradient(transparent, black); */
-}
-
 #footer {
     color: white;
     position: fixed;
@@ -157,6 +149,20 @@ a.link_active {
 
 a.link_active:hover {
     color: #aa5f22;
+}
+
+/* logo "Listen", "Videos", at page bottom on respective pages */
+
+.scroll-logo {
+    /* background-color: #aa5f22; */
+    position: fixed;
+    transform: translate(-50%, 0);
+    font-size: 50px;
+    /* margin: 85vh auto 0 auto; */
+    text-align: center;
+    top: 80vh;
+    left: 50%;
+    /* z-index: 1; */
 }
 
 /* home.html */
@@ -276,71 +282,65 @@ a.link_active:hover {
 
 #profile-background-listen {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: fixed;
     background:
         #2a2a2a
         url(../images/solo_rear.jpg)
         center right / cover
         no-repeat
-        /* fixed; */
+        fixed;
 }
 
 #main-container-listen {
     /* background: rgba(255, 0, 0, .3); */
     width: 100%;
-    height: 200vh;
+    height: 180vh;
     position: relative;
-    /* display: inline; */
+    display: inline-block;
 }
 
 #listen-div {
-    background-color: rgba(0, 0, 0, .3);
+    /* background-color: rgba(0, 0, 0, .3); */
     float: left;
-    width: 30%;
+    width: 33%;
+    height: 85vh;
+    position: relative;
+    display: block;
     margin-top: 100vh;
-    margin-left: 10px;
+    margin-left: 15px;
     padding: 15px;
     border-radius: 3px;
-    z-index: 2;
+    z-index: 3;
 }
 
 #album-container {
-    background-color: rgba(0, 0, 0, .3);
+    /* background-color: rgba(0, 0, 0, .3); */
     float: right;
-    width: 60%;
-    height: 112vh;
+    width: 59%;
+    height: 85vh;
     position: relative;
-    display: inline-block;
+    display: block;
     text-align: center;
    /* grid-template-columns: 3;
     grid-template-rows: 3; */
     /* margin: 100vh 10px 10px 10px; */
     margin-top: 100vh;
-    margin-right: 10px;
+    margin-right: 15px;
     left: 40;
     padding: 10px;
     border-radius: 3px;
-    z-index: 2;
+    z-index: 3;
 }
 
 .album {
     background-color: bisque;
     width: 29%;
-    height: 22%;
+    height: 29%;
     /* position: relative; */
     display: inline-block;
     margin: 7px;
 }
-
-/* .album {
-    background-color: blue;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    display: block;
-    margin: 10px;
-} */
 
 .s-box {
     width: 100%;
@@ -358,7 +358,29 @@ a.link_active:hover {
 
 .buy-box li {
     padding: 5px 10px 40px 10px;
-} 
+}
+
+
+#bottom-fade-bar-listen {
+    width: 100%;
+    height: 30vh;
+    clear: both;
+    position: absolute;
+    top: 100vh;
+    background: linear-gradient(transparent, black);
+    z-index: 2;
+}
+
+
+#footer-listen {
+    width: 100%;
+    height: 60vh;
+    top: 130vh;
+    position: absolute;
+    display: block;
+    background: black;
+    /* z-index: -1; */
+}
 
 /* videos.html */
 
@@ -380,18 +402,6 @@ a.link_active:hover {
     position: absolute;
     height: auto;
     text-align: center;
-}
-
-.scroll-logo_videos {
-    /* background-color: #aa5f22; */
-    position: fixed;
-    transform: translate(-50%, 0);
-    font-size: 50px;
-    /* margin: 85vh auto 0 auto; */
-    text-align: center;
-    top: 80vh;
-    left: 50%;
-    z-index: 1;
 }
 
 #videos_firstvideo {
