@@ -188,13 +188,13 @@ a.link_active:hover {
 
     #menu-bar {
         /* background-color: green; */
-        top: 80px;
+        top: 90px;
         position: fixed;
         left: 0;
         width: 100%;
         margin: 0 auto;
         height: 50px;
-        font-size: 0.9em;
+        /* font-size: 0.9em; */
         text-transform: uppercase;
     }
 
@@ -206,6 +206,26 @@ a.link_active:hover {
         bottom: 0;
         /* background-color: blue; */
         box-sizing: border-box;
+    }
+
+    #sm-links {
+        /* background-color: #aa5f22; */
+        list-style-type: none;
+        /* position: absolute; */
+        /* display: block; */
+        top: 90vh;
+        width: 100%;
+        /* margin: 0 auto; */
+        height: 50px;
+        /* box-sizing: border-box; */
+        /* z-index: 1; */
+    }
+    
+    .sm-icons {
+        padding: 8%;
+        display: inline;
+        text-align: center;
+        font-size: 1.3em;
     }
 
 }
