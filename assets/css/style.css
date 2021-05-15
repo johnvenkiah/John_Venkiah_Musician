@@ -315,16 +315,18 @@ a.link_active:hover {
 }
 
 #album-container {
-    clear: both;
     line-height: 0;
-    position: relative;
-    display: grid;
-    column-count: 3;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    /* column-width: 10%; */
     /* column-gap: 5px; */
-    width: 59vw;
+    width: 50%;
     left: 40%;
     margin-top: 100vh;
-    margin-right: 15px;
+    padding: 15px;
+
+    z-index: 2;
     }
     
     #album-container > img {
@@ -348,58 +350,12 @@ a.link_active:hover {
     z-index: 3; 
 }*/
 
-.album1 {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
+.album {
+    display: inline-block;
     margin: 7px;
+
     /* grid-column: 1 / span 1;
     grid-row: 1 / span 1; */
-}
-
-.album2 {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    margin: 7px;
-    /* grid-column: 2 / span 1;
-    grid-row: 1 / span 1; */
-}
-
-.album3 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin: 7px;
-    /* grid-column: 3 / span 1;
-    grid-row: 1 / span 1; */
-}
-
-.album4 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin: 7px;
-    grid-column: 1 / span 1;
-    grid-row: 2 / span 1;
-}
-
-.album5 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin: 7px;
-    grid-column: 2 / span 1;
-    grid-row: 2 / span 1;
-}
-
-.album6 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin: 7px;
-    grid-column: 3 / span 1;
-    grid-row: 2 / span 1;
 }
 
 #bottom-fade-bar-listen {
