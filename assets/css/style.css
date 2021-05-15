@@ -315,23 +315,22 @@ a.link_active:hover {
 }
 
 #album-container {
-    line-height: 0;
     position: absolute;
     right: 0;
     display: inline-block;
-    /* column-width: 10%; */
-    /* column-gap: 5px; */
     width: 50%;
     right: 0;
     margin-left: 15px;
     padding: 15px;
     margin-top: 100vh;
     z-index: 3;
+    text-align: right;
     }
 
 .album {
     display: inline-block;
-    margin-bottom: 7.5px;
+    margin: 0 15px 15px 0;
+    right: 0;
 
     /* grid-column: 1 / span 1;
     grid-row: 1 / span 1; */
