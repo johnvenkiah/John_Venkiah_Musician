@@ -123,7 +123,7 @@ a, a:visited {
     left: 4px;
 }
 
-#main-logo:hover, #menu-bar a:hover, .sm-icons a:hover, #contact-link_bottom:hover, #to_top_videos:hover {
+#main-logo:hover, #menu-bar a:hover, .sm-icons a:hover, #contact-link_bottom:hover, #to_top_videos:hover, #to_top_listen:hover {
     color: #aa5f22;
 }
 
@@ -276,13 +276,12 @@ a.link_active:hover {
 
 #bottom-fade-bar-listen {
     width: 100%;
-    height: 30vh;
-    clear: both;
-    position: relative;
-    top: 100vh;
-    background: linear-gradient(transparent, black);
-    opacity: .7;
-    z-index: 2;
+    height: 20vh;
+    position: absolute;
+    top: 220vh;
+    /* background-color: #ff9239; */
+    background-color:black;
+    /* z-index: 2; */
 }
 
 /* #main-container-listen {
@@ -327,14 +326,15 @@ a.link_active:hover {
 #new-grid-container-listen {
     position: relative;
     box-sizing: border-box;
-    top: 100vh;
+    top: 90vh;
     display: grid;
     grid-template-columns: repeat(6, 180px);
-    grid-template-rows: repeat(7, 180px);
-    grid-gap: 10px;
+    grid-template-rows: repeat(6, 180px);
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
     justify-content: center;
     /* background-color: black; */
-    background:rgba(0, 0, 0, .7);
+    background:linear-gradient(rgba(0, 0, 0, .7), black, black);
     z-index: 2;
 }
 
@@ -476,6 +476,31 @@ a.link_active:hover {
     letter-spacing: 0rem;
 }
 
+#to_top_listen {
+
+    /* background-color: #aa5f22; */
+    position: absolute;
+    display: inline;
+    margin: 100vh auto 0 auto;
+    text-align: center;
+    width: 50%;
+    right: 50%;
+    margin-right: -25%;
+    z-index: 6;
+}
+
+    /* position: absolute;
+    display: inline;
+    margin: 66vh auto 0 auto; */
+    /* text-align: center;
+    width: 50%;
+    right: 50%; */
+    /* margin-right: -25%; */
+    /* bottom: 20px; */
+    /* z-index: 6;
+} */
+
+/* OLD CONTENT */
 /* #album-container {
     position: absolute;
     right: 0;
@@ -752,6 +777,7 @@ iframe {
         bottom: 0;
         text-align: center;
         font-size: 0.4em;
+        /* z-index: 4; */
     }
 
     /* media queries screen widths less than 760px home.html */
