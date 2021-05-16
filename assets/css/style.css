@@ -328,6 +328,8 @@ a.link_active:hover {
     height: 100%;
     position: relative;
     background-size: cover;
+    grid-column: 3 / 4, 1 / 2;
+    grid-row: 1 / 2, 1 / 2;
 }
 
 .grid-item-2 {
@@ -342,6 +344,8 @@ a.link_active:hover {
 .grid-item-3 {
     /* background: url(../images/shirin-22.jpeg); */
     height: 100%;
+    width: 100%;
+    display: flex;
     position: relative;
     background-size: cover;
     grid-column: 5 / 7;
