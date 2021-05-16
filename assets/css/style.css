@@ -274,6 +274,17 @@ a.link_active:hover {
         fixed;
 }
 
+#bottom-fade-bar-listen {
+    width: 100%;
+    height: 30vh;
+    clear: both;
+    position: relative;
+    top: 100vh;
+    background: linear-gradient(transparent, black);
+    opacity: .7;
+    z-index: 2;
+}
+
 /* #main-container-listen {
     width: 100%;
     height: 180vh;
@@ -315,7 +326,6 @@ a.link_active:hover {
 
 #new-grid-container-listen {
     position: relative;
-    top: 50vh;
     box-sizing: border-box;
     top: 100vh;
     display: grid;
@@ -323,7 +333,9 @@ a.link_active:hover {
     grid-template-rows: repeat(7, 180px);
     grid-gap: 10px;
     justify-content: center;
-    background:rgba(0, 0, 0, .5);
+    /* background-color: black; */
+    background:rgba(0, 0, 0, .7);
+    z-index: 2;
 }
 
 /* Grid items */
@@ -460,6 +472,8 @@ a.link_active:hover {
 .grid-text {
     text-align: justify;
     padding: 5%;
+    font-size: 0.9em;
+    letter-spacing: 0rem;
 }
 
 /* #album-container {
