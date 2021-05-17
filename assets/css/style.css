@@ -1177,6 +1177,28 @@ iframe {
         z-index: 6;
     }
 
+    /* videos.html, max screen width 450px */
+
+    #to_top_videos {
+        position: absolute;
+        display: inline;
+        font-size: 0.8em;
+        margin: 0 auto 20vh auto;
+        text-align: center;
+        width: 50%;
+        right: 50%;
+        margin-right: -25%;
+        z-index: 6;
+    }
+
+    /* position: absolute;
+    margin: 80% -8% 0 auto;
+    text-align: center;
+    right: 50%;
+    bottom: 0;
+    width: 16%;
+    z-index: 6; */
+
     #footer-videos {
         height: 32vh;
         background-color: black;
