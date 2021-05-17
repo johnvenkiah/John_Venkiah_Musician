@@ -1094,12 +1094,12 @@ a.link_active:hover {
         position: relative;
         box-sizing: border-box;
         top: 80vh;
-        /* margin-bottom: 20px; */
+        overflow: hidden;
         display: grid;
         grid-template-columns: repeat(2, 135px);
-        grid-template-rows: repeat(12, 140px);
+        grid-template-rows: repeat(12, 135px);
         grid-column-gap: 5px;
-        grid-row-gap: 50px;
+        grid-row-gap: 10px;
         /* justify-content: center; */
         /* background-color: black; */
         background:linear-gradient(rgba(0, 0, 0, .7), black, black, black);
