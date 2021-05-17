@@ -1177,6 +1177,11 @@ iframe {
         z-index: 6;
     }
 
+    #footer-videos {
+        height: 32vh;
+        background-color: black;
+    }
+
 }
 
 /* for screen widths of under 300px, all pages */
