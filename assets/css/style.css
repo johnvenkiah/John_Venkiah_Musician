@@ -357,13 +357,86 @@ a.link_active:hover {
     grid-row: 1 / 2;
 }
 
-#grid-tingsek-letthatgo {
-    background: url(../images/tingsek-let-that-go.jpg);
+#grid-tingsek-ep {
+    background: url(../images/tingsek-ep.jpg);
     height: 100%;
     position: relative;
     background-size: cover;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    transition: 0.2s ease-out;
+
+}
+
+    #grid-tingsek-ep:hover, #grid-tingsek-ep:active {
+        opacity: 75%;
+}
+
+/* POPUPS LISTEN.HTML */
+
+.overlay {
+    position: fixed;
+    top: 0;
+	bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .5);
+    transition: opacity 150ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+}
+
+.close-popup-click-outside {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: default;
+    z-index: 10;
+}
+
+.close-popup:target {
+    visibility: visible;
+    opacity: 1;  
+}
+
+.popup {
+    margin: 0 auto;
+    padding: 15px;
+    /* background: rgba(0, 0, 0, .7); */
+    background: white;
+    border: 1px solid #2a2a2a;
+    width: 30%;
+    box-shadow: 3px 3px 5px black;
+    position: fixed;
+    z-index: 10;
+}
+
+#title-popup {
+    position: fixed;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.close-popup-x {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    right: 20px;
+    transition: all 150ms;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.close-popup-x:hover {
+    color: #aa5f22;
+}
+
+.listen-media-links {
+    height: 400px;
+    overflow: auto;
+    width: 400px;
 }
 
 #grid-text-tingsek {
@@ -953,7 +1026,7 @@ iframe {
         grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
-    
+
     #grid-text-tingsek {
         /* margin-top: 10px; */
         grid-column: 2 / 4;
