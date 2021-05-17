@@ -881,12 +881,12 @@ iframe {
 
     #menu-bar {
         /* background-color: green; */
-        top: 80px;
+        top: 83px;
         /* position: absolute; */
         right: 5px;
         width: 100%;
         /* margin: 0 auto 3px auto; */
-        height: 50px;
+        height: 40px;
         font-size: 0.6em;
         text-transform: uppercase;
     }
@@ -905,12 +905,12 @@ iframe {
         list-style-type: none;
         /* position: absolute; */
         /* display: block; */
-        top: 88vh;
+        top: 85vh;
         width: 100%;
         /* margin: 0 auto; */
         height: 50px;
         /* box-sizing: border-box; */
-        /* z-index: 1; */
+        /* z-index: 3; */
     }
     
     .sm-icons {
@@ -1004,13 +1004,14 @@ iframe {
         /* margin-bottom: 20px; */
         display: grid;
         grid-template-columns: repeat(3, 115px);
-        grid-template-rows: repeat(13, 115px);
+        grid-template-rows: repeat(12, 115px);
         grid-column-gap: 5px;
         grid-row-gap: 50px;
         /* justify-content: center; */
         /* background-color: black; */
         background:linear-gradient(rgba(0, 0, 0, .7), black, black, black);
         z-index: 2;
+        /* border: 2px solid red; */
     }
     
     /* Grid items */
@@ -1154,7 +1155,7 @@ iframe {
     
     #black-footer-listen {
         width: 100%;
-        height: 21vh;
+        height: 32vh;
         position: relative;
         top: 70vh;
         /* background-color: #ff9239; */
@@ -1168,7 +1169,7 @@ iframe {
         position: absolute;
         display: inline;
         font-size: 0.8em;
-        margin: 65vh auto 0 auto;
+        margin: 80vh auto 0 auto;
         text-align: center;
         width: 50%;
         right: 50%;
@@ -1180,7 +1181,7 @@ iframe {
 
 /* for screen widths of under 300px, all pages */
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 320px) {
     #main-logo {
         width: 100%;
         font-size: 3em;
