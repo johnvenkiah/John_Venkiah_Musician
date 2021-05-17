@@ -1073,4 +1073,200 @@ a.link_active:hover {
     #menu-bar li {
     font-size: 0.7em;
     }
+
+    #profile-background-listen {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        background:
+            #2a2a2a
+            url(../images/solo_rear.jpg)
+            center left / cover
+            no-repeat
+            fixed;
+    }
+
+    /* screen widths 300px and under, listen.html */
+    
+    /* ALBUM GRID FOR LISTEN.HTML*/
+    
+    #new-grid-container-listen {
+        position: relative;
+        box-sizing: border-box;
+        top: 80vh;
+        /* margin-bottom: 20px; */
+        display: grid;
+        grid-template-columns: repeat(2, 135px);
+        grid-template-rows: repeat(12, 140px);
+        grid-column-gap: 5px;
+        grid-row-gap: 50px;
+        /* justify-content: center; */
+        /* background-color: black; */
+        background:linear-gradient(rgba(0, 0, 0, .7), black, black, black);
+        z-index: 2;
+        /* border: 2px solid red; */
+    }
+    
+    /* Grid items */
+    
+    
+    #grid-spotify-various {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        position: relative;
+        background-size: cover;
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+    
+    #grid-text-various {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+    
+    #grid-tingsek-ep {
+        background: url(../images/tingsek-ep.jpg);
+        height: 100%;
+        position: relative;
+        background-size: cover;
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+
+    #grid-text-tingsek {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+    
+    #grid-shirin {
+        background: url(../images/shirin-22.jpeg);
+        height: 100%;
+        position: relative;
+        background-size: cover;
+        grid-column: 1 / 3;
+        grid-row: 4 / 5;
+    }
+    
+    #grid-text-shirin {
+        grid-column: 1 / 3;
+        grid-row: 4 / 5;
+    }
+    
+    #grid-spotify-jvt3 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        position: relative;
+        background-size: cover;
+        grid-column: 1 / 3;
+        grid-row: 5 / 6;
+    }
+    
+    #grid-text-jvt3 {
+        grid-column: 1 / 3;
+        grid-row: 6 / 7;
+    }
+    
+    #grid-cover-faela-mundo {
+        background: url(../images/faela-porelmundo.png);
+        height: 100%;
+        position: relative;
+        background-size: cover;
+        grid-column: 1 / 3;
+        grid-row: 7 / 8;
+    }
+    
+    #grid-text-faela {
+        grid-column: 1 / 3;
+        grid-row: 7 / 8;
+    }
+    
+    #grid-cover-sali {
+        background: url(../images/salib-santsomlever.png);
+        height: 100%;
+        position: relative;
+        background-size: cover;
+        grid-column: 1 / 3;
+        grid-row: 8 / 9;
+    }
+    
+    #grid-text-sali {
+        /* margin-top: -20px; */
+        grid-column: 1 / 3;
+        grid-row: 8 / 9;
+    }
+    
+    #grid-spotify-jvt2 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        position: relative;
+        background-size: cover;
+        grid-column: 1 / 3;
+        grid-row: 9 / 10;
+    }
+    #grid-text-jvt2-spotify {
+        grid-column: 1 / 3;
+        grid-row: 10 / 11;
+    }
+    
+    #grid-cover-helenaj {
+        background: url(../images/beauty-h-josefsson.jpg);
+        height: 100%;
+        position: relative;
+        background-size: cover;
+        grid-column: 1 / 3;
+        grid-row: 11 / 12;
+    }
+    
+    #grid-text-helena {
+        grid-column: 1 / 3;
+        grid-row: 11 / 12;
+    }
+    
+    #grid-cover-po-nilsson {
+        background: url(../images/po-nilsson-i-wish-i.jpeg);
+        height: 100%;
+        position: relative;
+        background-size: cover;
+        grid-column: 1 / 3;
+        grid-row: 12 / 13;
+    }
+    
+    #grid-text-po {
+        grid-column: 1 / 3;
+        grid-row: 12 / 13;
+    }
+    
+    .grid-text {
+        height: 100%;
+        font-size: 0.8em;
+        letter-spacing: 0rem;
+        margin-top: -10px;
+    }
+    
+    #black-footer-listen {
+        width: 100%;
+        height: 32vh;
+        position: relative;
+        top: 70vh;
+        /* background-color: #ff9239; */
+        background-color:black;
+        /* z-index: 2; */
+    }
+    
+    #to_top_listen {
+    
+        /* background-color: #aa5f22; */
+        position: absolute;
+        display: inline;
+        font-size: 0.8em;
+        margin: 80vh auto 0 auto;
+        text-align: center;
+        width: 50%;
+        right: 50%;
+        margin-right: -25%;
+        z-index: 6;
+    }
 }
