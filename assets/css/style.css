@@ -633,7 +633,7 @@ iframe {
     margin: 0 auto;
     z-index: 3;
 }
-
+/* 
 #videos_lastvideo {
     width: 100vw;
     height: 100vh;
@@ -641,7 +641,7 @@ iframe {
     text-align: center;
     margin: 0 auto 50px auto;
     z-index: 3;
-}
+} */
 
 #to_top_videos {
     /* background-color: #aa5f22; */
