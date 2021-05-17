@@ -98,6 +98,12 @@ a, a:visited {
     padding: 15%;
 }
 
+/* only visible at bottom of videos.html */
+
+#sm-links-videos-bottom {
+    display: none;
+}
+
 #footer {
     color: white;
     position: fixed;
@@ -748,6 +754,7 @@ a.link_active:hover {
     }
 
     #sm-links-videos-bottom {
+        display: initial;
         list-style-type: none;
         position: absolute;
         bottom: 9vh;
