@@ -274,7 +274,7 @@ a.link_active:hover {
         fixed;
 }
 
-#middle-fade-bar-listen {
+#middle-fade-bar {
     width: 100%;
     height: 20vh;
     position: relative;
@@ -570,25 +570,6 @@ a.link_active:hover {
     z-index: 6;
 }
 
-/* OLD CONTENT */
-/* #album-container {
-    position: absolute;
-    right: 0;
-    display: inline-block;
-    width: 50%;
-    right: 0;
-    margin-left: 15px;
-    padding: 15px;
-    margin-top: 100vh;
-    z-index: 3;
-    text-align: right;
-    }
-
-.album {
-    display: inline-block;
-    margin: 0 15px 15px 0;
-    right: 0; */
-
 /* videos.html */
 
 #profile-background-videos {
@@ -640,42 +621,6 @@ a.link_active:hover {
     right: 0;
     z-index: 4;
 }
-
-  /* END OF NEW */
-
-/* #videos_firstvideo {
-    width: 100vw;
-    height: 0px;
-    padding-top: 56.25%;
-    position: absolute;
-    text-align: center;
-    margin: 100vh auto 0 auto;
-    z-index: 2;
-}
-
-iframe {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
-
-.videos_othervideos {
-    width: 100vw;
-    height: 0px;
-    padding-top: 56.25%;
-    position: absolute;
-    margin: 0 auto;
-    z-index: 3;
-} */
-/* 
-#videos_lastvideo {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    text-align: center;
-    margin: 0 auto 50px auto;
-    z-index: 3;
-} */
 
 /* contact.html */
 
@@ -928,6 +873,18 @@ iframe {
         font-size: 0.3em;
     }
 
+    /* fade div above content in listen.html and videos.html */
+
+    #middle-fade-bar {
+        width: 100%;
+        height: 20vh;
+        position: relative;
+        top: 80vh;
+        /* background-color: #ff9239; */
+        background: linear-gradient(transparent,rgba(0, 0, 0, .7));
+        z-index: 0;
+    }
+
     /* media queries screen widths less than 450px home.html */
 
     #home-background {
@@ -970,16 +927,6 @@ iframe {
             center left / cover
             no-repeat
             fixed;
-    }
-    
-    #middle-fade-bar-listen {
-        width: 100%;
-        height: 20vh;
-        position: relative;
-        top: 80vh;
-        /* background-color: #ff9239; */
-        background: linear-gradient(transparent,rgba(0, 0, 0, .7));
-        z-index: 0;
     }
 
     .scroll-logo {
