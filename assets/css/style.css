@@ -591,7 +591,7 @@ a.link_active:hover {
 
 /* videos.html */
 
-#profile-background-videos {
+/* #profile-background-videos {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -600,18 +600,39 @@ a.link_active:hover {
         url(../images/playing_rear_shirt.jpg)
         center right / cover
         no-repeat
-        /* relative; */
-}
+} */
 
-#main-container-videos {
-    background: transparent;
-    width: 100vw;
+/* #main-container-videos {
+    width: 100%;
     position: relative;
-    height: auto;
+    height: 1400px;
     text-align: center;
-}
+} */
 
-#videos_firstvideo {
+/* NEW */
+
+.video {
+    margin: 0;
+    width: 100%;
+    height: 0;
+    top: 100vh;
+    padding-top: 56.25%;
+    background-color: #ccc;
+    position: relative;
+  }
+
+  .video iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+
+  /* END OF NEW */
+
+/* #videos_firstvideo {
     width: 100vw;
     height: 0px;
     padding-top: 56.25%;
@@ -634,7 +655,7 @@ iframe {
     position: absolute;
     margin: 0 auto;
     z-index: 3;
-}
+} */
 /* 
 #videos_lastvideo {
     width: 100vw;
@@ -644,24 +665,22 @@ iframe {
     margin: 0 auto 50px auto;
     z-index: 3;
 } */
-
+/* 
 #to_top_videos {
-    /* background-color: #aa5f22; */
     position: absolute;
     display: inline;
     margin: 697vh auto 0 auto;
     text-align: center;
     right: 47%;
-    /* bottom: 20px; */
     z-index: 6;
-}
+} */
 
-#footer-under-videos {
+/* #footer-under-videos {
     width: 100%;
     height: 50px;
     background-color: black;
     z-index: 3;
-}
+} */
 
 /* contact.html */
 
