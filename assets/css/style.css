@@ -611,7 +611,7 @@ a.link_active:hover {
 
 /* NEW */
 
-.video {
+.video-box {
     margin: 0;
     width: 100%;
     height: 0;
@@ -621,7 +621,7 @@ a.link_active:hover {
     position: relative;
   }
 
-  .video iframe {
+  .video-box iframe {
     width: 100%;
     height: 100%;
     position: absolute;
