@@ -327,14 +327,12 @@ a.link_active:hover {
     position: relative;
     box-sizing: border-box;
     top: 80vh;
-    /* margin-bottom: 20px; */
     display: grid;
     grid-template-columns: repeat(6, 180px);
     grid-template-rows: repeat(6, 180px);
     grid-column-gap: 10px;
     grid-row-gap: 30px;
     justify-content: center;
-    /* background-color: black; */
     background:linear-gradient(rgba(0, 0, 0, .7), black, black);
     z-index: 2;
 }
@@ -544,7 +542,6 @@ a.link_active:hover {
 }
 
 .grid-text {
-    text-align: justify;
     padding: 5%;
     font-size: 0.9em;
     letter-spacing: 0rem;
@@ -1133,7 +1130,6 @@ iframe {
     }
     
     .grid-text {
-        text-align: justify;
         height: 100%;
         font-size: 0.8em;
         letter-spacing: 0rem;
