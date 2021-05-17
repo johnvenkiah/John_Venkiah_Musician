@@ -605,31 +605,33 @@ a.link_active:hover {
 
 #main-container-videos {
     background: transparent;
-    width: 100%;
-    position: absolute;
+    width: 100vw;
+    position: relative;
     height: auto;
     text-align: center;
 }
 
 #videos_firstvideo {
     width: 100vw;
-    height: 100vh;
-    position: relative;
+    height: 0px;
+    padding-top: 56.25%;
+    position: absolute;
     text-align: center;
     margin: 100vh auto 0 auto;
     z-index: 2;
 }
 
 iframe {
-    width: 100vw;
+    width: 100%;
     height: 100%;
+    position: absolute;
 }
 
 .videos_othervideos {
     width: 100vw;
-    height: 100vh;
-    position: relative;
-    text-align: center;
+    height: 0px;
+    padding-top: 56.25%;
+    position: absolute;
     margin: 0 auto;
     z-index: 3;
 }
