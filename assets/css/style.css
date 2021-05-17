@@ -91,7 +91,7 @@ a, a:visited {
     width: 15%;
     height: 60%;
     text-align: center;
-    z-index: 1;
+    z-index: 3;
 }
 
 .sm-icons {
@@ -483,6 +483,8 @@ a.link_active:hover {
 
 #video-wrapper {
     position: relative;
+    width: 100%;
+    height: 0;
     z-index: 3;
 }
 
@@ -511,7 +513,6 @@ a.link_active:hover {
     right: 50%;
     bottom: 0;
     width: 16%;
-    z-index: 6;
 }
 
 #footer-videos {
@@ -522,7 +523,6 @@ a.link_active:hover {
     bottom: 0;
     margin-bottom: -50px;
     right: 0;
-    z-index: 4;
 }
 
 /* contact.html */
@@ -734,25 +734,17 @@ a.link_active:hover {
     }
 
     #menu-bar li {
-        /* border: none; */
         width: 20%;
-        /* margin: 0 auto  auto; */
         right: 0;
         bottom: 0;
         box-sizing: border-box;
     }
 
     #sm-links {
-        /* background-color: #aa5f22; */
         list-style-type: none;
-        /* position: absolute; */
-        /* display: block; */
         top: 85vh;
         width: 100%;
-        /* margin: 0 auto; */
         height: 50px;
-        /* box-sizing: border-box; */
-        /* z-index: 3; */
     }
     
     .sm-icons {
