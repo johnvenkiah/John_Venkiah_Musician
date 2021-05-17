@@ -340,7 +340,14 @@ a.link_active:hover {
 }
 
 /* Grid items */
+.grid-cover {
+    transition: 0.2s ease-out;
+}
 
+.grid-cover:hover, .grid-cover:active {
+    transition: 0.2s ease-out;
+    opacity: 75%;
+}
 
 #grid-spotify-various {
     height: 100%;
@@ -364,17 +371,11 @@ a.link_active:hover {
     background-size: cover;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    transition: 0.2s ease-out;
-
-}
-
-    #grid-tingsek-ep:hover, #grid-tingsek-ep:active {
-        opacity: 75%;
 }
 
 /* POPUPS LISTEN.HTML */
 
-.overlay {
+/* .overlay {
     position: fixed;
     top: 0;
 	bottom: 0;
@@ -388,7 +389,7 @@ a.link_active:hover {
 }
 
 .close-popup-click-outside {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     cursor: default;
@@ -403,7 +404,6 @@ a.link_active:hover {
 .popup {
     margin: 0 auto;
     padding: 15px;
-    /* background: rgba(0, 0, 0, .7); */
     background: white;
     border: 1px solid #2a2a2a;
     width: 30%;
@@ -437,7 +437,7 @@ a.link_active:hover {
     height: 400px;
     overflow: auto;
     width: 400px;
-}
+} */
 
 #grid-text-tingsek {
     grid-column: 2 / 4;
