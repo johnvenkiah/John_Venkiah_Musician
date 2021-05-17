@@ -623,7 +623,7 @@ a.link_active:hover {
     #to_top_videos {
     position: absolute;
     display: inline-block;
-    margin: 75% -8% 0 auto;
+    margin: 0 -8% 0 auto;
     text-align: center;
     right: 50%;
     width: 16%;
