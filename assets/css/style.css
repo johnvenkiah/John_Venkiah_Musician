@@ -788,7 +788,7 @@ a.link_active:hover {
         top: 80vh;
         /* background-color: #ff9239; */
         background: linear-gradient(transparent,rgba(0, 0, 0, .7));
-        z-index: 0;
+        z-index: 2;
     }
 
     /* media queries screen widths less than 450px home.html */
