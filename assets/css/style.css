@@ -1060,7 +1060,7 @@ a.link_active:hover {
 
 }
 
-/* for screen widths of under 300px, all pages */
+/* for screen widths of under 320px, all pages */
 
 @media screen and (max-width: 320px) {
     #main-logo {
@@ -1086,7 +1086,7 @@ a.link_active:hover {
             fixed;
     }
 
-    /* screen widths 300px and under, listen.html */
+    /* screen widths 320px and under, listen.html */
     
     /* ALBUM GRID FOR LISTEN.HTML*/
     
@@ -1096,8 +1096,8 @@ a.link_active:hover {
         top: 80vh;
         overflow: hidden;
         display: grid;
-        grid-template-columns: repeat(2, 135px);
-        grid-template-rows: repeat(12, 135px);
+        grid-template-columns: repeat(1, 270px);
+        grid-template-rows: repeat(18, 270px);
         grid-column-gap: 5px;
         grid-row-gap: 10px;
         /* justify-content: center; */
@@ -1116,41 +1116,43 @@ a.link_active:hover {
         display: flex;
         position: relative;
         background-size: cover;
-        grid-column: 1 / 3;
+        grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
     
     #grid-text-various {
-        grid-column: 1 / 3;
+        grid-column: 1 / 2;
         grid-row: 2 / 3;
     }
     
     #grid-tingsek-ep {
         background: url(../images/tingsek-ep.jpg);
         height: 100%;
+        width: 100%;
         position: relative;
         background-size: cover;
-        grid-column: 1 / 3;
+        grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
 
     #grid-text-tingsek {
-        grid-column: 1 / 3;
-        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
     }
     
     #grid-shirin {
         background: url(../images/shirin-22.jpeg);
         height: 100%;
+        width: 100%;
         position: relative;
         background-size: cover;
-        grid-column: 1 / 3;
-        grid-row: 4 / 5;
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
     }
     
     #grid-text-shirin {
-        grid-column: 1 / 3;
-        grid-row: 4 / 5;
+        grid-column: 1 / 2;
+        grid-row: 6 / 7;
     }
     
     #grid-spotify-jvt3 {
@@ -1159,42 +1161,43 @@ a.link_active:hover {
         display: flex;
         position: relative;
         background-size: cover;
-        grid-column: 1 / 3;
-        grid-row: 5 / 6;
+        grid-column: 1 / 2;
+        grid-row: 7 / 8;
     }
     
     #grid-text-jvt3 {
-        grid-column: 1 / 3;
-        grid-row: 6 / 7;
+        grid-column: 1 / 2;
+        grid-row: 8 / 9;
     }
     
     #grid-cover-faela-mundo {
         background: url(../images/faela-porelmundo.png);
         height: 100%;
+        width: 100%;
         position: relative;
         background-size: cover;
-        grid-column: 1 / 3;
-        grid-row: 7 / 8;
+        grid-column: 1 / 2;
+        grid-row: 9 / 10;
     }
     
     #grid-text-faela {
-        grid-column: 1 / 3;
-        grid-row: 7 / 8;
+        grid-column: 1 / 2;
+        grid-row: 10 / 11;
     }
     
     #grid-cover-sali {
         background: url(../images/salib-santsomlever.png);
         height: 100%;
+        width: 100%;
         position: relative;
         background-size: cover;
-        grid-column: 1 / 3;
-        grid-row: 8 / 9;
+        grid-column: 1 / 2;
+        grid-row: 11 / 12;
     }
     
     #grid-text-sali {
-        /* margin-top: -20px; */
-        grid-column: 1 / 3;
-        grid-row: 8 / 9;
+        grid-column: 1 / 2;
+        grid-row: 12 / 13;
     }
     
     #grid-spotify-jvt2 {
@@ -1203,44 +1206,47 @@ a.link_active:hover {
         display: flex;
         position: relative;
         background-size: cover;
-        grid-column: 1 / 3;
-        grid-row: 9 / 10;
+        grid-column: 1 / 2;
+        grid-row: 13 / 14;
     }
     #grid-text-jvt2-spotify {
-        grid-column: 1 / 3;
-        grid-row: 10 / 11;
+        grid-column: 1 / 2;
+        grid-row: 14 / 15;
     }
     
     #grid-cover-helenaj {
         background: url(../images/beauty-h-josefsson.jpg);
         height: 100%;
+        width: 100%;
         position: relative;
         background-size: cover;
-        grid-column: 1 / 3;
-        grid-row: 11 / 12;
+        grid-column: 1 / 2;
+        grid-row: 15 / 16;
     }
     
     #grid-text-helena {
-        grid-column: 1 / 3;
-        grid-row: 11 / 12;
+        grid-column: 1 / 2;
+        grid-row: 16 / 17;
     }
     
     #grid-cover-po-nilsson {
         background: url(../images/po-nilsson-i-wish-i.jpeg);
         height: 100%;
+        width: 100%;
         position: relative;
         background-size: cover;
-        grid-column: 1 / 3;
-        grid-row: 12 / 13;
+        grid-column: 1 / 2;
+        grid-row: 17 / 18;
     }
     
     #grid-text-po {
-        grid-column: 1 / 3;
-        grid-row: 12 / 13;
+        grid-column: 1 / 2;
+        grid-row: 18 / 19;
     }
     
     .grid-text {
         height: 100%;
+        width: 100%;
         font-size: 0.8em;
         letter-spacing: 0rem;
         margin-top: -10px;
