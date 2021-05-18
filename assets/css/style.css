@@ -1288,24 +1288,24 @@ a.link_active:hover {
     
     #form-div {
         width: 90%;
-        height: 62%;
-        top: 125px;
+        height: 55%;
+        top: 150px;
         margin: 0px auto;
         padding: 5px 12px 3px 12px;
         border-radius: 4px;
     }
     
     #getintouch {
-        margin: 0 0 5px 0;
+        margin: 10px 0 10px 0;
     }
     
     .input {
         margin: 7px 0 12px 0;
-        height: 22px;
+        height: 25px;
     }
     
     #textarea {
-        height: 50px;
+        height: 70px;
     }
     
     ::placeholder {
@@ -1313,10 +1313,9 @@ a.link_active:hover {
     }
     
     .send-button {
-        width: 70px;
-        height: 18px;
-        background: inherit;
-        margin: 10px auto 5px auto;
+        width: 80px;
+        height: 25px;
+        margin: 10px auto 10px auto;
     }
 
     #newsletter {
@@ -1648,5 +1647,85 @@ a.link_active:hover {
         bottom: 20px;
         margin-right: -20%;
         z-index: 6;
+    }
+
+     /* contact.html, screenwidths 320px and below */
+
+     #profile-background-contact {
+        background:
+            #2a2a2a
+            url(../images/hands.jpg)
+            center center / cover
+            no-repeat
+            fixed;
+    }
+    
+    #main-container-contact {
+        top: 0;
+        font-size: 0.7em;
+    }
+    
+    #form-div {
+        width: 90%;
+        height: 62%;
+        top: 125px;
+        margin: 0px auto;
+        padding: 5px 12px 3px 12px;
+        border-radius: 4px;
+    }
+    
+    #getintouch {
+        margin: 0 0 5px 0;
+    }
+    
+    .input {
+        margin: 7px 0 12px 0;
+        height: 22px;
+    }
+    
+    #textarea {
+        height: 50px;
+    }
+    
+    ::placeholder {
+        color: #ddd;
+    }
+    
+    .send-button {
+        width: 70px;
+        height: 18px;
+        background: inherit;
+        margin: 10px auto 5px auto;
+    }
+
+    #newsletter {
+        margin-top: 10px;        
+    }
+
+    #pdf-download-box > h2 {
+        text-align: left;
+        margin-bottom: 7px;
+    }
+
+    #pdf-download-box > p {
+        text-align: justify;
+        font-size: 0.7;
+    }
+    
+    #pdf-link {
+        color: #ff9239a8;
+    }
+    
+    #pdf-link:hover {
+        color: #aa5f22;
+    }
+    
+    #pdf-download-box {
+        width: 90%;
+        margin: 0 auto;
+        top: 16px;
+        padding: 5px 10px;
+        border-radius: 0 4px 4px 0;
+        background: transparent;
     }
 }
