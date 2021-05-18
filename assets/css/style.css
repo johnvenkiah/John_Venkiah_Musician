@@ -235,20 +235,18 @@ a.link_active:hover {
 }
 
 #bio-text-box {
+    box-sizing: border-box;
     position: relative;
-    display: block;
-    width: 50%;
-    top: 300px;
-    margin: 300px auto 0 auto;
+    width: 100%;
+    margin: 0 auto;
     padding: 15px;
     /* left: 10%; */
-    top: 75%;
-    border-radius: 5px;
+    top: 80vh;;
     letter-spacing: 0.02rem;
     text-align: justify;
-    z-index: 2;
+    z-index: 3;
     color: white;
-    background-color: rgba(0, 0, 0, .4);
+    background: linear-gradient(rgba(0, 0, 0, .7), black);
 }
 
 #bio-text-box-2 {
@@ -258,7 +256,6 @@ a.link_active:hover {
     margin: 0 auto;
     padding: 15px;
     top: 75%;
-    border-radius: 5px;
     letter-spacing: 0.02rem;
     text-align: justify;
     z-index: 2;
