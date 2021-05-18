@@ -262,6 +262,17 @@ a.link_active:hover {
     z-index: 3;
 }
 
+.scroll-logo-about {
+    position: fixed;
+    color: rgba(255, 255, 255, .5);
+    transform: translate(-50%, 0);
+    font-size: 50px;
+    text-align: center;
+    top: 80vh;
+    left: 50%;
+    z-index: 0;
+}
+
 #about-main-container {
     box-sizing: border-box;
     width: 100vw;
