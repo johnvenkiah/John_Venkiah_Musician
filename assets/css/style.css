@@ -98,9 +98,13 @@ a, a:visited {
     padding: 15%;
 }
 
-/* only visible at bottom of videos.html on smaller screens */
+/* only visible at bottom of videos.html and about.html on smaller screens */
 
 #sm-links-videos-bottom {
+    display: none;
+}
+
+#sm-links-about-small {
     display: none;
 }
 
@@ -129,7 +133,7 @@ a, a:visited {
     left: 4px;
 }
 
-#main-logo:hover, #main-logo-about:hover, #menu-bar a:hover, .sm-icons a:hover, #contact-link_bottom:hover, #to_top_videos:hover, #to_top_listen:hover {
+#main-logo:hover, #main-logo-about:hover, #menu-bar a:hover, .sm-icons a:hover, #contact-link_bottom:hover, #to_top_videos:hover, #to_top_listen:hover, #to_top_about:hover {
     color: #aa5f22;
 }
 
@@ -338,6 +342,19 @@ a.link_active:hover {
     color: white;
 }
 
+#to_top_about {
+
+    position: absolute;
+    display: inline;
+    margin: 0 auto;
+    text-align: center;
+    width: 10%;
+    right: 50%;
+    bottom: 25px;
+    margin-right: -5%;
+    z-index: 6;
+}
+
 #footer-about {
     position: fixed;
     padding: 0 20px 4px 0;
@@ -367,7 +384,6 @@ a.link_active:hover {
     height: 20vh;
     position: relative;
     top: 80vh;
-    /* background-color: #ff9239; */
     background: linear-gradient(transparent,rgba(0, 0, 0, .7));
     z-index: 3;
 }
@@ -1210,6 +1226,7 @@ a.link_active:hover {
 
     #sm-links-about-small {
         list-style-type: none;
+        display: initial;
         position: relative;
         height: 40px;
         bottom: 0;
