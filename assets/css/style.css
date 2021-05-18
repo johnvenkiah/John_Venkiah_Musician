@@ -1307,11 +1307,6 @@ a.link_active:hover {
     #textarea {
         height: 70px;
     }
-    
-    ::placeholder {
-        color: #ddd;
-    }
-    
     .send-button {
         width: 80px;
         height: 25px;
@@ -1330,14 +1325,6 @@ a.link_active:hover {
     #pdf-download-box > p {
         text-align: justify;
         font-size: 0.7;
-    }
-    
-    #pdf-link {
-        color: #ff9239a8;
-    }
-    
-    #pdf-link:hover {
-        color: #aa5f22;
     }
     
     #pdf-download-box {
@@ -1650,20 +1637,6 @@ a.link_active:hover {
     }
 
      /* contact.html, screenwidths 320px and below */
-
-     #profile-background-contact {
-        background:
-            #2a2a2a
-            url(../images/hands.jpg)
-            center center / cover
-            no-repeat
-            fixed;
-    }
-    
-    #main-container-contact {
-        top: 0;
-        font-size: 0.7em;
-    }
     
     #form-div {
         width: 90%;
@@ -1687,45 +1660,10 @@ a.link_active:hover {
         height: 50px;
     }
     
-    ::placeholder {
-        color: #ddd;
-    }
-    
     .send-button {
         width: 70px;
         height: 18px;
         background: inherit;
         margin: 10px auto 5px auto;
-    }
-
-    #newsletter {
-        margin-top: 10px;        
-    }
-
-    #pdf-download-box > h2 {
-        text-align: left;
-        margin-bottom: 7px;
-    }
-
-    #pdf-download-box > p {
-        text-align: justify;
-        font-size: 0.7;
-    }
-    
-    #pdf-link {
-        color: #ff9239a8;
-    }
-    
-    #pdf-link:hover {
-        color: #aa5f22;
-    }
-    
-    #pdf-download-box {
-        width: 90%;
-        margin: 0 auto;
-        top: 16px;
-        padding: 5px 10px;
-        border-radius: 0 4px 4px 0;
-        background: transparent;
     }
 }
