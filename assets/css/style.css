@@ -1096,7 +1096,7 @@ a.link_active:hover {
         overflow: hidden;
         display: grid;
         grid-template-columns: repeat(1, 270px);
-        grid-auto-rows: minmaxeat(100%, 270px);
+        grid-template-rows: repeat(19, 135px);
         grid-column-gap: 5px;
         grid-row-gap: 10px;
         /* justify-content: center; */
@@ -1108,13 +1108,16 @@ a.link_active:hover {
     
     /* Grid items */
     
-    
+    #grid-cover {
+        aspect-ratio:(10/10);
+        background-repeat: no-repeat;
+    }
+
     #grid-spotify-various {
         height: 100%;
         width: 100%;
         display: flex;
         position: relative;
-        background-size: cover;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
@@ -1127,8 +1130,8 @@ a.link_active:hover {
     #grid-tingsek-ep {
         background: url(../images/tingsek-ep.jpg);
         height: 100%;
-        width: 100%;
-        position: relative;
+        width: 50%;
+        position: absolute;
         background-size: cover;
         grid-column: 1 / 2;
         grid-row: 3 / 4;
@@ -1189,7 +1192,7 @@ a.link_active:hover {
         height: 100%;
         width: 100%;
         position: relative;
-        background-size: cover;
+        background-size: contain;
         grid-column: 1 / 2;
         grid-row: 11 / 12;
     }
@@ -1218,7 +1221,7 @@ a.link_active:hover {
         height: 100%;
         width: 100%;
         position: relative;
-        background-size: cover;
+        background-size: contain;
         grid-column: 1 / 2;
         grid-row: 15 / 16;
     }
@@ -1233,7 +1236,7 @@ a.link_active:hover {
         height: 100%;
         width: 100%;
         position: relative;
-        background-size: cover;
+        background-size: contain;
         grid-column: 1 / 2;
         grid-row: 17 / 18;
     }
@@ -1251,7 +1254,7 @@ a.link_active:hover {
         margin-top: -10px;
     }
 
-    #new-grid-container-listen > div:nth-child(even) {
+    #new-grid-container-listen div:nth-child(even) {
         max-height: 50%;
       }
     
@@ -1260,9 +1263,7 @@ a.link_active:hover {
         height: 32vh;
         position: relative;
         top: 70vh;
-        /* background-color: #ff9239; */
         background-color:black;
-        /* z-index: 2; */
     }
     
     #to_top_listen {
