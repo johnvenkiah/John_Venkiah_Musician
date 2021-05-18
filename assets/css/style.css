@@ -129,7 +129,7 @@ a, a:visited {
     left: 4px;
 }
 
-#main-logo:hover, #menu-bar a:hover, .sm-icons a:hover, #contact-link_bottom:hover, #to_top_videos:hover, #to_top_listen:hover {
+#main-logo:hover, #main-logo-about:hover, #menu-bar a:hover, .sm-icons a:hover, #contact-link_bottom:hover, #to_top_videos:hover, #to_top_listen:hover {
     color: #aa5f22;
 }
 
@@ -234,12 +234,41 @@ a.link_active:hover {
         fixed;
 }
 
+#header-about {
+    color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 4;
+}
+
+#main-logo-about {
+    margin: 0 0 0 15px;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-shadow: 5px 5px 10px black;
+    position: fixed;
+}
+
+#fade-bar-about {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    background: linear-gradient(black, transparent);
+    z-index: 3;
+}
+
 #about-main-container {
     width: 100%;
     position: absolute;
     margin: 80vh auto 0 auto;
     background: linear-gradient(rgba(0, 0, 0, .7), black);
     padding: 0;
+    z-index: 3;
 }
 
 #bio-text-box {
