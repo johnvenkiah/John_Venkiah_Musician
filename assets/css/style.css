@@ -1560,10 +1560,10 @@ a.link_active:hover {
     
     #form-div {
         width: 90%;
-        height: 55%;
+        height: 35vh;
         top: 150px;
         margin: 0px auto;
-        padding: 5px 12px 3px 12px;
+        padding: 5px 12px 160px 12px;
         border-radius: 4px;
     }
     
@@ -1602,8 +1602,8 @@ a.link_active:hover {
     #pdf-download-box {
         width: 90%;
         margin: 0 auto;
-        top: 16px;
-        padding: 5px 10px;
+        top: 6vh;
+        padding: 0 10px;
         border-radius: 0 4px 4px 0;
         background: transparent;
     }
