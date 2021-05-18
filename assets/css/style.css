@@ -1909,7 +1909,7 @@ a.link_active:hover {
     
     #form-div {
         width: 90%;
-        height: 62%;
+        height: 62vh;
         top: 125px;
         margin: 0px auto;
         padding: 5px 12px 3px 12px;
@@ -1934,5 +1934,14 @@ a.link_active:hover {
         height: 18px;
         background: inherit;
         margin: 10px auto 5px auto;
+    }
+
+    #pdf-download-box {
+        width: 90%;
+        margin: 0 auto;
+        top: 3vh;
+        padding: 0 10px;
+        border-radius: 0 4px 4px 0;
+        background: transparent;
     }
 }
