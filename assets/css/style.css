@@ -1288,20 +1288,20 @@ a.link_active:hover {
     
     #form-div {
         width: 90%;
-        top: 115px;
-        margin: 10px auto;
-        padding: 15px;
+        height: 62%;
+        top: 125px;
+        margin: 0px auto;
+        padding: 5px 12px 3px 12px;
         border-radius: 4px;
-        z-index: 2;
     }
     
     #getintouch {
-        margin: 5px 0 5px 0;
+        margin: 0 0 5px 0;
     }
     
     .input {
         margin: 7px 0 12px 0;
-        height: 25px;
+        height: 22px;
     }
     
     #textarea {
@@ -1313,27 +1313,24 @@ a.link_active:hover {
     }
     
     .send-button {
-        width: 80px;
-        height: 25px;
+        width: 70px;
+        height: 18px;
         background: inherit;
-        border: 1px solid white;
-        display: block;
-        margin: 15px auto 5px auto;
-        border-radius: 4px;
-        color: inherit;
+        margin: 10px auto 5px auto;
     }
-    
-    .send-button:hover {
-        background-color: #ff9239a8;
-        color: #2a2a2a;
-        border-color: #2a2a2a;
-    }
-    
+
     #newsletter {
-        float: right;
-        margin-top: 5px;
-        position: relative;
-        
+        margin-top: 10px;        
+    }
+
+    #pdf-download-box > h2 {
+        text-align: left;
+        margin-bottom: 7px;
+    }
+
+    #pdf-download-box > p {
+        text-align: justify;
+        font-size: 0.7;
     }
     
     #pdf-link {
@@ -1345,15 +1342,12 @@ a.link_active:hover {
     }
     
     #pdf-download-box {
-        background-color: rgba(0, 0, 0, .3);
-        width: 60%;
-        position: relative;
-        display: inline-block;
+        width: 90%;
         margin: 0 auto;
-        top: 100px;
-        padding: 15px;
-        border-radius: 5px;
-        z-index: 2;
+        top: 16px;
+        padding: 5px 10px;
+        border-radius: 0 4px 4px 0;
+        background: transparent;
     }
 
 }
