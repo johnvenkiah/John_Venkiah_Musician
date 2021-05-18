@@ -237,7 +237,7 @@ a.link_active:hover {
 #bio-text-box {
     float: left;
     width: 50%;
-    margin: 80vh auto;
+    margin: 80vh auto 0 auto;
     padding: 50px;
     letter-spacing: 0.02rem;
     text-align: justify;
@@ -256,7 +256,7 @@ a.link_active:hover {
 #bio-text-box-2 {
     clear: both;
     width: 50%;
-    margin: 80vh auto;
+    margin: 0 auto;
     padding: 50px;
     letter-spacing: 0.02rem;
     text-align: justify;
