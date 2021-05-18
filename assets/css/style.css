@@ -1096,7 +1096,7 @@ a.link_active:hover {
         overflow: hidden;
         display: grid;
         grid-template-columns: repeat(1, 270px);
-        grid-template-rows: repeat(18, 270px);
+        grid-auto-rows: minmaxeat(100%, 270px);
         grid-column-gap: 5px;
         grid-row-gap: 10px;
         /* justify-content: center; */
@@ -1250,6 +1250,10 @@ a.link_active:hover {
         letter-spacing: 0rem;
         margin-top: -10px;
     }
+
+    #new-grid-container-listen > div:nth-child(even) {
+        max-height: 50%;
+      }
     
     #black-footer-listen {
         width: 100%;
