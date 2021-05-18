@@ -1109,8 +1109,8 @@ a.link_active:hover {
     /* Grid items */
     
     #grid-cover {
-        aspect-ratio:(10/10);
         background-repeat: no-repeat;
+        height: 100%;
     }
 
     #grid-spotify-various {
@@ -1129,10 +1129,8 @@ a.link_active:hover {
     
     #grid-tingsek-ep {
         background: url(../images/tingsek-ep.jpg);
-        height: 100%;
+        background-size: contain;
         width: 50%;
-        position: absolute;
-        background-size: cover;
         grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
@@ -1144,10 +1142,8 @@ a.link_active:hover {
     
     #grid-shirin {
         background: url(../images/shirin-22.jpeg);
-        height: 100%;
-        width: 100%;
-        position: relative;
-        background-size: cover;
+        background-size: contain;
+        width: 50%;
         grid-column: 1 / 2;
         grid-row: 5 / 6;
     }
@@ -1174,10 +1170,8 @@ a.link_active:hover {
     
     #grid-cover-faela-mundo {
         background: url(../images/faela-porelmundo.png);
-        height: 100%;
-        width: 100%;
-        position: relative;
-        background-size: cover;
+        background-size: contain;
+        width: 50%;
         grid-column: 1 / 2;
         grid-row: 9 / 10;
     }
@@ -1189,10 +1183,8 @@ a.link_active:hover {
     
     #grid-cover-sali {
         background: url(../images/salib-santsomlever.png);
-        height: 100%;
-        width: 100%;
-        position: relative;
         background-size: contain;
+        width: 50%;
         grid-column: 1 / 2;
         grid-row: 11 / 12;
     }
@@ -1218,10 +1210,8 @@ a.link_active:hover {
     
     #grid-cover-helenaj {
         background: url(../images/beauty-h-josefsson.jpg);
-        height: 100%;
-        width: 100%;
-        position: relative;
         background-size: contain;
+        width: 50%;
         grid-column: 1 / 2;
         grid-row: 15 / 16;
     }
@@ -1233,10 +1223,8 @@ a.link_active:hover {
     
     #grid-cover-po-nilsson {
         background: url(../images/po-nilsson-i-wish-i.jpeg);
-        height: 100%;
-        width: 100%;
-        position: relative;
         background-size: contain;
+        width: 50%;
         grid-column: 1 / 2;
         grid-row: 17 / 18;
     }
