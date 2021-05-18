@@ -235,13 +235,10 @@ a.link_active:hover {
 }
 
 #bio-text-box {
-    box-sizing: border-box;
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    padding: 15px;
-    /* left: 10%; */
-    top: 80vh;;
+    float: left;
+    width: 50%;
+    margin: 80vh auto;
+    padding: 50px;
     letter-spacing: 0.02rem;
     text-align: justify;
     z-index: 3;
@@ -249,18 +246,23 @@ a.link_active:hover {
     background: linear-gradient(rgba(0, 0, 0, .7), black);
 }
 
+.about-img > img {
+    display: inline;
+    top: 0;
+    margin: 80vh auto 0;
+    width: 40%;
+}
+
 #bio-text-box-2 {
-    position: relative;
-    display: block;
+    clear: both;
     width: 50%;
-    margin: 0 auto;
-    padding: 15px;
-    top: 75%;
+    margin: 80vh auto;
+    padding: 50px;
     letter-spacing: 0.02rem;
     text-align: justify;
-    z-index: 2;
+    z-index: 3;
     color: white;
-    background-color: rgba(0, 0, 0, .4);
+    background: linear-gradient(rgba(0, 0, 0, .7), black);
 }
 
 /* listen.html */
