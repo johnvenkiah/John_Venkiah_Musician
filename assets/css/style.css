@@ -967,38 +967,25 @@ a.link_active:hover {
     }
     
     .about-img1 > img {
-        margin-left: 5%;
-        width: 45%;
+        width: 50%;
+        margin-bottom: 5%;
     }
     
     #about-text-box-2 {
         position: absolute;
         width: 45%;
-        bottom: 25%;
+        bottom: 20%;
         right: 5%;
     }
     
     .about-img2 > img {
-        clear: left;
-        float: left;
-        display: inline;
-        top: 0;
-        margin: 7% auto;
-        padding: 0 auto;
-        width: 40%;
-        border-radius: 3px;
-        box-shadow: 3px 2px 6px black;
+        width: 45%;
+        margin-bottom: 5%;
     }
     
     #about-text-box-3 {
-        clear: both;
-        float: left;
-        width: 40%;
-        top: 0;
-        letter-spacing: 0.02rem;
-        text-align: justify;
-        text-shadow: 2px 1px 3px black;
-        color: white;
+        width: 45%;
+        margin-bottom: 10%;
     }
     
     #to_top_about {
