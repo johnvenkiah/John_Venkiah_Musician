@@ -1096,7 +1096,7 @@ a.link_active:hover {
         overflow: hidden;
         display: grid;
         grid-template-columns: repeat(1, 270px);
-        grid-template-rows: repeat(19, 135px);
+        grid-template-rows: repeat(18, 135px);
         grid-column-gap: 5px;
         grid-row-gap: 10px;
         /* justify-content: center; */
