@@ -267,7 +267,7 @@ a.link_active:hover {
     width: 100vw;
     position: absolute;
     margin: 80vh auto 0 auto;
-    background: linear-gradient(rgba(0, 0, 0, .7), grey);
+    background: linear-gradient(rgba(0, 0, 0, .7), rgb(82, 81, 81));
     padding: 15%;
     text-align: center;
     z-index: 3;
@@ -285,6 +285,7 @@ a.link_active:hover {
 }
 
 .about-img1 > img {
+    float: right;
     display: inline;
     top: 0;
     margin: 0 auto;
@@ -293,10 +294,10 @@ a.link_active:hover {
     box-shadow: 3px 2px 6px black;
 }
 
-#bio-text-box-2 {
+#about-text-box-2 {
     float: right;
     width: 40%;
-    /* margin: 80vh auto 0 auto; */
+    margin: 7% auto;
     padding: 0 auto;
     letter-spacing: 0.02rem;
     text-align: justify;
@@ -305,12 +306,24 @@ a.link_active:hover {
 }
 
 .about-img2 > img {
-    display: inline;
+    float: left;
     top: 0;
-    margin: 0 auto;
+    text-align: left;
+    margin: 10% auto;
     width: 40%;
     border-radius: 3px;
     box-shadow: 3px 2px 6px black;
+}
+
+#about-text-box-3 {
+    clear: both;
+    position: absolute;
+    width: 70%;
+    bottom: 15px;
+    letter-spacing: 0.02rem;
+    text-align: justify;
+    text-shadow: 2px 1px 3px black;
+    color: white;
 }
 
 /* listen.html */
