@@ -1650,11 +1650,8 @@ a.link_active:hover {
         grid-template-rows: repeat(18, 135px);
         grid-column-gap: 5px;
         grid-row-gap: 10px;
-        /* justify-content: center; */
-        /* background-color: black; */
         background:linear-gradient(rgba(0, 0, 0, .7), black, black, black);
         z-index: 2;
-        /* border: 2px solid red; */
     }
     
     /* Grid items */
@@ -1790,7 +1787,7 @@ a.link_active:hover {
         width: 100%;
         font-size: 0.8em;
         letter-spacing: 0rem;
-        margin-top: -10px;
+        padding: 10px 0;
     }
 
     #grid-container-listen div:nth-child(even) {
