@@ -276,7 +276,6 @@ a.link_active:hover {
 #about-text-box-1 {
     float: left;
     width: 40%;
-    /* margin: 80vh auto 0 auto; */
     padding: 0 auto;
     letter-spacing: 0.02rem;
     text-align: justify;
@@ -297,7 +296,7 @@ a.link_active:hover {
 #about-text-box-2 {
     float: right;
     width: 40%;
-    margin: 7% auto;
+    margin: 7% auto 0 auto;
     padding: 0 auto;
     letter-spacing: 0.02rem;
     text-align: justify;
@@ -319,9 +318,10 @@ a.link_active:hover {
 
 #about-text-box-3 {
     clear: both;
-    position: absolute;
-    width: 70%;
-    bottom: 15px;
+    float: left;
+    width: 40%;
+    top: 0;
+    /* margin: 0 auto; */
     letter-spacing: 0.02rem;
     text-align: justify;
     text-shadow: 2px 1px 3px black;
