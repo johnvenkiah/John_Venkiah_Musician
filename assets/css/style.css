@@ -1270,6 +1270,92 @@ a.link_active:hover {
         z-index: 5;
     }
 
+    /* contact.html, screenwidths under 450px */
+
+    #profile-background-contact {
+        background:
+            #2a2a2a
+            url(../images/hands.jpg)
+            center center / cover
+            no-repeat
+            fixed;
+    }
+    
+    #main-container-contact {
+        top: 0;
+        font-size: 0.7em;
+    }
+    
+    #form-div {
+        width: 90%;
+        top: 115px;
+        margin: 10px auto;
+        padding: 15px;
+        border-radius: 4px;
+        z-index: 2;
+    }
+    
+    #getintouch {
+        margin: 5px 0 5px 0;
+    }
+    
+    .input {
+        margin: 7px 0 12px 0;
+        height: 25px;
+    }
+    
+    #textarea {
+        height: 50px;
+    }
+    
+    ::placeholder {
+        color: #ddd;
+    }
+    
+    .send-button {
+        width: 80px;
+        height: 25px;
+        background: inherit;
+        border: 1px solid white;
+        display: block;
+        margin: 15px auto 5px auto;
+        border-radius: 4px;
+        color: inherit;
+    }
+    
+    .send-button:hover {
+        background-color: #ff9239a8;
+        color: #2a2a2a;
+        border-color: #2a2a2a;
+    }
+    
+    #newsletter {
+        float: right;
+        margin-top: 5px;
+        position: relative;
+        
+    }
+    
+    #pdf-link {
+        color: #ff9239a8;
+    }
+    
+    #pdf-link:hover {
+        color: #aa5f22;
+    }
+    
+    #pdf-download-box {
+        background-color: rgba(0, 0, 0, .3);
+        width: 60%;
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+        top: 100px;
+        padding: 15px;
+        border-radius: 5px;
+        z-index: 2;
+    }
+
 }
 
 /* for screen widths of under 320px, all pages */
