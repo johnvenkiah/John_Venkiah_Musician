@@ -380,13 +380,13 @@ a.link_active:hover {
         fixed;
 }
 
-#middle-fade-bar {
+#middle-fade-bar-listen {
     width: 100%;
     height: 20vh;
     position: relative;
     top: 80vh;
     background: linear-gradient(transparent,rgba(0, 0, 0, .7));
-    z-index: 3;
+    z-index: 1;
 }
 
 /* GRID FOR LISTEN.HTML*/
@@ -1177,7 +1177,6 @@ a.link_active:hover {
         height: 20vh;
         position: relative;
         top: 80vh;
-        /* background-color: #ff9239; */
         background: linear-gradient(transparent,rgba(0, 0, 0, .7));
         z-index: 2;
     }
@@ -1227,16 +1226,13 @@ a.link_active:hover {
     }
 
     .scroll-logo {
-        /* background-color: #aa5f22; */
         position: fixed;
         transform: translate(-50%, 0);
         font-size: 30px;
         text-shadow: 3px 3px 5px black;
-        /* margin: 85vh auto 0 auto; */
         text-align: center;
         top: 60vh;
         left: 50%;
-        /* z-index: 1; */
     }
     
     /* ALBUM GRID FOR LISTEN.HTML*/
@@ -1245,17 +1241,13 @@ a.link_active:hover {
         position: relative;
         box-sizing: border-box;
         top: 80vh;
-        /* margin-bottom: 20px; */
         display: grid;
         grid-template-columns: repeat(3, 115px);
         grid-template-rows: repeat(12, 115px);
         grid-column-gap: 5px;
         grid-row-gap: 50px;
-        /* justify-content: center; */
-        /* background-color: black; */
         background:linear-gradient(rgba(0, 0, 0, .7), black, black, black);
         z-index: 2;
-        /* border: 2px solid red; */
     }
     
     /* Grid items */
