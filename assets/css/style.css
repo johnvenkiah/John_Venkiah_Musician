@@ -234,16 +234,23 @@ a.link_active:hover {
         fixed;
 }
 
+#about-main-container {
+    width: 100%;
+    position: absolute;
+    margin: 80vh auto 0 auto;
+    background: linear-gradient(rgba(0, 0, 0, .7), black);
+    padding: 0;
+}
+
 #bio-text-box {
     float: left;
     width: 50%;
-    margin: 80vh auto 0 auto;
+    /* margin: 80vh auto 0 auto; */
     padding: 50px;
     letter-spacing: 0.02rem;
     text-align: justify;
-    z-index: 3;
+    /* z-index: 3; */
     color: white;
-    background: linear-gradient(rgba(0, 0, 0, .7), black);
 }
 
 .about-img > img {
