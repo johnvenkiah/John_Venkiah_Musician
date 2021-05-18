@@ -1483,6 +1483,7 @@ a.link_active:hover {
     }
 
     #about-text-box-1, #about-text-box-2, #about-text-box-3  {
+        position: static;
         width: 100%;
         margin: 0 auto;
         padding: 5px, 3px, 10px 3px;
@@ -1513,7 +1514,7 @@ a.link_active:hover {
 
     #about-text-box-3 {
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 90px;
         overflow: hidden;
     }
 
@@ -1535,10 +1536,10 @@ a.link_active:hover {
         display: initial;
         position: relative;
         height: 40px;
-        bottom: 0;
+        width: 80%;
         font-size: 2.5em;
         letter-spacing: 3px;
-        text-align: center;
+        margin: 0 auto 9% 7%;
         z-index: 5;
     }
 
