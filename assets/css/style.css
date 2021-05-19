@@ -629,11 +629,11 @@ a.link_active:hover {
 
 #to_top_videos {
     position: absolute;
-    margin: 0 -8% 5vh auto;
+    margin: 0 -13% 5vh auto;
     text-align: center;
     right: 50%;
     bottom: 0;
-    width: 16%;
+    width: 26%;
 }
 
 #footer-videos {
@@ -1008,10 +1008,10 @@ a.link_active:hover {
         display: inline;
         margin: 0 auto;
         text-align: center;
-        width: 10%;
+        width: 26%;
         right: 50%;
         bottom: 25px;
-        margin-right: -5%;
+        margin-right: -13%;
         z-index: 6;
     }
     
