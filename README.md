@@ -1,57 +1,90 @@
 ### John Venkiah | Musician
 
-![Mockup for John Venkiah's Artist Website](assets/docs/mockup/mockup_2)
+![Mockup for John Venkiah's Artist Website showing responsivity](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/mockup/mockup_2.png?raw=true)
 
-Project Goals
+## Contents
+
+1. Project Goals
+
+2. User Goals
+
+3. User Stories
+
+4. Site Owner Goals
+
+5. User Requirements and Expectations
+
+6. Design choices
+
+7. Structure
+
+8. Wireframes
+
+9. Technologies used
+
+10. Features
+
+11. Validation
+
+12. Testing of User Stories
+
+13. Bugs
+
+14. Deployment
+
+15. Acnowledgements
+
+
+
+## Project Goals
 
 The main goal of this project is to give my own artist website, a completely new design, both for the purpose of gaining a new website that is beautiful, responsive and updated, but also as means of projecting what I have learnt so far concerning HTML and CSS. In this website, users can listen to or buy my music, watch videos, learn more about me, sign up for a newsletter or contact me.
 
 Here is the link to the deployed website: https://johnvenkiah.github.io/CI_MS1_John_Venkiah/
 
-User Goals
+## User Goals
 
 The design and content should ultimately invite users to want to book me as a musician, buy my music or follow me on social media. Users should be able to navigate easily, feeling a visual consistency throughout the whole website. The main element on that specific page should be clear, and the most important navigational links should be visible from everywhere, in the same place.
 
 Users using screen readers should also be able to feel welcome thanks to correct arla-labelling and alt attributes for images.
 
-User Stories
+## User Stories
 
-As a user of this website I would like to:
+# As a user of this website I would like to:
 
-1 Learn about musician John Venkiah
-2 Understand all content
-3 Listen to John’s music
-4 Watch John’s music videos
-5 Be able to view this page correctly on a tablet or smartphone
-6 Feel that the content appeals to me and the design is intuitive
-7 Have access to relevant content while viewing with a screen reader
-8 Be able to contact John for bookings, etc
-9 Have the possibility to sign up for a newsletter
-10 Access John’s press info
-11 See any news or updates
-12 View and/or download artist images
+1. Learn about musician John Venkiah
+2. Understand all content
+3. Listen to John’s music
+4. Watch John’s music videos
+5. Be able to view this page correctly on a tablet or smartphone
+6. Feel that the content appeals to me and the design is intuitive
+7. Have access to relevant content while viewing with a screen reader
+8. Be able to contact John for bookings, etc
+9. Have the possibility to sign up for a newsletter
+10. Access John’s press info
+11. See any news or updates
+12. View and/or download artist images
 
-As a returning user I would also like to:
+# As a returning user I would also like to:
 
-* Find specific music I heard and hear it again or purchase it
-* Find out more about John Venkiah and his music
-* See any news or updates
-* Be able to contact John for bookings, etc
-* 
-* 
-Site owner goals
+13. Find specific music I heard and hear it again or purchase it
+14. Find out more about John Venkiah and his music
+15. See any news or updates
+16. Be able to contact John for bookings, etc
+
+## Site owner goals
 
 These are in this specific case equal to my own goals, but to be more specific as a site owner, I would like to:
 
-* Gain more followers
-* Make it easier for fans to listen to my music
-* Gain a good image and reputation for potential collaborators with a well designed website
-* Urge visitors to want to contact me and make the contact process easy
-* Make everyone feel welcome and be able to access the relevant content of the site
+1. Gain more followers
+2. Make it easier for fans to listen to my music
+3. Gain a good image and reputation for potential collaborators with a well designed website
+4.  Urge visitors to want to contact me and make the contact process easy
+5.  Make everyone feel welcome and be able to access the relevant content of the site
 
-User requirements and expectations
+## User requirements and expectations
 
-Users should:
+# Users should:
 
 * Receive a high quality user experience design while navigating within this website.
 * Be able to view or experience the website and its contents with different devices, screen sizes or a screen reader while still maintaining this high quality.
