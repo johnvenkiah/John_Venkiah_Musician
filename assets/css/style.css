@@ -733,7 +733,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     background: rgba(255, 255, 255, .1);
     border-radius: 2px;
     color: white;
-    font-family: inherit;
 }
 
 #textarea {
@@ -752,10 +751,8 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     height: 35px;
     background: inherit;
     border: 1px solid white;
-    /* position: fixed; */
     display: block;
     margin: 25px auto 10px auto;
-    /* margin-right: auto; */
     border-radius: 4px;
     color: inherit;
 }
@@ -766,12 +763,16 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     border-color: #2a2a2a;
 }
 
+/* Checkbox to receive newsletter */
+
 #newsletter {
     float: right;
     margin-top: 5px;
     position: relative;
     
 }
+
+/* Press-PDF for download */
 
 #pdf-link {
     color: #ff9239a8;
@@ -780,6 +781,8 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 #pdf-link:hover {
     color: #aa5f22;
 }
+
+/* Container for download */
 
 #pdf-download-box {
     background-color: rgba(0, 0, 0, .3);
@@ -799,7 +802,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 
 @media screen and (max-width: 1024px) {
 
-    /* grid for listen.html */
+    /* grid for listen.html; less columns and more rows. */
 
     #grid-container-listen {
         position: relative;
@@ -968,8 +971,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 
     /* about.html, screens 1024px wide and lower */
 
-
-
     #about-background {
         background:
             #2a2a2a
@@ -1039,6 +1040,9 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         width: 45%;
         margin-bottom: 10%;
     }
+
+    /* I learned to center fixed/absolute positioned elements using width and half the value in minus from Stack Overflow:
+    https://stackoverflow.com/questions/2861247/center-aligning-a-fixed-position-div */
     
     #to_top_about {
     
@@ -1088,9 +1092,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     }
 
     #menu-bar li {
-        /* border: none; */
         width: 20%;
-        /* margin: 0 auto  auto; */
         right: 0;
         bottom: 0;
         box-sizing: border-box;
@@ -1114,10 +1116,9 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         bottom: 0;
         text-align: center;
         font-size: 0.4em;
-        /* z-index: 4; */
     }
 
-    /* media queries screen widths less than 768px home.html */
+    /* media queries screen widths less than 768px index.html */
 
     #home-background {
         width: 100%;
@@ -1157,24 +1158,19 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     }
 
     #header {
-        /* position: relative; */
         width: 100vw;
         height: 120px;
         right: 0;
         top: 0;
         margin: 0;
         position: fixed;
-        /* background-color: red; */
         text-align: center;
     }
 
     #menu-bar {
-        /* background-color: green; */
         top: 83px;
-        /* position: absolute; */
         right: 5px;
         width: 100%;
-        /* margin: 0 auto 3px auto; */
         height: 40px;
         font-size: 0.6em;
         text-transform: uppercase;
@@ -1220,7 +1216,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         font-size: 0.3em;
     }
 
-    /* media queries screen widths less than 450px home.html */
+    /* media queries screen widths 450px and less index.html */
 
     #home-background {
         width: 100%;
@@ -1264,6 +1260,9 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
             fixed;
     }
 
+    /* I tried this way of centering too, which worked well, thanks to Empz on Stack Overflow:
+    https://stackoverflow.com/questions/2861247/center-aligning-a-fixed-position-div*/
+
     .scroll-logo {
         position: fixed;
         transform: translate(-50%, 0);
@@ -1274,7 +1273,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         left: 50%;
     }
     
-    /* ALBUM GRID FOR LISTEN.HTML*/
+    /* listen.html: album grid, screens no wider than 450px */
     
     #grid-container-listen {
         position: relative;
@@ -1374,7 +1373,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     }
     
     #grid-text-sali {
-        /* margin-top: -20px; */
         grid-column: 2 / 4;
         grid-row: 8 / 9;
     }
@@ -1433,14 +1431,10 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         height: 32vh;
         position: relative;
         top: 70vh;
-        /* background-color: #ff9239; */
         background-color:black;
-        /* z-index: 2; */
     }
     
     #to_top_listen {
-    
-        /* background-color: #aa5f22; */
         position: absolute;
         display: inline;
         font-size: 0.8em;
@@ -1472,7 +1466,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         z-index: 1;
     }
 
-    /* about.html, screen widths of under 450px */
+    /* about.html, screen widths of 450px and under */
 
     .scroll-logo-about {
         position: fixed;
@@ -1670,7 +1664,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 
     /* screen widths 320px and under, listen.html */
     
-    /* ALBUM GRID FOR LISTEN.HTML*/
+    /* Album grid, listen.html */
     
     #grid-container-listen {
         position: relative;
@@ -1821,6 +1815,8 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         letter-spacing: 0rem;
         padding: 10px 0;
     }
+
+    /* Learned this trick from Kyle, WDS: https://www.youtube.com/watch?v=9zBsdzdE4sM */
 
     #grid-container-listen div:nth-child(even) {
         max-height: 50%;
