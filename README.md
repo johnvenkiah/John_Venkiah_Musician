@@ -1,4 +1,6 @@
-John Venkiah | Musician
+### John Venkiah | Musician
+
+![Tux, the Linux mascot](assets/images)
 
 Project Goals
 
@@ -16,18 +18,18 @@ User Stories
 
 As a user of this website I would like to:
 
-* Learn about musician John Venkiah
-* Understand all content
-* Listen to John’s music
-* Watch John’s music videos
-* Be able to view this page correctly on a tablet or smartphone
-* Feel that the content appeals to me and the design is intuitive
-* Have access to relevant content while viewing with a screen reader
-* Be able to contact John for bookings, etc
-* Have the possibility to sign up for a newsletter
-* Access John’s press info
-* See any news or updates
-* View and/or download artist images
+1 Learn about musician John Venkiah
+2 Understand all content
+3 Listen to John’s music
+4 Watch John’s music videos
+5 Be able to view this page correctly on a tablet or smartphone
+6 Feel that the content appeals to me and the design is intuitive
+7 Have access to relevant content while viewing with a screen reader
+8 Be able to contact John for bookings, etc
+9 Have the possibility to sign up for a newsletter
+10 Access John’s press info
+11 See any news or updates
+12 View and/or download artist images
 
 As a returning user I would also like to:
 
