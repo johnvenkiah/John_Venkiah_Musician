@@ -40,7 +40,7 @@
 
 The main goal of this project is to give my own artist website, a completely new design, both for the purpose of gaining a new website that is beautiful, responsive and updated, but also as means of projecting what I have learnt so far concerning HTML and CSS. In this website, users can listen to or buy my music, watch videos, learn more about me, sign up for a newsletter or contact me.
 
-![Here is the link to the deployed website:](https://johnvenkiah.github.io/CI_MS1_John_Venkiah/)
+[Here is the link to the deployed website:](https://johnvenkiah.github.io/CI_MS1_John_Venkiah/)
 
 ## User Goals
 
@@ -126,44 +126,42 @@ Get in touch - This is a web form in which users can enter their name, email, a 
 
 Wireframes
 
-I created wireframes for the five different pages, for smartphone, tablet and computer screens, you can view them here.
+I created wireframes for the five different pages, for smartphone, tablet and computer screens, you can view them [here](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/tree/master/docs/wireframes)
 
-https://github.com/johnvenkiah/CI_MS1_John_Venkiah/tree/master/docs/wireframes
-
-- Add pictures of wireframes to this section -
+![Wireframe for contact.html](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/wireframes/wireframes_contact_desktop.png?raw=true)
 
 I picture the website as part mini-gallery, so the different pages also are pro photographs, as this also gives an artistic impression.
 
-After making my wireframes, I came to the conclusion that I wanted each page to be a full photo, with a indicator urging the user to scroll down to the page content, which I found more appealing visually.
+My wireframes evolved over time and I wanted each page to be a full photo, with a indicator urging the user to scroll down to the page content, which I found more appealing visually.
 
 I also later decided to use a menu bar for small screens, as a hamburger icon is so widely used and also to make use of CSS as much as possible.
 
 The main logo retains the full width of the screen on all pages.
 
-Home
+![The home page](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/wireframes/wireframes_home_desktop.png?raw=true)
+
+# Home
 
 Here, it is clear what the focus is - my new album. No other main content is visible, but all the menu elements are there, both social media and website navigation. A nice colourful picture fills the rest of the screen.
 
 The idea is the same on tablet and smartphone, and due to the single hero image of the cd cover, the home page doesn't get crowded. A menu icon to the top right, which I eventually removed from the design.
 
-Listen
+# Listen
 
 Here is a grid filled with links to music you can listen to both right there in the window but also whole albums or singles that are links to listen to on the preferred media. The grid should also contain short info about the music.
 
 For smaller screens, the grid of music is resized to fit smaller screens, and has one element per row. The user can see the social media icons upon loading and at the very bottom of the page.
 
-Videos
+# Videos
 
 Here, users can watch carefully chosen videos with my music.
 I wanted the user to see a full screen video as soon as they click the videos link, if watching on a large screen, while the video aspect ratio remains the same. This means that when using a smaller screen, thte user sees several videos when scrolling, which is what I was after.
 
-Bio
+# About
 
 I later renamed this page About, which I preferred. Here is basic info about my life as a musician and background. Also, some images nicely placed within the content.
 
-Get in Touch
-
-I renamed this page "Contact", both due to that Get in touch didn't look as good in the nav bar, but also because "Get in Touch" is widely used for this purpose.
+# Contact
 
 On this page, I put a simple form, where users can enter their name, email address, write a short message and sign up for newsletters. Here is also links to my press material for bookings, etc.
 
@@ -171,35 +169,33 @@ On large screens, the form will take up one side of the page while there is an i
 
 Technologies used
 
-- Github
+- ![Github](https://github.com/)
 
-- Gitpod
+- ![Gitpod](https://gitpod.com/)
 
-- HTML5
+- ![HTML5](https://en.wikipedia.org/wiki/HTML5)
 
-- CSS3
+- ![CSS3](https://en.wikipedia.org/wiki/CSS)
 
-Features
+## Features
 
-Existing features
+# Existing features
 
-Navigation bar
+1. Navigation bar
 
 A nav bar at the top of the page, to match most user expectations. Here you can navigate between the pages "Home, "Listen", "Videos", "About" and "Contact". This dissapears as users scroll down to the main content of some pages.
 
-Side/bottom bar with social media links
+2. Side/bottom bar with social media links
 
 Well known icons for Spotify, Facebook, Instagram and YouTube that are visible throughout the whole website.
 
-Footer
+3. Footer
 
 Simple footer with copyright information.
 
+4. CD-cover as hero image as a center item of the screen with slight zoom animation when hovering. A colourful image fills the rest of the screen.
 
-Home
-
-CD-cover as hero image as a center item of the screen with slight zoom animation when hovering. A colourful image fills the rest of the screen.
-
+5. Contact Form on [Contact]()
 
 
 Validation
