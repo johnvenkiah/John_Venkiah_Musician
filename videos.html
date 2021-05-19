@@ -9,7 +9,10 @@
         <meta name="keywords" content="john, venkiah, john venkiah, musician, jazz, soul, sweden, music, trio">
 
         <link href="assets/css/style.css" rel="stylesheet">
-        <!-- Google Fonts -->
+        <!--Fonts from Google fonts:
+            https://fonts.google.com/specimen/Open+Sans
+            https://fonts.google.com/specimen/Barlow+Condensed?query=bar
+        -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Open+Sans:wght@300&display=swap"
             rel="stylesheet">
@@ -18,12 +21,14 @@
     </head>
 
     <body>
+        <!-- The main logo is bold and nav-bar is embedded in a fade-bar that provides visual experience while scrolling. -->
         <header id="header">
             <a href="index.html">
                 <h1 id="main-logo">
                     John Venkiah
                 </h1>
             </a>
+            <!-- A regular navigational bar. Changes to full width on mobile. -->
             <nav id="menu-bar">
                 <ul>
                     <li>
@@ -53,12 +58,15 @@
                     </li>
                 </ul>
             </nav>
+            <!-- Fade bar creating a layered effect while scrolling. -->
             <div id="fade-bar">
             </div>
         </header>
+        <!-- I chose professional photos as backgrounds so they double up as hero images on each page.-->
         <div id="profile-background-videos" aria-label="Background picture: John at the piano with a colourful shirt seen from behind. Photo: Stefan Isaksson">
         </div>
         <div>
+            <!-- Social media links as sidebar. Icons from Fon Awesome. -->
             <ul id="sm-links">
                 <li class="sm-icons">
                     <a href="https://www.youtube.com/channel/UCe4ixizg5o-fAcdo9lOsd1w/videos" target="_blank" rel="noopener"
@@ -90,6 +98,8 @@
             </ul>
         </div>
         <div>
+            <!-- A scroll logo to indicate that the main content is below.
+                Falls behind main content while scrolling Icon from Font Awesome.-->
             <h2 class="scroll-logo">
                 Videos
                 <br>
@@ -99,6 +109,8 @@
         </div>
         <div id="middle-fade-bar-videos">
         </div>
+        <!-- full screen videos that retain aspcet ratio while resizing, thanks to Tyler Dupey for helping me understand this:
+            https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454c5eb5-->
         <div id="video-wrapper">
             <div class="video-box">
                 <iframe src="https://www.youtube-nocookie.com/embed/HGtTdz4Ec7k?start=38" title="YouTube Video - John Venkiah Trio - The Gospel of John: Live at Fasching, Stockholm"
@@ -133,6 +145,8 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
                 <div id="footer-videos">
+                    <!-- link to get back to top of page on all scrollable pages.
+                        Arrow font from Font Awesome here: https://fontawesome.com/icons/chevron-up?style=solid -->
                     <a href="videos.html" title="to-top" id="to_top_videos">
                         <i class="fas fa-chevron-up">
                         </i>
@@ -142,6 +156,7 @@
                         <br>
                     </a>
                     <div>
+                        <!-- and extra set of social media links so they are visible when scrolled to bottom of page. -->
                         <ul id="sm-links-videos-bottom">
                             <li class="sm-icons">
                                 <a href="https://www.youtube.com/channel/UCe4ixizg5o-fAcdo9lOsd1w/videos" target="_blank" rel="noopener"
@@ -181,6 +196,7 @@
                 </div>
             </div>
         </div>
+        <!-- Javascript link for icons from Font Awesome -->
         <script src="https://kit.fontawesome.com/1a83124cec.js" crossorigin="anonymous">
         </script>
     </body>
