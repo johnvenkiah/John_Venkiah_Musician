@@ -267,6 +267,15 @@ a.link_active:hover {
     z-index: 3;
 }
 
+#middle-fade-bar-about {
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    top: 80vh;
+    background: linear-gradient(transparent,rgba(41, 41, 41, .5));
+    z-index: 2;
+}
+
 .scroll-logo-about {
     position: fixed;
     color: rgba(255, 255, 255, .5);
@@ -283,7 +292,7 @@ a.link_active:hover {
     width: 100vw;
     position: absolute;
     margin: 80vh auto 0 auto;
-    background: linear-gradient(rgba(0, 0, 0, .7), rgb(72, 72, 72), rgb(41, 41, 41), transparent);
+    background: linear-gradient(rgba(41, 41, 41, .5), rgba(51, 51, 51, .7), rgba(41, 41, 41, .8), rgba(0, 0, 0, .5));
     padding: 15%;
     text-align: center;
     z-index: 3;
@@ -584,6 +593,15 @@ a.link_active:hover {
         url(../images/playing_rear_shirt.jpg)
         center right / cover
         no-repeat
+}
+
+#middle-fade-bar-videos {
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    top: 80vh;
+    background: linear-gradient(transparent,rgba(0, 0, 0, .7));
+    z-index: 2;
 }
 
 #video-wrapper {
@@ -1168,17 +1186,6 @@ a.link_active:hover {
         bottom: 0;
         text-align: center;
         font-size: 0.3em;
-    }
-
-    /* fade div above content in listen.html and videos.html */
-
-    #middle-fade-bar {
-        width: 100%;
-        height: 20vh;
-        position: relative;
-        top: 80vh;
-        background: linear-gradient(transparent,rgba(0, 0, 0, .7));
-        z-index: 2;
     }
 
     /* media queries screen widths less than 450px home.html */
