@@ -40,7 +40,7 @@
 
 The main goal of this project is to give my own artist website, a completely new design, both for the purpose of gaining a new website that is beautiful, responsive and updated, but also as means of projecting what I have learnt so far concerning HTML and CSS. In this website, users can listen to or buy my music, watch videos, learn more about me, sign up for a newsletter or contact me.
 
-Here is the link to the deployed website: https://johnvenkiah.github.io/CI_MS1_John_Venkiah/
+![Here is the link to the deployed website:](https://johnvenkiah.github.io/CI_MS1_John_Venkiah/)
 
 ## User Goals
 
@@ -91,11 +91,11 @@ These are in this specific case equal to my own goals, but to be more specific a
 * Never feel confused about any content, images or links.
 * Be able to find the song, video or album they are looking for.
 
-Design choices
+## Design choice
 
 As I have just released a new album, with cover-art that I am fond of, I thought that I should be inspired by that design. I found free fonts that were as similar as possible to the fonts used (due to copyright could not use the same ones) and color-coded active text with the same orange color as on the cover. I also added a black background and consistent white text, as I like dark themes in general.
 
-PICTURE OF FONTS
+![Fonts I have used:](https://johnvenkiah.github.io/CI_MS1_John_Venkiah/)
 
 I also thought that good images that cover the whole background make a big impact on users, so I chose images that I like, with different ones on each page. This also make the users aware of the page they are on.
 
