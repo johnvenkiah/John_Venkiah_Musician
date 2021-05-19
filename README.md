@@ -95,7 +95,8 @@ These are in this specific case equal to my own goals, but to be more specific a
 
 As I have just released a new album, with cover-art that I am fond of, I thought that I should be inspired by that design. I found free fonts that were as similar as possible to the fonts used (due to copyright could not use the same ones) and color-coded active text with the same orange color as on the cover. I also added a black background and consistent white text, as I like dark themes in general.
 
-![Fonts I have used:](https://johnvenkiah.github.io/CI_MS1_John_Venkiah/)
+![Fonts I have used:](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/features/main_logo.png?raw=true)
+![Barlow Sans and Source Sans from Google Fonts](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/features/nav_bar)
 
 I also thought that good images that cover the whole background make a big impact on users, so I chose images that I like, with different ones on each page. This also make the users aware of the page they are on.
 
@@ -107,7 +108,7 @@ Text or icons that is hovered over has a darker shade of orange than pages that 
 
 I also used a translucent grey for mid-level elements to create a feeling of three-dimensionality and transparence.
 
-(Images with colours and elements)
+![Fonts I have used:](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/features/main_logo.png?raw=true)
 
 I also used easily recognisable icons from Font Awesome for social media and music service-links that follow the same color scheme.
 
