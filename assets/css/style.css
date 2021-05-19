@@ -1,5 +1,7 @@
 /* Applies to all pages */
 
+/* Reset external styles on all elements */
+
 * {
     margin: 0;
     padding: 0;
@@ -30,10 +32,14 @@ h2 {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+/* Reset external styles on links */
+
 a, a:visited {
     text-decoration: none;
     color: white;
 }
+
+/* z-index so main content can slide under header when scrolling */
 
 #header {
     background-color: transparent;
@@ -51,6 +57,8 @@ a, a:visited {
     right: 10px;
 }
 
+/* Learnt basics for menu bar from Love Running Walkthrough Project */
+
 #menu-bar li {
     float: right;
     list-style-type: none;
@@ -58,9 +66,13 @@ a, a:visited {
     padding: 15px;
 }
 
+/* Border between menu-bar links */
+
 .border-right {
     border-right: 1px solid white;
 }
+
+/* Fade bar lies on top of most main content and creates a translucent layered design */
 
 #fade-bar {
     width: 100%;
@@ -68,6 +80,8 @@ a, a:visited {
     margin: 0 auto;
     background: linear-gradient(black, transparent);
 }
+
+/* Background image for home - credit to Sasha Kajic */
 
 #home-background {
     width: 100%;
@@ -80,6 +94,8 @@ a, a:visited {
         no-repeat
         fixed;
 }
+
+/* Sidebar with standard social media icons linked to my pages */
 
 #sm-links {
     list-style-type: none;
@@ -99,11 +115,13 @@ a, a:visited {
     padding: 15%;
 }
 
-/* only visible at bottom of videos.html and about.html on smaller screens */
+/* Extra social media sidebar on videos.html, due to main content hiding regular one. Only visible at bottom of videos.html and about.html on smaller screens */
 
 #sm-links-videos-bottom {
     display: none;
 }
+
+/* Same but on about.html */
 
 #sm-links-about-small {
     display: none;
@@ -117,6 +135,8 @@ a, a:visited {
     height: 50px;
 }
 
+/* Copyright info */
+
 #footer-text {
     font-size: 0.7em;
     position: absolute;
@@ -124,19 +144,13 @@ a, a:visited {
     right: 4px;
 }
 
-#contact-link_bottom {
-    font-family: 'Barlow Condensed';
-    text-transform: uppercase;
-    font-size: 1.5em;
-    font-weight: bold;
-    position: fixed;
-    bottom: 4px;
-    left: 4px;
-}
+/* Color for hovering over links, to match the orange tones on my hero image cd cover */
 
 #main-logo:hover, #main-logo-about:hover, #menu-bar a:hover, .sm-icons a:hover, #contact-link_bottom:hover, #to_top_videos:hover, #to_top_listen:hover, #to_top_about:hover {
     color: #aa5f22;
 }
+
+/* Active links a slightly brighter shade of orange */
 
 a.link_active {
     color: #ff9239;
@@ -146,21 +160,18 @@ a.link_active:hover {
     color: #aa5f22;
 }
 
-/* logo "Listen", "Videos", at page bottom on respective pages */
+/* logo "Listen", "Videos", at viewport bottom on those pages */
 
 .scroll-logo {
-    /* background-color: #aa5f22; */
     position: fixed;
     transform: translate(-50%, 0);
     font-size: 50px;
-    /* margin: 85vh auto 0 auto; */
     text-align: center;
     top: 80vh;
     left: 50%;
-    /* z-index: 1; */
 }
 
-/* home.html */
+/* Styles below apply to home.html */
 
 #main-container-home {
     background: transparent;
@@ -185,7 +196,7 @@ a.link_active:hover {
     animation-fill-mode: forwards;
 }
 
-/* Animation */
+/* zoom animation for hero image hover */
 
 @keyframes fade-zoom {
     
@@ -195,19 +206,6 @@ a.link_active:hover {
     to {
         transform: scale(1);
     }
-}
-
-#listen-text {
-    /* background-color: #aa5f22; */
-    width: 50%;
-    padding: 0;
-    text-align: center;
-    text-shadow: 3px 3px 5px black;
-    position: fixed;
-    left: 50%;
-    margin-left: -25%;
-    bottom: 10%;
-    z-index: 2;
 }
 
 #jvt3-cover:hover {
@@ -223,6 +221,21 @@ a.link_active:hover {
     to {
         transform: scale(1.01);
     }
+}
+
+/* text for hero image */
+
+#listen-text {
+    /* background-color: #aa5f22; */
+    width: 50%;
+    padding: 0;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+    position: fixed;
+    left: 50%;
+    margin-left: -25%;
+    bottom: 10%;
+    z-index: 2;
 }
 
 /* about.html */
@@ -1939,3 +1952,5 @@ a.link_active:hover {
         background: transparent;
     }
 }
+
+/* Allround credit to FreeCodeCamp, the great course material and tutors at Code Institute but mostly my CI mentor Mo, as he has been great so far. */
