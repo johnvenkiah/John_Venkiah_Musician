@@ -565,21 +565,18 @@ a.link_active:hover {
     height: 20vh;
     position: relative;
     top: 75vh;
-    /* background-color: #ff9239; */
     background-color:black;
-    /* z-index: 2; */
 }
 
 #to_top_listen {
 
-    /* background-color: #aa5f22; */
     position: absolute;
     display: inline;
     margin: 85vh auto 0 auto;
     text-align: center;
-    width: 10%;
+    width: 20%;
     right: 50%;
-    margin-right: -5%;
+    margin-right: -10%;
     z-index: 6;
 }
 
