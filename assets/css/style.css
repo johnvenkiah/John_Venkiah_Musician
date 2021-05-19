@@ -115,18 +115,6 @@ a, a:visited {
     padding: 15%;
 }
 
-/* Extra social media sidebar on videos.html, due to main content hiding regular one. Only visible at bottom of videos.html and about.html on smaller screens */
-
-#sm-links-videos-bottom {
-    display: none;
-}
-
-/* Same but on about.html */
-
-#sm-links-about-small {
-    display: none;
-}
-
 #footer {
     color: white;
     position: fixed;
@@ -171,7 +159,7 @@ a.link_active:hover {
     left: 50%;
 }
 
-/* Styles below apply to home.html */
+/* Styles below apply to index.html */
 
 #main-container-home {
     background: transparent;
@@ -238,7 +226,9 @@ a.link_active:hover {
     z-index: 2;
 }
 
-/* about.html */
+/* Below styles apply to about.html */
+
+/* Background image for about.html. Image credit: Stefan Isaksson */
 
 #about-background {
     width: 100%;
@@ -251,6 +241,8 @@ a.link_active:hover {
         no-repeat
         fixed;
 }
+
+/* Changed z-index so content slides under instead of over */
 
 #header-about {
     color: white;
@@ -271,6 +263,8 @@ a.link_active:hover {
     position: fixed;
 }
 
+/* Creates translucent and layered effect while scrolling */
+
 #fade-bar-about {
     position: absolute;
     top: 0;
@@ -290,6 +284,8 @@ a.link_active:hover {
     z-index: 1;
 }
 
+/* Logo with arrow at bottom of viewport */
+
 .scroll-logo-about {
     position: fixed;
     color: rgba(255, 255, 255, .5);
@@ -300,6 +296,8 @@ a.link_active:hover {
     left: 50%;
     z-index: 0;
 }
+
+/* Experimented with a multi-shade grey linear gradient to make this page look different. */
 
 #about-main-container {
     box-sizing: border-box;
@@ -312,6 +310,8 @@ a.link_active:hover {
     z-index: 3;
 }
 
+/* Text content of about */
+
 #about-text-box-1 {
     float: left;
     width: 40%;
@@ -322,21 +322,22 @@ a.link_active:hover {
     color: white;
 }
 
-.about-img1 img {
-    float: right;
-    display: inline;
-    top: 0;
-    margin: 0 auto;
-    width: 40%;
-    border-radius: 3px;
-    box-shadow: 3px 2px 6px black;
-}
-
 #about-text-box-2 {
     float: right;
     width: 40%;
     margin: 7% auto 0 auto;
     padding: 0;
+    letter-spacing: 0.02rem;
+    text-align: justify;
+    text-shadow: 2px 1px 3px black;
+    color: white;
+}
+
+#about-text-box-3 {
+    clear: both;
+    float: left;
+    width: 40%;
+    top: 0;
     letter-spacing: 0.02rem;
     text-align: justify;
     text-shadow: 2px 1px 3px black;
@@ -355,15 +356,14 @@ a.link_active:hover {
     box-shadow: 3px 2px 6px black;
 }
 
-#about-text-box-3 {
-    clear: both;
-    float: left;
-    width: 40%;
+.about-img1 img {
+    float: right;
+    display: inline;
     top: 0;
-    letter-spacing: 0.02rem;
-    text-align: justify;
-    text-shadow: 2px 1px 3px black;
-    color: white;
+    margin: 0 auto;
+    width: 40%;
+    border-radius: 3px;
+    box-shadow: 3px 2px 6px black;
 }
 
 #to_top_about {
@@ -377,6 +377,12 @@ a.link_active:hover {
     bottom: 25px;
     margin-right: -5%;
     z-index: 6;
+}
+
+/* Extra social media navbar in about.html for mobile, due to main content hiding regular one. Only visible at bottom of videos.html and about.html on smaller screens */
+
+#sm-links-about-small {
+    display: none;
 }
 
 #footer-about {
@@ -647,6 +653,18 @@ a.link_active:hover {
     right: 50%;
     bottom: 0;
     width: 26%;
+}
+
+/* Extra social media navbar in videos.html for mobile, due to main content hiding regular one. Only visible at bottom of videos.html and about.html on smaller screens */
+
+#sm-links-videos-bottom {
+    display: none;
+}
+
+/* Same but on about.html */
+
+#sm-links-about-small {
+    display: none;
 }
 
 #footer-videos {
