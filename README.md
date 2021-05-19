@@ -1,6 +1,6 @@
 ### John Venkiah | Musician
 
-![Tux, the Linux mascot](assets/images)
+![Mockup for John Venkiah's Artist Website](assets/docs/mockup/mockup_2)
 
 Project Goals
 
