@@ -10,8 +10,11 @@
 
     <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- Google Fonts -->
-
+    <!-- I want to retain the image of my latest album, so I aimed to use the same fonts.
+        These were the most similar fonts I could find for free use. From Google fonts:
+        https://fonts.google.com/specimen/Open+Sans
+        https://fonts.google.com/specimen/Barlow+Condensed?query=bar
+    -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Open+Sans:wght@300&display=swap"
         rel="stylesheet">
@@ -20,12 +23,14 @@
 </head>
 
 <body>
+    <!-- The main logo is bold and nav-bar is embedded in a fade-bar that provides visual experience while scrolling. -->
     <header id="header">
         <a href="index.html">
             <h1 id="main-logo">
                 John Venkiah
             </h1>
         </a>
+        <!-- A regular navigational bar build by me. Changes to full width on mobile. -->
         <nav id="menu-bar">
             <ul>
                 <li>
@@ -55,16 +60,18 @@
                 </li>
             </ul>
         </nav>
+        <!-- fade bar creates a layered effect while navigating. -->
         <div id="fade-bar">
         </div>
     </header>
+    <!-- I chose professional photos as backgrounds so they double up as hero images on each page.-->
     <div id="profile-background-contact" aria-label="Background picture: a closeup of John's hands at the piano. Photo: Stefan Isaksson">
     </div>
     <div id="main-container-contact">
         <div id="form-div">
             <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
-                <h2 id="getintouch">
-                    Get in Touch
+                <h2 id="contact-header">
+                    Contact
                 </h2>
 
                 <label for="name">

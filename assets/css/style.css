@@ -682,7 +682,7 @@ a.link_active:hover {
     z-index: 2;
 }
 
-#getintouch {
+#contact-header {
     margin: 15px 0 15px 0;
 }
 
@@ -1561,7 +1561,7 @@ a.link_active:hover {
         border-radius: 4px;
     }
     
-    #getintouch {
+    #contact-header {
         margin: 10px 0 10px 0;
     }
     
@@ -1910,7 +1910,7 @@ a.link_active:hover {
         border-radius: 4px;
     }
     
-    #getintouch {
+    #contact-header {
         margin: 0 0 5px 0;
     }
     
