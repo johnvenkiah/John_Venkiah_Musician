@@ -344,6 +344,8 @@ a.link_active:hover {
     color: white;
 }
 
+/* Clickable images on about.html */
+
 .about-img2 img {
     clear: left;
     float: left;
@@ -365,6 +367,8 @@ a.link_active:hover {
     border-radius: 3px;
     box-shadow: 3px 2px 6px black;
 }
+
+/* link to top of page about.html */
 
 #to_top_about {
 
@@ -395,7 +399,9 @@ a.link_active:hover {
     background: linear-gradient(transparent, black);
 }
 
-/* listen.html */
+/* Styles below apply to listen.html */
+
+/* Background image for listen.html. Photo credit to Stefan Isaksson. */
 
 #profile-background-listen {
     width: 100%;
@@ -409,6 +415,8 @@ a.link_active:hover {
         fixed;
 }
 
+/* Fade bar that moves while scrolling attached to main content */
+
 #middle-fade-bar-listen {
     width: 100%;
     height: 20vh;
@@ -418,7 +426,7 @@ a.link_active:hover {
     z-index: 1;
 }
 
-/* GRID FOR LISTEN.HTML*/
+/* music grid for listen.html. Got very helpful tips from Kyle at WDS: https://www.youtube.com/watch?v=9zBsdzdE4sM and Travery Media: https://www.youtube.com/watch?v=-qOe8lBAChE */
 
 #grid-container-listen {
     position: relative;
@@ -434,7 +442,7 @@ a.link_active:hover {
     z-index: 2;
 }
 
-/* Grid items */
+/* Grid items - preferred alternating sides with text, album-covers and Spotify iframes. */
 
 .grid-cover {
     transition: 0.2s ease-out;
@@ -599,7 +607,9 @@ a.link_active:hover {
     z-index: 6;
 }
 
-/* videos.html */
+/* Styles below apply to videos.html */
+
+/* Background image for videos.html, image credit: Stefan Isaksson */
 
 #profile-background-videos {
     width: 100%;
@@ -627,6 +637,9 @@ a.link_active:hover {
     height: 0;
     z-index: 3;
 }
+
+/* I learnt the trick to retaining aspect-ratio while resizing from this tutorial by Tyler Duprey:
+https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454c5eb5 */
 
 .video-box {
     margin: 0;
@@ -661,12 +674,6 @@ a.link_active:hover {
     display: none;
 }
 
-/* Same but on about.html */
-
-#sm-links-about-small {
-    display: none;
-}
-
 #footer-videos {
     width: 100%;
     height: 30px;
@@ -677,8 +684,9 @@ a.link_active:hover {
     right: 0;
 }
 
-/* contact.html */
+/* Styles below apply to contact.html */
 
+/* Background image, credit: Stefan Isaksson */
 #profile-background-contact {
     width: 100%;
     height: 100%;
@@ -694,7 +702,6 @@ a.link_active:hover {
 #main-container-contact {
     background: transparent;
     width: 100%;
-    /* height: 100vh; */
     position: relative;
     text-align: center;
     top: 70px;
@@ -712,6 +719,8 @@ a.link_active:hover {
     border-radius: 5px;
     z-index: 2;
 }
+
+/* Main header in contact form */
 
 #contact-header {
     margin: 15px 0 15px 0;
@@ -954,9 +963,7 @@ a.link_active:hover {
         height: 20vh;
         position: relative;
         top: 75vh;
-        /* background-color: #ff9239; */
         background-color:black;
-        /* z-index: 2; */
     }
 
     /* about.html, screens 1024px wide and lower */
