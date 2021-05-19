@@ -602,7 +602,7 @@ a.link_active:hover {
     position: relative;
     top: 80vh;
     background: linear-gradient(transparent,rgba(0, 0, 0, .7));
-    z-index: 2;
+    z-index: 1;
 }
 
 #video-wrapper {
