@@ -198,16 +198,79 @@ Simple footer with copyright information.
 5. Contact Form on [Contact]()
 
 
-Validation
+## Validation
 
-Testing of User Stories
-    * Feature
-    * Action
-    * Expected result
-    * Actual Result
+The site passed most validation and only had an alert about my aria-label for bckground picture. [Here](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/tree/master/docs/validation) are the results.
 
-Bugs
+# Testing of User Stories
+
+    - I think the user will have enough to read, but maybe the site needs a updates section, so content feels new.
+
+    [Mobile View of about](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/Responsivity/desktop_about_2.png)
+
+    -  I also think that all users can understand all content, due to the fact that I have added aria-labels and titles as much as I can.
+
+    -  My music is there to listen to, there is more than enough!
+
+    _ Pages are viewed correctly on different screen sizes. [Mockup](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/mockup/mockup_3.png) I have tested all functions on all screensizes.
+
+    - The content appeals to me with pictures and music, all it needs is a news feed.
+
+    - One can easily contact med for bookings on the form.
+
+    _ My press info is available for download as a PDF-file.
+
+    - News or updates are missing still.
+
+    Images are downloadable but more to come!
+
+## Deployment
+
+Pasted from Tara Rhoseyns Github:
 
 Deployment
+GitHub Pages
+This website has been deployed using GitHub pages. To do the same...
 
-Acnowledgements
+Log into your GitHub account and find the repository.
+Click on 'Settings' in the repository.
+Click 'Pages' in the left-hand menu once you're in Settings.
+Click 'Source'.
+Click the dropdown menu which says 'None', then select 'Master Branch'.
+Wait for page to refresh automatically.
+Under GitHub pages you can now find a link to the published live website.
+Forking the GitHub Repository
+By forking this GitHub repository you are making a copy of the original to view or make changes without affecting the original. You can do this by following these steps...
+
+Log into your GitHub account and find the repository.
+Click 'Fork' (last button on the top right of the repository page).
+You will then have a copy of the repository in your own GitHub account.
+Making a Local Clone
+Log into your GitHub account and find the repository.
+Click on the 'Code' button (next to 'Add file').
+To clone the repository using HTTPS, under clone with HTTPS, copy the link.
+Then open Git Bash.
+Change the current working directory to where you want the cloned directory to be made.
+In your IDE's terminal type 'git clone' followed by the URL you copied.
+Press Enter.
+Your local clone will now be made.
+
+## Acnowledgements
+
+
+https://stackoverflow.com/questions/2861247/center-aligning-a-fixed-position-div
+
+Kyle:
+https://www.youtube.com/watch?v=9zBsdzdE4sM
+
+Traversy Media
+
+https://www.youtube.com/watch?v=-qOe8lBAChE
+
+Responsive Video:
+
+https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454c5eb5
+
+The tutors at Code Institute
+
+And of course my wonderful Mentor Mo, has guided me wonderfully.
