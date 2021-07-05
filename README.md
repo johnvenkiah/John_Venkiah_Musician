@@ -1,4 +1,4 @@
-### John Venkiah | Musician
+# John Venkiah | Musician
 
 ![Mockup for John Venkiah's Artist Website showing responsivity](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/mockup/mockup_2.png?raw=true)
 
@@ -40,9 +40,9 @@
 
 The main goal of this project is to give my own artist website, a completely new design, both for the purpose of gaining a new website that is beautiful, responsive and updated, but also as means of projecting what I have learnt so far concerning HTML and CSS. In this website, users can listen to or buy my music, watch videos, learn more about me, sign up for a newsletter or contact me.
 
-[Here is the link to the deployed website:](https://johnvenkiah.github.io/CI_MS1_John_Venkiah/)
+Here is the link to the [deployed website](https://johnvenkiah.github.io/John_Venkiah_Musician/).
 
-## User Goals
+### User Goals
 
 The design and content should ultimately invite users to want to book me as a musician, buy my music or follow me on social media. Users should be able to navigate easily, feeling a visual consistency throughout the whole website. The main element on that specific page should be clear, and the most important navigational links should be visible from everywhere, in the same place.
 
@@ -50,7 +50,7 @@ Users using screen readers should also be able to feel welcome thanks to correct
 
 ## User Stories
 
-# As a user of this website I would like to:
+### As a user of this website I would like to:
 
 1. Learn about musician John Venkiah
 2. Understand all content
@@ -65,7 +65,7 @@ Users using screen readers should also be able to feel welcome thanks to correct
 11. See any news or updates
 12. View and/or download artist images
 
-# As a returning user I would also like to:
+### As a returning user I would also like to:
 
 13. Find specific music I heard and hear it again or purchase it
 14. Find out more about John Venkiah and his music
@@ -82,9 +82,9 @@ These are in this specific case equal to my own goals, but to be more specific a
 4.  Urge visitors to want to contact me and make the contact process easy
 5.  Make everyone feel welcome and be able to access the relevant content of the site
 
-## User requirements and expectations
+### User requirements and expectations
 
-# Users should:
+#### Users should:
 
 * Receive a high quality user experience design while navigating within this website.
 * Be able to view or experience the website and its contents with different devices, screen sizes or a screen reader while still maintaining this high quality.
@@ -112,17 +112,19 @@ I also used a translucent grey for mid-level elements to create a feeling of thr
 
 I also used easily recognisable icons from Font Awesome for social media and music service-links that follow the same color scheme.
 
-Structure
+## Structure
 
 The website structure is basic, where the header, footer and social media navigational bars are always visible, and the main content of the page navigated to is central.
 
-Home - The main content is the new album, almost in the middle, with a short description urging the user to listen to my new album
+- Home - The main content is the new album, almost in the middle, with a short description urging the user to listen to my new album
 
-Listen - Here, the main content is a scrollable element containing embedded web-players of different albums or playlists with my music. Below each one are four icons, to my music on different music services.
+- Listen - Here, the main content is a scrollable element containing embedded web-players of different albums or playlists with my music. Below each one are four icons, to my music on different music services.
 
-Videos - Several embedded videos from YouTube fill out the main content of this page, with live concerts and music videos that I have been a part of.
+- Videos - Several embedded videos from YouTube fill out the main content of this page, with live concerts and music videos that I have been a part of.
 
-Get in touch - This is a web form in which users can enter their name, email, a message and subscribe to a newsletter.
+- About - Here users can read a short background about John, together with images of groups he is a part of.
+
+- Get in touch - This is a web form in which users can enter their name, email, a message and subscribe to a newsletter.
 
 Wireframes
 
@@ -138,30 +140,30 @@ I also later decided to use a menu bar for small screens, as a hamburger icon is
 
 The main logo retains the full width of the screen on all pages.
 
-![The home page](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/wireframes/wireframes_home_desktop.png?raw=true)
+[The home page](https://github.com/johnvenkiah/John_Venkiah_Musician/blob/master/docs/Responsivity/320px_home.png)
 
-# Home
+### Home
 
 Here, it is clear what the focus is - my new album. No other main content is visible, but all the menu elements are there, both social media and website navigation. A nice colourful picture fills the rest of the screen.
 
 The idea is the same on tablet and smartphone, and due to the single hero image of the cd cover, the home page doesn't get crowded. A menu icon to the top right, which I eventually removed from the design.
 
-# Listen
+### Listen
 
 Here is a grid filled with links to music you can listen to both right there in the window but also whole albums or singles that are links to listen to on the preferred media. The grid should also contain short info about the music.
 
 For smaller screens, the grid of music is resized to fit smaller screens, and has one element per row. The user can see the social media icons upon loading and at the very bottom of the page.
 
-# Videos
+### Videos
 
 Here, users can watch carefully chosen videos with my music.
 I wanted the user to see a full screen video as soon as they click the videos link, if watching on a large screen, while the video aspect ratio remains the same. This means that when using a smaller screen, thte user sees several videos when scrolling, which is what I was after.
 
-# About
+### About
 
 I later renamed this page About, which I preferred. Here is basic info about my life as a musician and background. Also, some images nicely placed within the content.
 
-# Contact
+### Contact
 
 On this page, I put a simple form, where users can enter their name, email address, write a short message and sign up for newsletters. Here is also links to my press material for bookings, etc.
 
@@ -169,17 +171,17 @@ On large screens, the form will take up one side of the page while there is an i
 
 Technologies used
 
-- ![Github](https://github.com/)
+- [Github](https://github.com/)
 
-- ![Gitpod](https://gitpod.com/)
+- [Gitpod](https://gitpod.com/)
 
-- ![HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
-- ![CSS3](https://en.wikipedia.org/wiki/CSS)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ## Features
 
-# Existing features
+### Existing features
 
 1. Navigation bar
 
@@ -202,35 +204,33 @@ Simple footer with copyright information.
 
 The site passed most validation and only had an alert about my aria-label for bckground picture. [Here](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/tree/master/docs/validation) are the results.
 
-# Testing of User Stories
+## Testing of User Stories
 
-    - I think the user will have enough to read, but maybe the site needs a updates section, so content feels new.
+- I think the user will have enough to read, but maybe the site needs a updates section, so content feels new.
 
-    [Mobile View of about](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/Responsivity/desktop_about_2.png)
+[Mobile View of about](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/Responsivity/desktop_about_2.png)
 
-    -  I also think that all users can understand all content, due to the fact that I have added aria-labels and titles as much as I can.
+-  I also think that all users can understand all content, due to the fact that I have added aria-labels and titles as much as I can.
 
-    -  My music is there to listen to, there is more than enough!
+-  My music is there to listen to, there is more than enough.
 
-    _ Pages are viewed correctly on different screen sizes. [Mockup](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/mockup/mockup_3.png) I have tested all functions on all screensizes.
+- Pages are viewed correctly on different screen sizes. [Mockup](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/mockup/mockup_3.png) I have tested all functions on all screensizes.
 
-    - The content appeals to me with pictures and music, all it needs is a news feed.
+- The content appeals to me with pictures and music, all it needs is a news feed.
 
-    - One can easily contact med for bookings on the form.
+- One can easily contact med for bookings on the form.
 
-    _ My press info is available for download as a PDF-file.
+- My press info is available for download as a PDF-file.
 
-    - News or updates are missing still.
+- News or updates are missing still.
 
-    Images are downloadable but more to come!
+- Images are downloadable but more to come!
 
 ## Deployment
 
-Pasted from Tara Rhoseyns Github:
-
 Deployment
 GitHub Pages
-This website has been deployed using GitHub pages. To do the same...
+This website has been deployed using GitHub pages. Here's how to do that:
 
 Log into your GitHub account and find the repository.
 Click on 'Settings' in the repository.
@@ -273,4 +273,4 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 
 The tutors at Code Institute
 
-And of course my wonderful Mentor Mo, has guided me wonderfully.
+And of course my Mentor Mo, has guided me wonderfully.
