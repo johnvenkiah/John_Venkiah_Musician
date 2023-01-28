@@ -135,7 +135,8 @@ a, a:visited {
 /* Color for hovering over links, to match the orange tones on my hero image cd cover */
 
 #main-logo:hover, #main-logo-about:hover, #menu-bar a:hover, .sm-icons a:hover, #contact-link_bottom:hover, #to_top_videos:hover, #to_top_listen:hover, #to_top_about:hover {
-    color: #aa5f22;
+    color: #d57a30;
+    transition: all 0.2s ease-in-out;
 }
 
 /* Active links a slightly brighter shade of orange */
@@ -145,7 +146,7 @@ a.link_active {
 }
 
 a.link_active:hover {
-    color: #aa5f22;
+    color: #d57a30;
 }
 
 /* logo "Listen", "Videos", at viewport bottom on those pages */
@@ -208,18 +209,15 @@ a.link_active:hover {
     
     from {
         transform: scale(1);
-        box-shadow: 10px 10px 30px black;
     }
     to {
         transform: scale(1.1);
-        box-shadow: 0 0 100px black;
     }
 }
 
 /* text for hero image */
 
 .listen-text {
-    /* background-color: #aa5f22; */
     width: 50%;
     padding: 0;
     text-align: center;
@@ -229,6 +227,12 @@ a.link_active:hover {
     margin-left: -25%;
     bottom: 10%;
     z-index: 2;
+    opacity: 0;
+}
+
+.album-container:hover .listen-text {
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
 }
 
 /* Below styles apply to about.html */
@@ -765,7 +769,8 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 .send-button:hover {
     background-color: #ff9239a8;
     color: #2a2a2a;
-    border-color: #2a2a2a;
+    border-color: #ff9239;
+    transition: all 0.2s ease-in-out;
 }
 
 /* Checkbox to receive newsletter */
@@ -780,11 +785,13 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 /* Press-PDF for download */
 
 #pdf-link {
-    color: #ff9239a8;
+    color: #fff;
+    font-weight: 900;
 }
 
 #pdf-link:hover {
-    color: #aa5f22;
+    color: #d57a30;
+    transition: all 0.2s ease-in-out;
 }
 
 /* Container for download */
