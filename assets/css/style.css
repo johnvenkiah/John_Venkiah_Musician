@@ -6,6 +6,11 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -48,7 +53,7 @@ a, a:visited {
     top: 0;
     width: 100%;
     height: 70px;
-    z-index: 1;
+    z-index: 3;
 }
 
 #menu-bar {
@@ -66,6 +71,13 @@ a, a:visited {
     padding: 15px;
 }
 
+#menu-bar a {
+    text-shadow: 0px 0px 10px black, 1px 1px 4px black, -1px -1px 4px black;
+};
+
+#menu-bar:hover li {
+    background-color: rgb(255, 0, 0) !important;
+}
 /* Border between menu-bar links */
 
 .border-right {
@@ -76,9 +88,11 @@ a, a:visited {
 
 #fade-bar {
     width: 100%;
-    height: 200px;
+    height: 80px;
     margin: 0 auto;
-    background: linear-gradient(black, transparent);
+    background: linear-gradient(black, #ff84002e, transparent);
+    position: fixed;
+    z-index: -1;
 }
 
 /* Background image for home - credit to Sasha Kajic */
@@ -107,7 +121,7 @@ a, a:visited {
     width: 15%;
     height: 60%;
     text-align: center;
-    z-index: 2;
+    z-index: 3;
     text-shadow: 3px 4px 5px black;
 }
 
@@ -132,11 +146,20 @@ a, a:visited {
     right: 4px;
 }
 
-/* Color for hovering over links, to match the orange tones on my hero image cd cover */
+#main-logo,
+#main-logo-about,
+#menu-bar a,
+.sm-icons a,
+#contact-link_bottom,
+#to_top_videos,
+#to_top_listen,
+#to_top_about {
+    transition: all 0.2s ease-in-out;
+}
 
+/* Color for hovering over links, to match the orange tones on my hero image cd cover */
 #main-logo:hover, #main-logo-about:hover, #menu-bar a:hover, .sm-icons a:hover, #contact-link_bottom:hover, #to_top_videos:hover, #to_top_listen:hover, #to_top_about:hover {
     color: #d57a30;
-    transition: all 0.2s ease-in-out;
 }
 
 /* Active links a slightly brighter shade of orange */
@@ -219,6 +242,7 @@ a.link_active:hover {
 
 .listen-text {
     width: 50%;
+    font-size: .8em;
     padding: 0;
     text-align: center;
     text-shadow: 3px 3px 5px black;
@@ -228,11 +252,11 @@ a.link_active:hover {
     bottom: 10%;
     z-index: 2;
     opacity: 0;
+    transition: all 0.2s ease-in-out;
 }
 
 .album-container:hover .listen-text {
     opacity: 1;
-    transition: all 0.2s ease-in-out;
 }
 
 /* Below styles apply to about.html */
@@ -643,8 +667,9 @@ a.link_active:hover {
 #video-wrapper {
     position: relative;
     width: 100%;
+    margin: 0 auto;
     height: 0;
-    z-index: 3;
+    z-index: 2;
 }
 
 /* I learnt the trick to retaining aspect-ratio while resizing from this tutorial by Tyler Duprey:
@@ -656,7 +681,8 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     height: 0;
     top: 80vh;
     padding-top: 56.25%;
-    background-color: #ccc;
+    border: 34px solid rgba(0, 0, 0, 0.7);
+    border-bottom: none;
     position: relative;
   }
 
@@ -764,13 +790,13 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     margin: 25px auto 10px auto;
     border-radius: 4px;
     color: inherit;
+    transition: all 0.2s ease-in-out;
 }
 
 .send-button:hover {
     background-color: #ff9239a8;
     color: #2a2a2a;
     border-color: #ff9239;
-    transition: all 0.2s ease-in-out;
 }
 
 /* Checkbox to receive newsletter */
@@ -787,11 +813,11 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 #pdf-link {
     color: #fff;
     font-weight: 900;
+    transition: all 0.2s ease-in-out;
 }
 
 #pdf-link:hover {
     color: #d57a30;
-    transition: all 0.2s ease-in-out;
 }
 
 /* Container for download */
@@ -833,10 +859,10 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 
     .grid-cover {
         transition: 0.2s ease-out;
+        opacity: 100%;
     }
 
     .grid-cover:hover, .grid-cover:active {
-        transition: 0.2s ease-out;
         opacity: 75%;
     }
 
