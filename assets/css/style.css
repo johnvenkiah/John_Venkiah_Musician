@@ -32,7 +32,7 @@ body {
     position: fixed;
 }
 
-h2 {
+h2, .scroll-logo {
     text-transform: uppercase;
     font-family: 'Barlow Condensed', sans-serif;
 }
@@ -153,7 +153,8 @@ a, a:visited {
 #contact-link_bottom,
 #to_top_videos,
 #to_top_listen,
-#to_top_about {
+#to_top_about,
+.scroll-logo:hover {
     transition: all 0.2s ease-in-out;
 }
 
@@ -166,7 +167,7 @@ a, a:visited {
 }
 
 /* Color for hovering over links, to match the orange tones on my hero image cd cover */
-#main-logo:hover, #main-logo-about:hover, .sm-icons a:hover, #contact-link_bottom:hover, #to_top_videos:hover, #to_top_listen:hover, #to_top_about:hover {
+#main-logo:hover, #main-logo-about:hover, .sm-icons a:hover, #contact-link_bottom:hover, #to_top_videos:hover, #to_top_listen:hover, #to_top_about:hover, .scroll-logo:hover {
     color: #d57a30;
 }
 
@@ -188,13 +189,15 @@ a.link_active:hover {
 /* logo "Listen", "Videos", at viewport bottom on those pages */
 
 .scroll-logo {
-    position: fixed;
-    transform: translate(-50%, 0);
     font-size: 50px;
-    text-align: center;
     top: 80vh;
-    left: 50%;
+    margin: 0 auto;
     z-index: 2;
+    transition: all .2s ease-in-out;
+    text-shadow:
+        0 0 5px black,
+        1px 1px 5px black,
+        1px 1px 5px black;
 }
 
 /* Styles below apply to index.html */
@@ -202,6 +205,7 @@ a.link_active:hover {
 #main-container-home {
     background:linear-gradient(rgba(0, 0, 0, .7), black, black);
     width: 100%;
+    min-height: 100vh;
     margin-top: 80vh;
     display: flex;
     flex-direction: column;
@@ -363,7 +367,7 @@ a.link_active:hover {
     text-align: center;
     top: 80vh;
     left: 50%;
-    z-index: 0;
+    z-index: 2;
 }
 
 /* Experimented with a multi-shade grey linear gradient to make this page look different. */
@@ -489,6 +493,7 @@ a.link_active:hover {
 
 .middle-fade-bar {
     width: 100%;
+    text-align: center;
     height: 20vh;
     position: relative;
     top: 80vh;
