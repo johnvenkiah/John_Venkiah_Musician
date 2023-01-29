@@ -149,8 +149,7 @@ a, a:visited {
 
 #main-logo,
 #main-logo-about,
-#menu-bar a,
-.sm-icons a,
+/* #menu-bar a, */
 #contact-link_bottom,
 #to_top_videos,
 #to_top_listen,
@@ -158,9 +157,22 @@ a, a:visited {
     transition: all 0.2s ease-in-out;
 }
 
+.sm-icons a {
+    transition: color 0.2s ease-in-out;
+}
+
+#menu-bar a {
+    transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
+}
+
 /* Color for hovering over links, to match the orange tones on my hero image cd cover */
-#main-logo:hover, #main-logo-about:hover, #menu-bar a:hover, .sm-icons a:hover, #contact-link_bottom:hover, #to_top_videos:hover, #to_top_listen:hover, #to_top_about:hover {
+#main-logo:hover, #main-logo-about:hover, .sm-icons a:hover, #contact-link_bottom:hover, #to_top_videos:hover, #to_top_listen:hover, #to_top_about:hover {
     color: #d57a30;
+}
+
+#menu-bar a:hover {
+    text-shadow: 0 0 6px antiquewhite;
+    color: #fff;
 }
 
 /* Active links a slightly brighter shade of orange */
@@ -182,6 +194,7 @@ a.link_active:hover {
     text-align: center;
     top: 80vh;
     left: 50%;
+    z-index: 2;
 }
 
 /* Styles below apply to index.html */
@@ -219,6 +232,7 @@ a.link_active:hover {
 
 .album-container {
     padding: 10px;
+    padding-bottom: 30px;
     width: 50%;
     max-width: 300px;
 }
@@ -267,6 +281,7 @@ a.link_active:hover {
     padding: 0;
     text-align: center;
     text-shadow: 3px 3px 5px black;
+    text-transform: uppercase;
     position: relative;
     margin-top: 15px;
     z-index: 2;
@@ -1208,7 +1223,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         margin-bottom: -23%;
     }
 
-    #listen-text {
+    .listen-text {
         font-size: 0.7em;
         bottom: 30%;
         margin-bottom: -15%;
@@ -1307,7 +1322,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     margin-bottom: -20%;
     }
 
-    #listen-text {
+    .listen-text {
         font-size: 0.6em;
         bottom: 30%;
         margin-bottom: -15%;
