@@ -1,5 +1,5 @@
-export function scrollToElement(element, destination) {
-  element.addEventListener('click', (event) => {
+export function scrollToElement(destination) {
+  document.querySelector('.scroll-logo')?.addEventListener('click', (event) => {
     event.preventDefault();
     if (destination) {
       destination.scrollIntoView();
@@ -8,7 +8,7 @@ export function scrollToElement(element, destination) {
 }
 
 export function scrollToTop(element) {
-  element.addEventListener('click', (event) => {
+  element?.addEventListener('click', (event) => {
     event.preventDefault();
     window.scrollTo(0, 0);
   });
