@@ -13,3 +13,7 @@ export function scrollToTop(element) {
     window.scrollTo(0, 0);
   });
 }
+
+window.onload = () => {
+  document.querySelector('body').style.opacity = 1;
+};

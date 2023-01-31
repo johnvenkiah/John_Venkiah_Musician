@@ -21,15 +21,33 @@ body {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.1rem;
     color: white;
+    -webkit-animation: .8s ease 0s normal forwards fadein;
+    animation: .8s ease 0s normal forwards fadein;
 }
 
-#main-logo {
+#element{
+    -webkit-animation: .5s ease 0s normal forwards 1 fadein;
+    animation: .5s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.main-logo {
     margin: 0 0 0 15px;
     font-size: 3.5rem;
     text-transform: uppercase;
     font-family: 'Barlow Condensed', sans-serif;
     text-shadow: 2px 2px 5px black;
     position: fixed;
+    transition: color 0.2s ease-in-out;
 }
 
 h2, .scroll-logo {
@@ -147,8 +165,6 @@ a, a:visited {
     right: 4px;
 }
 
-#main-logo,
-#main-logo-about,
 /* #menu-bar a, */
 #contact-link_bottom,
 #to_top_videos,
@@ -166,7 +182,7 @@ a, a:visited {
 }
 
 /* Color for hovering over links, to match the orange tones on my hero image cd cover */
-#main-logo:hover, #main-logo-about:hover, .sm-icons a:hover, #contact-link_bottom:hover, #to_top_videos:hover, #to_top_listen:hover, #to_top_about:hover, .scroll-logo:hover {
+.main-logo:hover, .sm-icons a:hover, #contact-link_bottom:hover, #to_top_videos:hover, #to_top_listen:hover, #to_top_about:hover, .scroll-logo:hover {
     color: #d57a30;
 }
 
@@ -324,14 +340,6 @@ a.link_active:hover {
     height: 70px;
     text-shadow: 2px 1px 3px black;
     z-index: 4;
-}
-
-#main-logo-about {
-    margin: 0 0 0 15px;
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    font-family: 'Barlow Condensed', sans-serif;
-    position: fixed;
 }
 
 /* Creates translucent and layered effect while scrolling */
@@ -1070,14 +1078,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         z-index: 5;
     }
     
-    #main-logo-about {
-        margin: 0 0 0 15px;
-        font-size: 3.5rem;
-        text-transform: uppercase;
-        font-family: 'Barlow Condensed', sans-serif;
-        position: fixed;
-    }
-    
     #fade-bar-about {
         position: fixed;
         top: 0;
@@ -1238,7 +1238,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 /* screen widths 450px and lower, whole site */
 
 @media screen and (max-width: 450px) {
-    #main-logo {
+    .main-logo {
         width: 100%;
         text-align: center;
         margin: 10px auto;
@@ -1578,13 +1578,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         z-index: 2;
     }
 
-    #main-logo-about {
-        width: 100%;
-        font-size: 3em;
-        text-align: center;
-        margin: 10px auto;
-    }
-
     #about-main-container {
         z-index: 4;
         background: linear-gradient(rgba(0, 0, 0, .7), rgb(72, 72, 72), rgb(41, 41, 41));
@@ -1729,7 +1722,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 /* for screen widths of under 320px, all pages */
 
 @media screen and (max-width: 320px) {
-    #main-logo {
+    .main-logo {
         width: 100%;
         font-size: 3em;
         text-align: center;
@@ -1947,13 +1940,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 
     #header-about {
         z-index: 2;
-    }
-
-    #main-logo-about {
-        width: 100%;
-        font-size: 3em;
-        text-align: center;
-        margin: 10px auto;
     }
 
     #about-main-container {
