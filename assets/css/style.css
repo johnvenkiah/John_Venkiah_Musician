@@ -153,8 +153,7 @@ a, a:visited {
 #contact-link_bottom,
 #to_top_videos,
 #to_top_listen,
-#to_top_about,
-.scroll-logo:hover {
+#to_top_about {
     transition: all 0.2s ease-in-out;
 }
 
@@ -213,19 +212,6 @@ a.link_active:hover {
     justify-content: center;
     position: relative;
     padding-bottom: 10px;
-/* 
-    position: relative;
-    box-sizing: border-box;
-    top: 80vh;
-    display: grid;
-    grid-template-columns: repeat(6, 180px);
-    grid-template-rows: repeat(6, 180px);
-    grid-column-gap: 10px;
-    grid-row-gap: 30px;
-    justify-content: center;
-    background:linear-gradient(rgba(0, 0, 0, .7), black, black);
-    z-index: 2; */
-
 }
 
 .releases-container {
@@ -295,6 +281,20 @@ a.link_active:hover {
 
 .album-container:hover .listen-text {
     opacity: 1;
+}
+
+.to-top {
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+}
+
+.to-top a {
+    transition: all .2s ease-in-out;
+}
+
+.to-top a:hover {
+    color: #d57a30;
 }
 
 /* Below styles apply to about.html */
