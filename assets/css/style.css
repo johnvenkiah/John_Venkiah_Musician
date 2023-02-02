@@ -50,6 +50,23 @@ body {
     transition: color 0.2s ease-in-out;
 }
 
+.logo-p {
+    position: fixed;
+    font-family: 'Barlow Condensed';
+    top: 60px;
+    left: 15px;
+    font-size: 1.03rem;
+    text-shadow: 2px 2px 5px black;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.top-element {
+    height: 50vh;
+    position: absolute;
+    visibility: hidden;
+}
+
 h2, .scroll-logo {
     text-transform: uppercase;
     font-family: 'Barlow Condensed', sans-serif;
@@ -284,6 +301,7 @@ a.link_active:hover {
 .listen-text {
     /* width: 50%; */
     font-size: .8em;
+    font-family: 'Barlow Condensed';
     padding: 0;
     text-align: center;
     text-shadow: 3px 3px 5px black;
