@@ -1223,11 +1223,11 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     }
 
     #menu-bar {
-        top: 70px;
-        right: 5px;
-        width: 100%;
+        top: 15px;
+        right: 15px;
+        /* width: 100%; */
         height: 50px;
-        font-size: 0.8em;
+        font-size: 0.9em;
         text-transform: uppercase;
     }
 
@@ -1303,6 +1303,13 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         width: 100%;
         text-align: center;
         margin: 10px auto;
+    }
+    
+    .logo-p {
+        width: 100%;
+        top: 65px;
+        left: 50%;
+        margin-left: -50%;
     }
 
     #header {
@@ -1412,13 +1419,13 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     https://stackoverflow.com/questions/2861247/center-aligning-a-fixed-position-div*/
 
     .scroll-logo {
-        position: fixed;
-        transform: translate(-50%, 0);
+        /* position: fixed;
+        transform: translate(-50%, 0); */
         font-size: 30px;
         text-shadow: 3px 3px 5px black;
-        text-align: center;
+        /* text-align: center;
         top: 60vh;
-        left: 50%;
+        left: 50%; */
     }
     
     /* listen.html: album grid, screens no wider than 450px */
