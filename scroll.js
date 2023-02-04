@@ -18,18 +18,19 @@ window.onload = () => {
   document.querySelector('body').style.opacity = 1;
 };
 
-var header = document.querySelector('.logo-p');
+var mainLogo = document.querySelector('.main-logo');
+var logoP = document.querySelector('.logo-p');
 
 function fadeOutOnScroll(element) {
-  var scrollLogo = document.querySelector('.top-element');
+  var topElement = document.querySelector('.top-element');
 
-  if (!element || !scrollLogo) {
+  if (!element || !topElement) {
     return;
   }
 
   var distanceToTop =
-    window.pageYOffset + scrollLogo.getBoundingClientRect().top;
-  var elementHeight = scrollLogo.offsetHeight;
+    window.pageYOffset + topElement.getBoundingClientRect().top;
+  var elementHeight = topElement.offsetHeight;
   var scrollTop = document.documentElement.scrollTop;
 
   var opacity = 1;
@@ -43,8 +44,21 @@ function fadeOutOnScroll(element) {
   }
 }
 
+function shrinkOnScroll(element) {
+  var scrollTop = document.documentElement.scrollTop;
+  if (element) {
+    if (scrollTop > 130) {
+      element.classList.add('shrink');
+    }
+    if (scrollTop < 130) {
+      element.classList.remove('shrink');
+    }
+  }
+}
+
 function scrollHandler() {
-  fadeOutOnScroll(header);
+  shrinkOnScroll(mainLogo);
+  fadeOutOnScroll(logoP);
 }
 
 window.addEventListener('scroll', scrollHandler);

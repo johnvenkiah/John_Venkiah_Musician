@@ -25,11 +25,6 @@ body {
     animation: .8s ease 0s normal forwards fadein;
 }
 
-#element{
-    -webkit-animation: .5s ease 0s normal forwards 1 fadein;
-    animation: .5s ease 0s normal forwards 1 fadein;
-}
-
 @keyframes fadein{
     0% { opacity:0; }
     100% { opacity:1; }
@@ -48,6 +43,31 @@ body {
     text-shadow: 2px 2px 5px black;
     position: fixed;
     transition: color 0.2s ease-in-out;
+    transform: scale(1);
+    animation: .5s ease-in-out 0s alternate forwards to-normal;
+}
+
+.shrink {
+    animation: .5s ease-in-out 0s alternate forwards shrink;
+}
+
+@keyframes shrink {
+    
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.8);
+    }
+}
+@keyframes to-normal {
+    
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 .logo-p {
