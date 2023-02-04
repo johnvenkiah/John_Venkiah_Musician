@@ -76,7 +76,7 @@ body {
     top: 60px;
     left: 15px;
     font-size: 1.03rem;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 1.5px 1.5px 3px black;
     user-select: none;
     -webkit-user-select: none;
     animation: .5s ease 0s alternate forwards fade-in;

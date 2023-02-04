@@ -21,33 +21,17 @@ window.onload = () => {
 var mainLogo = document.querySelector('.main-logo');
 var logoP = document.querySelector('.logo-p');
 
-function fadeOutOnScroll(element) {
+function animateOnScroll(element, clss) {
   var scrollTop = document.documentElement.scrollTop;
-  if (element) {
-    if (scrollTop > 130) {
-      element.classList.add('fade');
-    }
-    if (scrollTop < 130) {
-      element.classList.remove('fade');
-    }
-  }
-}
-
-function shrinkOnScroll(element) {
-  var scrollTop = document.documentElement.scrollTop;
-  if (element) {
-    if (scrollTop > 130) {
-      element.classList.add('shrink');
-    }
-    if (scrollTop < 130) {
-      element.classList.remove('shrink');
-    }
-  }
+  if (!element) return;
+  scrollTop > 130
+    ? element.classList.add(clss)
+    : element.classList.remove(clss);
 }
 
 function scrollHandler() {
-  shrinkOnScroll(mainLogo);
-  fadeOutOnScroll(logoP);
+  animateOnScroll(logoP, 'fade');
+  animateOnScroll(mainLogo, 'shrink');
 }
 
 window.addEventListener('scroll', scrollHandler);
