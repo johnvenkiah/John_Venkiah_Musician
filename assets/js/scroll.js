@@ -18,9 +18,6 @@ window.onload = () => {
   document.querySelector('body').style.opacity = 1;
 };
 
-var mainLogo = document.querySelector('.main-logo');
-var logoP = document.querySelector('.logo-p');
-
 function animateOnScroll(element, clss) {
   var scrollTop = document.documentElement.scrollTop;
   if (!element) return;
@@ -30,6 +27,8 @@ function animateOnScroll(element, clss) {
 }
 
 function scrollHandler() {
+  let mainLogo = document.querySelector('.main-logo');
+  let logoP = document.querySelector('.logo-p');
   animateOnScroll(logoP, 'fade');
   animateOnScroll(mainLogo, 'shrink');
 }
