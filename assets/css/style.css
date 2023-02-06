@@ -390,19 +390,6 @@ a.link_active:hover {
         fixed;
 }
 
-/* Changed z-index so content slides under instead of over */
-
-#header-about {
-    color: white;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 100%;
-    height: 70px;
-    text-shadow: 2px 1px 3px black;
-    z-index: 4;
-}
-
 /* Creates translucent and layered effect while scrolling */
 
 #fade-bar-about {
@@ -450,7 +437,6 @@ a.link_active:hover {
     background: rgba(0, 0, 0, .7);
     padding: 15%;
     text-align: center;
-    z-index: 3;
 }
 
 /* Text content of about */
@@ -1128,17 +1114,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
             fixed;
     }
     
-    #header-about {
-        color: white;
-        position: absolute;
-        text-align: center;
-        top: 0;
-        width: 100%;
-        height: 70px;
-        text-shadow: 2px 1px 3px black;
-        z-index: 5;
-    }
-    
     #fade-bar-about {
         position: fixed;
         top: 0;
@@ -1642,10 +1617,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
             fixed;
     }
 
-    #header-about {
-        z-index: 2;
-    }
-
     #about-main-container {
         z-index: 4;
         background: linear-gradient(rgba(0, 0, 0, .7), rgb(72, 72, 72), rgb(41, 41, 41));
@@ -2004,10 +1975,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
             center center / cover
             no-repeat
             fixed;
-    }
-
-    #header-about {
-        z-index: 2;
     }
 
     #about-main-container {
