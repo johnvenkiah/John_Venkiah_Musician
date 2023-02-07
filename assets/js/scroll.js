@@ -1,9 +1,7 @@
 export function scrollToElement(destination) {
   document.querySelector('.scroll-logo')?.addEventListener('click', (event) => {
     event.preventDefault();
-    if (destination) {
-      destination.scrollIntoView();
-    }
+    destination?.scrollIntoView();
   });
 }
 

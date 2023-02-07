@@ -43,13 +43,11 @@ export function navContent() {
   }
 
   let liItems = document.querySelectorAll('#menu-bar li');
+
   liItems?.forEach((li) => {
-    if (!li.textContent.includes('Contact')) {
-      li.classList.add('border-right');
-    }
     let aElement = li.firstElementChild;
-    if (location.href.includes(aElement.getAttribute('href'))) {
+    !li.textContent.includes('Contact') && li.classList.add('border-right');
+    location.href.includes(aElement.getAttribute('href')) &&
       aElement.classList.add('link_active');
-    }
   });
 }
