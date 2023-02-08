@@ -1,17 +1,22 @@
 export function navContent() {
   let navMarkup = `
-  <a href="index.html">
-    <h1 class="main-logo">
-        John Venkiah
-    </h1>
-  </a>
-  <p class="logo-p">Pianist, singer, songwriter and developer</p>
-  <nav id="menu-bar">
-    <ul>
-    </ul>
-  </nav>
-  <div id="fade-bar">
-  </div>
+    <a href="index.html">
+      <h1 class="main-logo">
+          John Venkiah
+      </h1>
+    </a>
+    <p class="logo-p">Pianist, singer, songwriter and developer</p>
+    <nav id="menu-bar">
+      <ul class="nav-menu">
+      </ul>
+      <button class="hamburger" aria-label="Menu-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+    <div id="fade-bar">
+    </div>
   `;
 
   const sanitizer1 = new Sanitizer();
@@ -30,8 +35,8 @@ export function navContent() {
 
   for (let link in links) {
     let navItem = `
-    <li>
-      <a href="${links[link]}">
+    <li class="nav-item">
+      <a href="${links[link]}" class="nav-link">
           ${link}
       </a>
     </li>
@@ -50,4 +55,30 @@ export function navContent() {
     location.href.includes(aElement.getAttribute('href')) &&
       aElement.classList.add('link_active');
   });
+
+  let hamburger = document.querySelector('.hamburger');
+  let navMenu = document.querySelector('.nav-menu');
+
+  hamburger?.addEventListener('click', () => {
+    openMenu();
+  });
+
+  let navLinks = document.querySelectorAll('.nav-link');
+  navLinks.forEach((link) => link.addEventListener('click', closeMenu));
+
+  window.addEventListener('click', (event) => {
+    if (!hamburger.contains(event.target) && !navMenu.contains(event.target)) {
+      closeMenu();
+    }
+  });
+
+  function openMenu() {
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
+  }
+
+  function closeMenu() {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
+  }
 }
