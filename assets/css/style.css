@@ -144,13 +144,13 @@ a, a:visited {
 
 .hamburger {
     display: none;
-    margin-top: -7px;
-    background-color: #2a3a2a60;
+    margin-top: 4px;
+    background-color: #00000048;
     position: fixed;
-    right: 15px;
     padding: 1px 5px;
-    border-radius: 3px;
-    box-shadow: 2px 1px 5px black;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px black;
+    right: 23px;
 }
 
 .bar {
@@ -1149,7 +1149,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     
     #about-main-container {
         padding: 5%;
-        z-index: 3;
+        z-index: 2;
         text-shadow: 2px 5px 4px black;
     }
     
@@ -1220,6 +1220,10 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         text-align: center;
     }
 
+    .main-logo, .logo-p {
+        z-index: 2;
+    }
+
     #menu-bar {
         top: 15px;
         right: 15px;
@@ -1245,20 +1249,24 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 
     .nav-menu {
         position: fixed;
+        backdrop-filter: blur(5px);
         display: flex;
         top: 0;
-        flex-direction: column;
-        background-color: #2a2a2ae0;
+        left: -100vw;
+        flex-direction: column-reverse;
+        background-color: #0000007d;
         width: 100%;
         height: 100vh;
         text-align: center;
-        transition: 0.15s;
+        transition: all 0.6s;
+        opacity: 0;
         flex-wrap: wrap;
         align-content: center;
         justify-content: center;
     }
     /* Active makes the nav-menu visible. */
     .nav-menu.active {
+        opacity: 1;
         left: 0;
     }
 
@@ -1347,16 +1355,8 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 
 @media screen and (max-width: 450px) {
     .main-logo {
-        width: 100%;
-        text-align: center;
-        margin: 10px auto;
-    }
-    
-    .logo-p {
-        width: 100%;
-        top: 65px;
-        left: 50%;
-        margin-left: -50%;
+        top: 5px;
+        font-size: 2.8rem;
     }
 
     #header {
@@ -1690,7 +1690,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     }
 
     #about-main-container {
-        z-index: 4;
+        z-index: 2;
         background: linear-gradient(rgba(0, 0, 0, .7), rgb(72, 72, 72), rgb(41, 41, 41));
     }
 
