@@ -169,6 +169,7 @@ a, a:visited {
     list-style-type: none;
     display: inline;
     padding: 15px;
+    text-align: center;
 }
 
 #menu-bar a {
@@ -1229,27 +1230,35 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     }
 
     #menu-bar li {
-        width: 20%;
+        /* width: 20%;
         right: 0;
-        bottom: 0;
+        bottom: 0; */
+        padding: none;
         box-sizing: border-box;
+    }
+
+    .border-right {
+        border-right: none;
     }
 
     /* styles for hamburger 768px wide and lower */
 
     .nav-menu {
         position: fixed;
-        left: -100%;
-        top: 4rem;
+        display: flex;
+        top: 0;
         flex-direction: column;
         background-color: #2a2a2ae0;
         width: 100%;
-        border-radius: 10px;
+        height: 100vh;
         text-align: center;
         transition: 0.15s;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
     }
     /* Active makes the nav-menu visible. */
-    .nav-menu .active {
+    .nav-menu.active {
         left: 0;
     }
 
@@ -1264,15 +1273,15 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 
     /* For hamburger animation, turning the bars into an X. */
 
-    .hamburger .active .bar:nth-child(2) {
+    .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
 
-    .hamburger .active .bar:nth-child(1) {
+    .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
 
-    .hamburger .active .bar:nth-child(3) {
+    .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
 
@@ -1360,21 +1369,21 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         text-align: center;
     }
 
-    #menu-bar {
+    /* #menu-bar {
         top: 83px;
         right: 5px;
         width: 100%;
         height: 40px;
         font-size: 0.6em;
         text-transform: uppercase;
-    }
+    } */
 
-    #menu-bar li {
+    /* #menu-bar li {
         width: 20%;
         right: 0;
         bottom: 0;
         box-sizing: border-box;
-    }
+    } */
 
     #sm-links {
         list-style-type: none;
@@ -1831,9 +1840,9 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         margin: 10px auto;
     }
 
-    #menu-bar li {
+    /* #menu-bar li {
     font-size: 0.7em;
-    }
+    } */
 
     #profile-background-listen {
         width: 100%;
