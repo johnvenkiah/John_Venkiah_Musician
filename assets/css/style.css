@@ -1251,7 +1251,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         position: fixed;
         backdrop-filter: blur(5px);
         display: flex;
-        top: 0;
+        top: 40px;
         right: 0;
         /* right: -100vw; */
         flex-direction: column-reverse;
