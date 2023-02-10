@@ -1229,7 +1229,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         right: 15px;
         /* width: 100%; */
         height: 50px;
-        font-size: 0.9em;
+        font-size: 1.1em;
         text-transform: uppercase;
     }
 
@@ -1252,22 +1252,31 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         backdrop-filter: blur(5px);
         display: flex;
         top: 0;
-        left: -100vw;
+        right: 0;
+        /* right: -100vw; */
         flex-direction: column-reverse;
         background-color: #0000007d;
         width: 100%;
         height: 100vh;
         text-align: center;
-        transition: all 0.6s;
+        transition: opacity .5s, visibility .5s;
         opacity: 0;
+        visibility: hidden;
         flex-wrap: wrap;
         align-content: center;
         justify-content: center;
     }
+    
+    #sm-mobile-links li {
+        margin: 0 3.5vw;
+        font-size: 2rem;
+    }
+
     /* Active makes the nav-menu visible. */
     .nav-menu.active {
         opacity: 1;
-        left: 0;
+        visibility: visible;
+        /* right: 0; */
     }
 
     .nav-item {
@@ -1295,6 +1304,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 
     #sm-links {
         list-style-type: none;
+        display: none;
     }
     
     .sm-icons {

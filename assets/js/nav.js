@@ -1,3 +1,5 @@
+import { smLinks } from './sm-links.js';
+
 export function navContent() {
   let navMarkup = `
     <a href="index.html">
@@ -46,6 +48,18 @@ export function navContent() {
       .getElementById('menu-bar')
       .firstElementChild?.insertAdjacentHTML('beforeend', navItem);
   }
+
+  let mobileUL = `
+    <li class="nav-item">
+      <ul id="sm-mobile-links">
+      </ul>
+    </li>
+  `;
+
+  document
+    .getElementById('menu-bar')
+    .firstElementChild?.insertAdjacentHTML('afterbegin', mobileUL);
+  smLinks('sm-mobile-links');
 
   let liItems = document.querySelectorAll('#menu-bar li');
 

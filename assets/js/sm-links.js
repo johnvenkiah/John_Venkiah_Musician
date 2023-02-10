@@ -1,6 +1,4 @@
-export function smLinks() {
-  const sanitizer2 = new Sanitizer();
-
+export function smLinks(ul) {
   const smLinks = {
     youtube: {
       url: 'https://www.youtube.com/channel/UCe4ixizg5o-fAcdo9lOsd1w/videos',
@@ -34,8 +32,6 @@ export function smLinks() {
   </li>
   `;
 
-    document
-      .getElementById('sm-links')
-      ?.insertAdjacentHTML('beforeend', smLiMarkup);
+    document.getElementById(ul)?.insertAdjacentHTML('beforeend', smLiMarkup);
   }
 }
