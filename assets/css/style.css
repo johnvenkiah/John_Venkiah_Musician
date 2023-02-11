@@ -270,7 +270,7 @@ a, a:visited {
 }
 
 #menu-bar a:hover {
-    text-shadow: 0 0 6px antiquewhite;
+    text-shadow: 1px 1px 6px #ff9200, -1px -1px 6px #ff9200;
     color: #fff;
 }
 
@@ -825,13 +825,15 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 }
 
 #footer-videos {
+    margin: 0;
     width: 100%;
-    height: 30px;
-    background-color: black;
+    height: 0;
+    top: 80vh;
+    padding-top: 40%;
+    /* border: 34px solid rgba(0, 0, 0, 0.7); */
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: none;
     position: relative;
-    bottom: 0;
-    margin-bottom: -50px;
-    right: 0;
 }
 
 /* Styles below apply to contact.html */
@@ -1251,9 +1253,8 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         position: fixed;
         backdrop-filter: blur(5px);
         display: flex;
-        top: 40px;
         right: 0;
-        /* right: -100vw; */
+        top: 0;
         flex-direction: column-reverse;
         background-color: #0000007d;
         width: 100%;
@@ -1664,7 +1665,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         position: absolute;
         display: inline;
         font-size: 0.8em;
-        margin: 0 auto 20vh auto;
+        margin: 0 auto 7vh auto;
         text-align: center;
         width: 50%;
         right: 50%;
@@ -1673,8 +1674,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     }
 
     #footer-videos {
-        height: 32vh;
-        background-color: black;
+        height: 12vh;
         z-index: 1;
     }
 
@@ -1701,7 +1701,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 
     #about-main-container {
         z-index: 2;
-        background: linear-gradient(rgba(0, 0, 0, .7), rgb(72, 72, 72), rgb(41, 41, 41));
     }
 
     #middle-fade-bar-about {
