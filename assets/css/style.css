@@ -232,7 +232,7 @@ a, a:visited {
 }
 
 #footer {
-    color: white;
+    color: white;ß
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -261,7 +261,12 @@ a, a:visited {
 }
 
 #menu-bar a {
-    transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: color 0.2s, text-shadow 0.2s;
 }
 
 /* Color for hovering over links, to match the orange tones on my hero image cd cover */
@@ -757,7 +762,7 @@ a.link_active:hover {
     width: 20%;
     right: 50%;
     margin-right: -10%;
-    z-index: 6;
+    z-index: 2;
 }
 
 /* Styles below apply to videos.html */
@@ -1657,7 +1662,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         width: 50%;
         right: 50%;
         margin-right: -25%;
-        z-index: 6;
     }
 
     /* videos.html, max screen width 450px */
@@ -2045,7 +2049,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         width: 50%;
         right: 50%;
         margin-right: -25%;
-        z-index: 6;
+        z-index: 2;
     }
 
         /* about.html, screens no wider than 320px */
