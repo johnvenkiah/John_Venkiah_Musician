@@ -50,7 +50,7 @@ export function navContent() {
   }
 
   let mobileUL = `
-    <li class="nav-item">
+    <li class="nav-item" id="li-mobile">
       <ul id="sm-mobile-links">
       </ul>
     </li>
