@@ -21,11 +21,9 @@ export function navContent() {
     </div>
   `;
 
-  const sanitizer1 = new Sanitizer();
-
   document
     .getElementById('header')
-    ?.setHTML(navMarkup, { sanitizer: sanitizer1 });
+    ?.insertAdjacentHTML('afterbegin', navMarkup);
 
   let links = {
     Contact: 'contact.html',
