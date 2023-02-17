@@ -207,7 +207,7 @@ a, a:visited {
         url(../images/mopa_singing.jpeg)
         center left / cover
         no-repeat;
-        /* fixed; */
+    transition: all 0.5s;
 }
 
 /* Sidebar with standard social media icons linked to my pages */
