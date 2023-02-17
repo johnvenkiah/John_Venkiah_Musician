@@ -206,8 +206,8 @@ a, a:visited {
         #2a2a2a
         url(../images/mopa_singing.jpeg)
         center left / cover
-        no-repeat
-        fixed;
+        no-repeat;
+        /* fixed; */
 }
 
 /* Sidebar with standard social media icons linked to my pages */
@@ -1259,14 +1259,14 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 
     .nav-menu {
         position: fixed;
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(7px);
+        -webkit-backdrop-filter: blur(7px);
         display: flex;
         right: 0;
         top: 0;
         padding-top: 120px;
         flex-direction: column-reverse;
-        background-color: #0000007d;
+        background-color: #000000a3;
         width: 100%;
         height: 100vh;
         text-align: center;
@@ -1353,8 +1353,8 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
             #2a2a2a
             url(../images/portrait/mopa_singing_portrait.png)
             center center / cover
-            no-repeat
-            fixed;
+            no-repeat;
+            /* fixed; */
     }
 
     .releases-container {
@@ -1463,8 +1463,8 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
             #2a2a2a
             url(../images/portrait/mopa_singing_portrait.png)
             center right / cover
-            no-repeat
-            fixed;
+            no-repeat;
+            /* fixed; */
     }
 
     #jvt3-container {
@@ -1866,15 +1866,8 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
 
 @media screen and (max-width: 320px) {
     .main-logo {
-        width: 100%;
-        font-size: 3em;
-        text-align: center;
-        margin: 10px auto;
+        font-size: 2.5em;
     }
-
-    /* #menu-bar li {
-    font-size: 0.7em;
-    } */
 
     #profile-background-listen {
         width: 100%;
