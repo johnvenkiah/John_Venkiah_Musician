@@ -1260,6 +1260,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     .nav-menu {
         position: fixed;
         backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
         display: flex;
         right: 0;
         top: 0;
