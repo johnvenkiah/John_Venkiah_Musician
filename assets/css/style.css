@@ -325,7 +325,7 @@ a.link_active:hover {
     align-items: center;
     justify-content: center;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 9rem;
 }
 
 .releases-container {
@@ -463,7 +463,6 @@ a.link_active:hover {
     width: 100vw;
     position: absolute;
     margin: 80vh auto 0 auto;
-    /* background: linear-gradient(rgba(41, 41, 41, .5), rgba(51, 51, 51, .7), rgba(41, 41, 41, .8), rgba(0, 0, 0, .5)); */
     background: rgba(0, 0, 0, .7);
     padding: 15%;
     text-align: center;
@@ -1128,7 +1127,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     #about-main-container {
         padding: 5%;
         z-index: 2;
-        text-shadow: 2px 5px 4px black;
     }
     
     #about-text-box-1 {
@@ -1657,9 +1655,9 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         background-image: url(../images/solo_profile.jpg);
     }
 
-    #about-main-container {
+    /* #about-main-container {
         z-index: 2;
-    }
+    } */
 
     #middle-fade-bar-about {
         background: linear-gradient(transparent,rgba(0, 0, 0, .7));
@@ -1986,7 +1984,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     #about-main-container {
         z-index: 4;
         padding: 10%;
-        background: linear-gradient(rgba(0, 0, 0, .7), rgb(72, 72, 72), rgb(41, 41, 41));
     }
 
     #fade-bar-about {
