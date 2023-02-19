@@ -199,16 +199,15 @@ a, a:visited {
 
 #home-background {
     width: 100%;
-    /* height: 100%; */
+    height: 100vh;
+    min-height: 100vh;
     top: 0;
     position: fixed;
     background:
-        #2a2a2a
+        #000
         url(../images/mopa_singing.jpeg)
-        center left / cover
+        center center / cover
         no-repeat;
-    height: 100vh;
-    min-height: 100vh;
     transition-property: height, min-height;
     transition-duration: .6s;
     transition-delay: .1s;
@@ -1351,15 +1350,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     /* media queries screen widths less than 768px index.html */
 
     #home-background {
-        width: 100%;
-        height: 100%;
-        position: fixed;
-        background:
-            #2a2a2a
-            url(../images/portrait/mopa_singing_portrait.png)
-            center center / cover
-            no-repeat;
-            /* fixed; */
+        background-image: url(../images/portrait/mopa_singing_portrait.png);
     }
 
     .releases-container {
@@ -1459,24 +1450,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     }
 
     /* media queries screen widths 450px and less index.html */
-
-    #home-background {
-        width: 100%;
-        /* height: 100%; */
-        position: fixed;
-        background:
-            #2a2a2a
-            url(../images/portrait/mopa_singing_portrait.png)
-            center right / cover
-            no-repeat;
-        height: 100vh;
-        min-height: 100vh;
-        
-        transition-property: height, min-height;
-        transition-duration: .6s;
-        transition-delay: .1s;
-        transition-timing-function: ease-in;
-    }
 
     #jvt3-container {
         width: 75%;
