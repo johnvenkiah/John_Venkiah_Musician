@@ -4,5 +4,5 @@ import { smLinks } from './sm-links.js';
 
 navContent();
 smLinks('sm-links');
-scrollToElement(document.querySelector('#about-main-container'));
+scrollToElement();
 scrollToTop(document.querySelector('#to_top_about'));

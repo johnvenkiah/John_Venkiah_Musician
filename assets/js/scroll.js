@@ -1,7 +1,13 @@
-export function scrollToElement(destination) {
+// export function scrollToElement(destination, position) {
+//   document.querySelector('.scroll-logo')?.addEventListener('click', (event) => {
+//     event.preventDefault();
+//     destination?.scrollIntoView({ block: position });
+//   });
+// }
+export function scrollToElement() {
   document.querySelector('.scroll-logo')?.addEventListener('click', (event) => {
     event.preventDefault();
-    destination?.scrollIntoView();
+    window.scrollTo(0, 510);
   });
 }
 
