@@ -76,7 +76,7 @@ body {
     top: 60px;
     left: 15px;
     font-size: 1.03rem;
-    text-shadow: 1.5px 1.5px 3px black;
+    text-shadow: 0 0 5px black;
     user-select: none;
     -webkit-user-select: none;
     animation: .5s ease 0s alternate forwards fade-in;
@@ -243,10 +243,10 @@ a, a:visited {
 
 #footer {
     color: white;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    /* bottom: 0; */
     width: 100%;
-    height: 50px;
+    /* height: 50px; */
 }
 
 /* Copyright info */
@@ -819,7 +819,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     margin: 0;
     width: 100%;
     height: 0;
-    top: 80vh;
+    top: 75vh;
     padding-top: 40%;
     /* border: 34px solid rgba(0, 0, 0, 0.7); */
     background-color: rgba(0, 0, 0, 0.7);
@@ -1210,11 +1210,8 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     }
 
     #menu-bar li {
-        /* width: 20%;
-        right: 0;
-        bottom: 0; */
-        padding: 0;
         box-sizing: border-box;
+        padding: 0;
     }
 
     .border-right {
@@ -1230,7 +1227,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         display: flex;
         right: 0;
         top: 0;
-        padding-top: 90px;
         flex-direction: column-reverse;
         background-color: #000000a3;
         width: 100%;
@@ -1240,11 +1236,15 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         opacity: 0;
         visibility: hidden;
         align-content: center;
-        justify-content: space-evenly;
+        justify-content: center;
     }
     
     #menu-bar #li-mobile {
-        display: block;
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 8%;
+        justify-content: space-evenly;
     }
 
     #sm-mobile-links {
@@ -1304,7 +1304,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     #footer-text {
         width: 100%;
         left: 0;
-        bottom: 0;
+        bottom: 7px;
         text-align: center;
         font-size: 0.4em;
     }
@@ -1380,11 +1380,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         height: 50px;
     }
 
-    #menu-bar .nav-item {
-        padding: 0;
-        margin: 0 auto;
-    }
-
     #sm-links-videos-bottom {
         display: initial;
         list-style-type: none;
@@ -1401,14 +1396,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         display: inline;
         text-align: center;
         font-size: 0.8em;
-    }
-
-    #footer-text {
-        width: 100%;
-        left: 0;
-        bottom: 0;
-        text-align: center;
-        font-size: 0.3em;
     }
 
     /* media queries screen widths 450px and less index.html */
@@ -1453,7 +1440,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     .grid-container {
         position: relative;
         box-sizing: border-box;
-        top: 80vh;
+        top: 75vh;
         display: grid;
         grid-template-columns: repeat(3, 115px);
         grid-template-rows: repeat(12, 115px);

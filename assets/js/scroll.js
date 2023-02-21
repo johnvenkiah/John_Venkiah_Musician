@@ -7,7 +7,8 @@
 export function scrollToElement() {
   document.querySelector('.scroll-logo')?.addEventListener('click', (event) => {
     event.preventDefault();
-    window.scrollTo(0, 510);
+    var innerHeight = window.innerHeight;
+    window.scrollTo(0, innerHeight - 80);
   });
 }
 
