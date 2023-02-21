@@ -1289,6 +1289,10 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    .overflow-hidden {
+        overflow: hidden;
+    }
+
     #sm-links {
         list-style-type: none;
         display: none;

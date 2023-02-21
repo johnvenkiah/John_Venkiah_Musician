@@ -87,7 +87,7 @@ export function navContent() {
   function openMenu() {
     hamburger.classList.toggle('active');
     navMenu.classList.toggle('active');
-    preventScroll();
+    toggleScrollAllow();
   }
 
   function closeMenu() {
@@ -97,10 +97,11 @@ export function navContent() {
   }
 }
 
-function preventScroll() {
-  document.body.style.overflow = 'hidden';
+function toggleScrollAllow() {
+  document.body.classList.toggle('overflow-hidden');
 }
 
 function allowScroll() {
-  document.body.style.overflow = 'auto';
+  console.log('allowScroll');
+  document.body.style.overflow = 'visible';
 }
