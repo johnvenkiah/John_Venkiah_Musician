@@ -1227,6 +1227,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         display: flex;
         right: 0;
         top: 0;
+        padding-top: 50px;
         flex-direction: column-reverse;
         background-color: #000000a3;
         width: 100%;
@@ -1266,7 +1267,7 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     }
 
     .nav-item {
-        margin: 2rem 0;
+        margin: 1.7rem 0;
     }
 
     .hamburger {

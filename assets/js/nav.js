@@ -87,10 +87,20 @@ export function navContent() {
   function openMenu() {
     hamburger.classList.toggle('active');
     navMenu.classList.toggle('active');
+    preventScroll();
   }
 
   function closeMenu() {
     hamburger.classList.remove('active');
     navMenu.classList.remove('active');
+    allowScroll();
   }
+}
+
+function preventScroll() {
+  document.body.style.overflow = 'hidden';
+}
+
+function allowScroll() {
+  document.body.style.overflow = 'auto';
 }
