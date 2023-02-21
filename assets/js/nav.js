@@ -72,7 +72,7 @@ export function navContent() {
   let navMenu = document.querySelector('.nav-menu');
 
   hamburger?.addEventListener('click', () => {
-    openMenu();
+    toggleMenu();
   });
 
   let navLinks = document.querySelectorAll('.nav-link');
@@ -84,24 +84,17 @@ export function navContent() {
     }
   });
 
-  function openMenu() {
+  function toggleMenu() {
     hamburger.classList.toggle('active');
     navMenu.classList.toggle('active');
-    toggleScrollAllow();
+    // Prevent scrolling when menu is open
+    document.body.classList.toggle('overflow-hidden');
   }
 
   function closeMenu() {
     hamburger.classList.remove('active');
     navMenu.classList.remove('active');
-    allowScroll();
+    // Remove so scrolling is possible
+    document.body.classList.remove('overflow-hidden');
   }
-}
-
-function toggleScrollAllow() {
-  document.body.classList.toggle('overflow-hidden');
-}
-
-function allowScroll() {
-  console.log('allowScroll');
-  document.body.style.overflow = 'visible';
 }
