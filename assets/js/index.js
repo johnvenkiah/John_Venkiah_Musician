@@ -5,4 +5,4 @@ import { scrollToElement, scrollToTop } from './scroll.js';
 navContent();
 smLinks('sm-links');
 scrollToElement();
-scrollToTop(document.querySelector('.to-top'));
+scrollToTop();

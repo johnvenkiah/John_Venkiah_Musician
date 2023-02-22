@@ -12,8 +12,9 @@ export function scrollToElement() {
   });
 }
 
-export function scrollToTop(element) {
-  element?.addEventListener('click', (event) => {
+export function scrollToTop() {
+  let toTop = document.querySelector('.to-top');
+  toTop?.addEventListener('click', (event) => {
     event.preventDefault();
     window.scrollTo(0, 0);
   });

@@ -5,4 +5,4 @@ import { smLinks } from './sm-links.js';
 navContent();
 smLinks();
 scrollToElement();
-scrollToTop(document.querySelector('#to_top_videos'));
+scrollToTop();

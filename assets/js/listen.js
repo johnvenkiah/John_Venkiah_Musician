@@ -5,7 +5,7 @@ import { smLinks } from './sm-links.js';
 navContent();
 smLinks();
 scrollToElement();
-scrollToTop(document.querySelector('#to_top_listen'));
+scrollToTop();
 
 function musicList() {
   const iframeData = {
