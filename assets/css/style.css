@@ -1345,6 +1345,10 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
         padding: .5rem 0;
     }
 
+    .music-list iframe {
+        height: 200px;
+    }
+
     .spotify-heading-listen {
         width: 80%;
         height: fit-content;
