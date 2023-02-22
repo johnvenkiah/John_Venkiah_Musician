@@ -337,7 +337,7 @@ a.link_active:hover {
 
 .album-container {
     padding: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     width: 50%;
     max-width: 300px;
 }
@@ -387,7 +387,6 @@ a.link_active:hover {
     padding: 0;
     text-align: center;
     text-shadow: 3px 3px 5px black;
-    text-transform: uppercase;
     position: relative;
     margin-top: 15px;
     z-index: 2;
@@ -1341,7 +1340,6 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     }
 
     .music-list p {
-        text-transform: uppercase;
         font-family: 'Barlow Condensed', sans-serif;
         text-align: center;
         padding: .5rem 0;
