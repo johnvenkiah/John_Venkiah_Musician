@@ -43,6 +43,16 @@ function musicList() {
       img: 'salib-santsomlever.png',
       title: 'SaliBambra - Sånt som händer när vi lever',
     },
+    hJosefsson: {
+      href: 'https://open.spotify.com/album/6PCBrbtSrAVBr3x5Z6tKqn?si=o6s0omRqT_ekGAfWTbx9lg',
+      img: 'beauty-h-josefsson.jpg',
+      title: 'Helena Josefsson - Beauty Love Anything',
+    },
+    poNilsson: {
+      href: 'https://open.spotify.com/album/1pqdIbffx5n8GnCzlRSpra?si=ksRTBezZQEO4yyGE-gbYNQ',
+      img: 'po-nilsson-i-wish-i.jpeg',
+      title: 'Per-Oscar Nilsson Group - I Wish I',
+    },
   };
 
   for (let key in iframeData) {
@@ -83,19 +93,6 @@ function musicList() {
       .querySelector('.music-list')
       .insertAdjacentHTML('afterbegin', albumContainer);
   }
-
-  // let spotifyPlaylist = `
-  //   <div id="">
-  //     <iframe src="" allow="encrypted-media">
-  //     </iframe>
-  //   </div>
-  // `;
-
-  // let albumContainer = `
-  //   <a href="" target="_blank" rel="noopener noreferrer">
-  //     <img src="" alt="">
-  //   </a>
-  // `;
 }
 
 musicList();

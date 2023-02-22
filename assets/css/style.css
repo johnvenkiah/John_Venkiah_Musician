@@ -17,6 +17,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+    overflow: auto;
     background:#2a2a2a;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.1rem;
@@ -1349,23 +1350,24 @@ https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454
     .spotify-heading-listen {
         width: 80%;
         height: fit-content;
+        font-size: 20px;
         text-align: center;
         margin-bottom: 1rem;
         padding: 0 1rem;
         border-radius: 5px;
-        background: rgba(255, 255, 255, 0.1);
+        /* background: rgba(255, 255, 255, 0.1); */
     }
 
     .music-list .fa-spotify {
         color: #1ed760;
         font-size: 2.5rem;
-        margin: 1rem auto 2rem;
+        margin: 0 auto;
     }
 
     .listen-album-wrapper {
         width: 100%;
         /* padding: 0 1rem; */
-        /* margin: 0 auto; */
+        margin: .5rem auto;
         display: flex;
         justify-content: center;
         align-items: center;
