@@ -20,7 +20,7 @@ function musicList() {
   const albumLinkData = {
     jvt3: {
       href: 'https://open.spotify.com/album/45nFMsq34mgAppXfaP9FJl?si=0ow9UCgeSrO9bGrIWbdVHA',
-      img: 'jvt3-cover.jpg',
+      img: 'jvt3-small.jpeg',
       title: 'John Venkiah Trio - On to Something Good',
     },
     tingsek: {
@@ -47,10 +47,10 @@ function musicList() {
 
   for (let key in iframeData) {
     let spotifyPlaylist = `
-      <div id="">
+      <div class="listen-album-wrapper">
+      <p>${key}</p>
         <iframe src="${iframeData[key]}" allow="encrypted-media">
         </iframe>
-        <p>${key}</p>
       </div>
     `;
     document
@@ -58,17 +58,30 @@ function musicList() {
       .insertAdjacentHTML('afterbegin', spotifyPlaylist);
   }
 
+  let spotifyIconHeadingMarkup = `
+    <div class="spotify-heading-listen">
+      <i class="fab fa-spotify"></i>
+      <p>Links to music on Spotify</p>
+    </div>
+  `;
+
+  document
+    .querySelector('.music-list')
+    .insertAdjacentHTML('afterbegin', spotifyIconHeadingMarkup);
+
   for (let album in albumLinkData) {
     let albumContainer = `
-      <a href="${albumLinkData[album].href}" target="_blank"
-        rel="noopener" title="${albumLinkData[album].title}">
-        <img class="grid-cover" src="assets/images/${albumLinkData[album].img}" alt="${albumLinkData[album].title}">
-      </a>
+      <div class="listen-album-wrapper">
+        <p>${albumLinkData[album].title}</p>
+        <a href="${albumLinkData[album].href}" target="_blank"
+          rel="noopener" title="${albumLinkData[album].title}">
+          <img class="grid-cover" src="assets/images/${albumLinkData[album].img}" alt="${albumLinkData[album].title}">
+        </a>
+      </div>
     `;
-
     document
       .querySelector('.music-list')
-      .insertAdjacentHTML('beforeend', albumContainer);
+      .insertAdjacentHTML('afterbegin', albumContainer);
   }
 
   // let spotifyPlaylist = `
