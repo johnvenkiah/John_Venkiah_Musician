@@ -317,7 +317,7 @@ a.link_active:hover {
 /* Styles below apply to index.html */
 
 #main-container-home {
-    background:linear-gradient(rgba(0, 0, 0, .7), black, black);
+    background:rgba(0, 0, 0, .7);
     width: 100%;
     min-height: 100vh;
     margin-top: 75vh;
@@ -381,7 +381,6 @@ a.link_active:hover {
 /* text for hero image */
 
 .listen-text {
-    /* width: 50%; */
     font-size: .8em;
     font-family: 'Barlow Condensed';
     padding: 0;
